@@ -12,10 +12,11 @@ export default function Home() {
               quality={100}
               width={130}
               height={130}
+              className="h-24 w-24 object-contain sm:h-28 sm:w-28 md:h-32 md:w-32"
             />
           </div>
 
-          <h1 className="text-6xl font-bold text-center">Phrolova Project</h1>
+          <h1 className="text-3xl font-bold text-center sm:text-4xl md:text-5xl">Phrolova Project</h1>
           <p className="max-w-3xl text-base text-muted-foreground sm:text-lg md:text-xl">
             Phrolova is an unofficial Wuthering Waves database and tools site,
             offering clear stats, materials, and builds.

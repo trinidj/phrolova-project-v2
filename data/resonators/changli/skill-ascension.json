@@ -1,0 +1,57 @@
+[
+  {
+    "level": 10,
+    "materials": [
+      {
+        "name": "Crude Ring",
+        "amount": 25,
+        "type": "common"
+      },
+      {
+        "name": "Basic Ring",
+        "amount": 28,
+        "type": "common"
+      },
+      {
+        "name": "Improved Ring",
+        "amount": 40,
+        "type": "common"
+      },
+      {
+        "name": "Tailored Ring",
+        "amount": 57,
+        "type": "common"
+      },
+      {
+        "name": "Inert Metallic Drip",
+        "amount": 25,
+        "type": "common"
+      },
+      {
+        "name": "Reactive Metallic Drip",
+        "amount": 28,
+        "type": "common"
+      },
+      {
+        "name": "Polarized Metallic Drip",
+        "amount": 55,
+        "type": "common"
+      },
+      {
+        "name": "Heterized Metallic Drip",
+        "amount": 67,
+        "type": "common"
+      },
+      {
+        "name": "Sentinel's Dagger",
+        "amount": 26,
+        "type": "boss"
+      },
+      {
+        "name": "Shell Credits",
+        "amount": 2030000,
+        "type": "currency"
+      }
+    ]
+  }
+]

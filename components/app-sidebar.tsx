@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { navItems } from "@/app/constants/navigation"
+import { navItems } from "@/constants/navigation"
 
 import {
   Sidebar,

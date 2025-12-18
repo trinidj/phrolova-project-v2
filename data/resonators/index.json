@@ -1,0 +1,918 @@
+{
+  "resonators": [
+    {
+      "id": "augusta",
+      "name": "Augusta",
+      "rarity": 5,
+      "attribute": "Electro",
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "description": "Magnetism Before Light",
+      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage", "DMG Amplification"],
+      "stats": {
+        "hp": { "min": 824, "max": 10300 },
+        "atk": { "min": 37, "max": 463 },
+        "def": { "min": 91, "max": 1112 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.6,
+      "voiceActors": {
+        "english": "Alix Wilton Regan",
+        "chinese": "Mu Xueting (穆雪婷)",
+        "japanese": "Hikasa Yōko (日笠陽子)",
+        "korean": "Lee Ji-hyun (이지현)"
+      }
+    },
+    {
+      "id": "brant",
+      "name": "Brant",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Flamebound Compass",
+      "combatRoles": ["Support and Healer", "Basic Attack Damage", "Fusion DMG Amplification", "Resonance Skill DMG Amplification"],
+      "stats": {
+        "hp": { "min": 934, "max": 11675 },
+        "atk": { "min": 30, "max": 375 },
+        "def": { "min": 107, "max": 1308 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.1,
+      "voiceActors": {
+        "english": "Hyoie O'Grady",
+        "chinese": "Moran (莫然)",
+        "japanese": "Kishio Daisuke (岸尾だいすけ)",
+        "korean": "Lee Ju-seung (이주승)"
+      }
+    },
+    {
+      "id": "calcharo",
+      "name": "Calcharo",
+      "rarity": 5,
+      "attribute": "Electro",
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "description": "Phantom Hunter",
+      "combatRoles": ["Main Damage Dealer", "Resonance Liberation Damage"],
+      "stats": {
+        "hp": { "min": 840, "max": 10500 },
+        "atk": { "min": 35, "max": 438 },
+        "def": { "min": 97, "max": 1186 }
+      },
+      "nation": "New Federation",
+      "versionRelease": 1.0,
+      "voiceActors": {
+        "english": "Ben Cura",
+        "chinese": "Xu Xiang (徐翔)",
+        "japanese": "Toshiyuki Morikawa (森川智之)",
+        "korean": "Park Min-gi (박민기)"
+      }
+    },
+    {
+      "id": "camellya",
+      "name": "Camellya",
+      "rarity": 5,
+      "attribute": "Havoc",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Crimson Blossom",
+      "combatRoles": ["Main Damage Dealer", "Concerto Efficiency", "Basic Attack Damage"],
+      "stats": {
+        "hp": { "min": 840, "max": 10325 },
+        "atk": { "min": 36, "max": 450 },
+        "def": { "min": 95, "max": 1161 }
+      },
+      "nation": "The Black Shores",
+      "versionRelease": 1.4,
+      "voiceActors": {
+        "english": "Meaghan Martin",
+        "chinese": "Liu Zhixiao (柳知萧)",
+        "japanese": "Ise Mariya (伊瀬茉莉也)",
+        "korean": "Yu Hye-ji (유혜지)"
+      }
+    },
+    {
+      "id": "cantarella",
+      "name": "Cantarella",
+      "rarity": 5,
+      "attribute": "Havoc",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Sea of Dreams",
+      "combatRoles": ["Support and Healer", "Concerto Efficiency", "Basic Attack Damage", "Coordinated Attack", "Havoc DMG Amplification", "Resonance Skill DMG Amplification"],
+      "stats": {
+        "hp": { "min": 928, "max": 11600 },
+        "atk": { "min": 32, "max": 400 },
+        "def": { "min": 90, "max": 1100 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.2,
+      "voiceActors": {
+        "english": "Alexandra Guelff",
+        "chinese": "Xiao Mi (小米)",
+        "japanese": "Nakahara Mai (中原麻衣)",
+        "korean": "Kim Yul (김율)"
+      }
+    },
+    {
+      "id": "carlotta",
+      "name": "Carlotta",
+      "rarity": 5,
+      "attribute": "Glacio",
+      "weaponType": "Pistol",
+      "isNew": false,
+      "description": "Crystal Remorph",
+      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage"],
+      "stats": {
+        "hp": { "min": 996, "max": 12450 },
+        "atk": { "min": 37, "max": 463 },
+        "def": { "min": 98, "max": 1198 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.0,
+      "voiceActors": {
+        "english": "Jennifer English",
+        "chinese": "Yan Yeqiao (闫夜桥)",
+        "japanese": "Ueda Kana (植田佳奈)",
+        "korean": "Kim Soon-mi (김순미)"
+      }
+    },
+    {
+      "id": "cartethyia",
+      "name": "Cartethyia",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Feathered Tempest",
+      "combatRoles": ["Main Damage Dealer", "Aero Erosion", "DMG Amplification", "Traction"],
+      "stats": {
+        "hp": { "min": 1184, "max": 14800 },
+        "atk": { "min": 25, "max": 313 },
+        "def": { "min": 50, "max": 611 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.4,
+      "voiceActors": {
+        "english": "Amanda Elizabeth Rischel",
+        "chinese": "Yun He Zhui (云鹤追)",
+        "japanese": "Asakawa Yū (浅川悠)",
+        "korean": "Bae Ha-gyoung (배하경)"
+      }
+    },
+    {
+      "id": "changli",
+      "name": "Changli",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Eternal Blaze",
+      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage", "Fusion DMG Amplification", "Resonance Liberation DMG Amplification"],
+      "stats": {
+        "hp": { "min": 831, "max": 10388 },
+        "atk": { "min": 37, "max": 463 },
+        "def": { "min": 90, "max": 1100 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.1,
+      "voiceActors": {
+        "english": "Ashleigh Haddad",
+        "chinese": "Mufei (沐霏)",
+        "japanese": "Saitō Chiwa (斎藤千和)",
+        "korean": "Shin Nari (신나리)"
+      }
+    },
+    {
+      "id": "chisa",
+      "name": "Chisa",
+      "rarity": 5,
+      "attribute": "Havoc",
+      "weaponType": "Broadblade",
+      "isNew": true,
+      "description": "Eye of Unraveling",
+      "combatRoles": ["Support and Healer", "Havoc Bane", "Resonance Liberation Damage"],
+      "stats": {
+        "hp": { "min": 862, "max": 10775 },
+        "atk": { "min": 37, "max": 438 },
+        "def": { "min": 93, "max": 1137 }
+      },
+      "nation": "Ashinohara",
+      "versionRelease": 2.8,
+      "voiceActors": {
+        "english": "Leader Looi",
+        "chinese": "Zhao Lingze (赵灵泽)",
+        "japanese": "Kanemoto Hisako (金元寿子)",
+        "korean": "Lee Joo-eun (이주은)"
+      }
+    },
+    {
+      "id": "ciaccona",
+      "name": "Ciaccona",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weaponType": "Pistol",
+      "isNew": false,
+      "description": "Woven Melodies",
+      "combatRoles": ["Concerto Efficiency", "Traction", "Aero Erosion"],
+      "stats": {
+        "hp": { "min": 979, "max": 12238 },
+        "atk": { "min": 30, "max": 375 },
+        "def": { "min": 98, "max": 1198 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.3,
+      "voiceActors": {
+        "english": "Rebecca Hanssen",
+        "chinese": "Ye Zhiqiu (叶知秋)",
+        "japanese": "Hasegawa Ikumi (長谷川育美)",
+        "korean": "Kim Ye-rim (김예림)"
+      }
+    },
+    {
+      "id": "encore",
+      "name": "Encore",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Consultant from the Black Shores",
+      "combatRoles": ["Main Damage Dealer", "Basic Attack Damage"],
+      "stats": {
+        "hp": { "min": 841, "max": 10513 },
+        "atk": { "min": 34, "max": 425 },
+        "def": { "min": 102, "max": 1247 }
+      },
+      "nation": "The Black Shores",
+      "versionRelease": 1.0,
+      "voiceActors": {
+        "english": "Carina Reeves",
+        "chinese": "Xiao Sibai (皛四白)",
+        "japanese": "Ibuki Chikano (伊吹誓乃)",
+        "korean": "Serena Lee (이세레나)"
+      }
+    },
+    {
+      "id": "galbrena",
+      "name": "Galbrena",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weaponType": "Pistol",
+      "isNew": false,
+      "description": "Infernal Descent",
+      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage"],
+      "stats": {
+        "hp": { "min": 824, "max": 10300 },
+        "atk": { "min": 37, "max": 463 },
+        "def": { "min": 91, "max": 1112 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.7,
+      "voiceActors": {
+        "english": "Devora Wilde",
+        "chinese": "Zhang Wenjie (张文婕)",
+        "japanese": "Shōji Umeka (庄司宇芽香)",
+        "korean": "Lee Da-seul (이다슬)"
+      }
+    },
+    {
+      "id": "iuno",
+      "name": "Iuno",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Stasis, Cycle, Renewal",
+      "combatRoles": ["Support and Healer", "Concerto Efficiency", "Resonance Liberation Damage", "Heavy Attack DMG Amplification"],
+      "stats": {
+        "hp": { "min": 842, "max": 10525 },
+        "atk": { "min": 36, "max": 450 },
+        "def": { "min": 92, "max": 1124 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.6,
+      "voiceActors": {
+        "english": "Ella Boyes",
+        "chinese": "Jiang Yingjun (姜英俊)",
+        "japanese": "Lynn (りん)",
+        "korean": "Yoon Eun-seo (윤은서)"
+      }
+    },
+    {
+      "id": "jianxin",
+      "name": "Jianxin",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Cleansing Reflections",
+      "combatRoles": ["Support and Healer", "Heavy Attack Damage", "Traction", "Resonance Liberation DMG Amplification"],
+      "stats": {
+        "hp": { "min": 1129, "max": 14113 },
+        "atk": { "min": 27, "max": 338 },
+        "def": { "min": 92, "max": 1124 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.0,
+      "voiceActors": {
+        "english": "Ioanna Kimbook",
+        "chinese": "Yu Tou (昱头)",
+        "japanese": "Anzai Chika (安済知佳)",
+        "korean": "Lee Eunjo (이은조)"
+      }
+    },
+    {
+      "id": "jinhsi",
+      "name": "Jinhsi",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "description": "Thawborn Renewal",
+      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage"],
+      "stats": {
+        "hp": { "min": 866, "max": 10825 },
+        "atk": { "min": 33, "max": 413 },
+        "def": { "min": 103, "max": 1259 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.1,
+      "voiceActors": {
+        "english": "Anna Devlin",
+        "chinese": "Jiang Yue (江月)",
+        "japanese": "Aoyama Yoshino (青山吉能)",
+        "korean": "Park Ha-jin (박하진)"
+      }
+    },
+    {
+      "id": "jiyan",
+      "name": "Jiyan",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "description": "General of the Midnight Rangers",
+      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage", "Traction"],
+      "stats": {
+        "hp": { "min": 839, "max": 10488 },
+        "atk": { "min": 35, "max": 438 },
+        "def": { "min": 97, "max": 1186 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.0,
+      "voiceActors": {
+        "english": "Alex Jordan",
+        "chinese": "Sun Ye (孙晔)",
+        "japanese": "Ono Yūki (小野友樹)",
+        "korean": "Nam Doh-hyeong (남도형)"
+      }
+    },
+    {
+      "id": "lingyang",
+      "name": "Lingyang",
+      "rarity": 5,
+      "attribute": "Glacio",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Frosty Gusto",
+      "combatRoles": ["Main Damage Dealer"],
+      "stats": {
+        "hp": { "min": 831, "max": 10388 },
+        "atk": { "min": 35, "max": 438 },
+        "def": { "min": 99, "max": 1210 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.0,
+      "voiceActors": {
+        "english": "Aleksander Varadian",
+        "chinese": "Jinli (锦鲤)",
+        "japanese": "Hanae Natsuki (花江夏樹)",
+        "korean": "Lee Sangho (이상호)"
+      }
+    },
+    {
+      "id": "lupa",
+      "name": "Lupa",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "description": "Howling Flame",
+      "combatRoles": ["Concerto Efficiency", "Resonance Liberation Damage", "Fusion DMG Amplification", "Basic Attack DMG Amplification"],
+      "stats": {
+        "hp": { "min": 953, "max": 11913 },
+        "atk": { "min": 31, "max": 388 },
+        "def": { "min": 97, "max": 1186 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.4,
+      "voiceActors": {
+        "english": "Kaja Chan",
+        "chinese": "Shuo Xiaotu (朔小兔)",
+        "japanese": "Takahashi Minami (髙橋ミナミ)",
+        "korean": "Kim Ye-ryeong (김예령)"
+      }
+    },
+    {
+      "id": "lynae",
+      "name": "Lynae",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weaponType": "Pistol",
+      "description": "???",
+      "combatRoles": [""],
+      "stats": {
+        "hp": { "min": 953, "max": 11913 },
+        "atk": { "min": 31, "max": 388 },
+        "def": { "min": 97, "max": 1186 }
+      }
+    },
+    {
+      "id": "mornye",
+      "name": "Mornye",
+      "rarity": 5,
+      "attribute": "Fusion",
+      "weaponType": "Broadblade",
+      "description": "???",
+      "combatRoles": [""],
+      "stats": {
+        "hp": { "min": 953, "max": 11913 },
+        "atk": { "min": 31, "max": 388 },
+        "def": { "min": 97, "max": 1186 }
+      }
+    },
+    {
+      "id": "phoebe",
+      "name": "Phoebe",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Graceful Luminescence",
+      "combatRoles": ["Main Damage Dealer", "Concerto Efficiency", "Spectro Frazzle"],
+      "stats": {
+        "hp": { "min": 866, "max": 10825 },
+        "atk": { "min": 33, "max": 413 },
+        "def": { "min": 103, "max": 1259 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.1,
+      "voiceActors": {
+        "english": "Rebecca LaChance",
+        "chinese": "Fu Tingyun (傅婷云)",
+        "japanese": "Hondo Kaede (本渡楓)",
+        "korean": "Lee Bo-yong (이보용)"
+      }
+    },
+    {
+      "id": "phrolova",
+      "name": "Phrolova",
+      "rarity": 5,
+      "attribute": "Havoc",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Symphony of Beyond",
+      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage", "Havoc DMG Amplification", "Heavy Attack DMG Amplification"],
+      "stats": {
+        "hp": { "min": 862, "max": 10775 },
+        "atk": { "min": 35, "max": 438 },
+        "def": { "min": 93, "max": 1137 }
+      },
+      "nation": "Unknown",
+      "versionRelease": 2.5,
+      "voiceActors": {
+        "english": "Rae Lim",
+        "chinese": "Zhang Qi (张琦)",
+        "japanese": "Fujita Saki (藤田咲)",
+        "korean": "Choi Hari (최하리)"
+      }
+    },
+    {
+      "id": "qiuyuan",
+      "name": "Qiuyuan",
+      "rarity": 5,
+      "attribute": "Aero",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Bambooscape",
+      "combatRoles": ["Concerto Efficiency", "Heavy Attack Damage", "Echo Skill DMG Amplification"],
+      "stats": {
+        "hp": { "min": 979, "max": 12238 },
+        "atk": { "min": 30, "max": 375 },
+        "def": { "min": 98, "max": 1198 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 2.7,
+      "voiceActors": {
+        "english": "Jeremy Ang Jones",
+        "chinese": "Gan Ziqi (淦子齐)",
+        "japanese": "Miki Shinichirō (三木眞一郎)",
+        "korean": "Kim Min-ju (김민주)"
+      }
+    },
+    {
+      "id": "roccia",
+      "name": "Roccia",
+      "rarity": 5,
+      "attribute": "Havoc",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Stage in the Box",
+      "combatRoles": ["Concerto Efficiency", "Heavy Attack Damage", "Traction", "Havoc DMG Amplification", "Basic Attack DMG Amplification"],
+      "stats": {
+        "hp": { "min": 980, "max": 12250 },
+        "atk": { "min": 30, "max": 375 },
+        "def": { "min": 98, "max": 1198 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.0,
+      "voiceActors": {
+        "english": "Holly Earl",
+        "chinese": "Shen Huasang (沈话桑)",
+        "japanese": "Kohara Konomi (小原好美)",
+        "korean": "Jang Mi (장미)"
+      }
+    },
+    {
+      "id": "shorekeeper",
+      "name": "Shorekeeper",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Euphonic Chrysalis",
+      "combatRoles": ["Support and Healer", "Traction", "DMG Amplification"],
+      "stats": {
+        "hp": { "min": 1337, "max": 16713 },
+        "atk": { "min": 23, "max": 288 },
+        "def": { "min": 90, "max": 1100 }
+      },
+      "nation": "The Black Shores",
+      "versionRelease": 1.3,
+      "voiceActors": {
+        "english": "Stephanie McKeon",
+        "chinese": "Tang Yajing (唐雅菁)",
+        "japanese": "Suwa Ayaka (諏訪彩花)",
+        "korean": "Kim Bo-na (김보나)"
+      }
+    },
+    {
+      "id": "verina",
+      "name": "Verina",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Nature Calling",
+      "combatRoles": ["Support and Healer", "Coordinated Attack", "DMG Amplification"],
+      "stats": {
+        "hp": { "min": 1139, "max": 14238 },
+        "atk": { "min": 27, "max": 338 },
+        "def": { "min": 90, "max": 1100 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.3,
+      "voiceActors": {
+        "english": "Heather Nicol",
+        "chinese": "Zhao Shuang (赵爽)",
+        "japanese": "Sasahara Yū (篠原侑)",
+        "korean": "Kang Saebom (강새봄)"
+      }
+    },
+    {
+      "id": "xiangli yao",
+      "name": "Xiangli Yao",
+      "rarity": 5,
+      "attribute": "Electro",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Matter Weaver",
+      "combatRoles": ["Main Damage Dealer", "Resonance Liberation Damage"],
+      "stats": {
+        "hp": { "min": 850, "max": 10625 },
+        "atk": { "min": 34, "max": 425 },
+        "def": { "min": 100, "max": 1222 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.2,
+      "voiceActors": {
+        "english": "Shaun Mendum",
+        "chinese": "Banma (斑马)",
+        "japanese": "Kobayashi Chiaki (小林千晃)",
+        "korean": "Jung Eui-jin (정의진)"
+      }
+    },
+    {
+      "id": "yinlin",
+      "name": "Yinlin",
+      "rarity": 5,
+      "attribute": "Electro",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Evil-conquering Puppet",
+      "combatRoles": ["Concerto Efficiency", "Resonance Skill Damage", "Coordinated Attack", "Electro DMG Amplification", "Resonance Liberation DMG Amplification"],
+      "stats": {
+        "hp": { "min": 880, "max": 11000 },
+        "atk": { "min": 32, "max": 400 },
+        "def": { "min": 105, "max": 1283 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.0,
+      "voiceActors": {
+        "english": "Naomi McDonald",
+        "chinese": "Xiao Liansha (小连杀)",
+        "japanese": "Koshimizu Ami (小清水亜美)",
+        "korean": "Kang Sae-bom (강새봄)"
+      }
+    },
+    {
+      "id": "zani",
+      "name": "Zani",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Scorched Radiance",
+      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage", "Spectro DMG Amplification", "Spectro Frazzle"],
+      "stats": {
+        "hp": { "min": 862, "max": 10775 },
+        "atk": { "min": 35, "max": 438 },
+        "def": { "min": 93, "max": 1137 }
+      },
+      "nation": "Rinascita",
+      "versionRelease": 2.3,
+      "voiceActors": {
+        "english": "Alexandra Metaxa",
+        "chinese": "Nie Xiying (聂曦映)",
+        "japanese": "Ueda Hitomi (上田瞳)",
+        "korean": "Won Esther (원에스더)"
+      }
+    },
+    {
+      "id": "zhezhi",
+      "name": "Zhezhi",
+      "rarity": 5,
+      "attribute": "Glacio",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Enchancted Brush",
+      "combatRoles": ["Concerto Efficiency", "Basic Attack Damage", "Coordinated Attack", "Glacio DMG Amplification", "Resonance Skill DMG Amplification"],
+      "stats": {
+        "hp": { "min": 980, "max": 12250 },
+        "atk": { "min": 30, "max": 375 },
+        "def": { "min": 98, "max": 1198 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 1.2,
+      "voiceActors": {
+        "english": "Shin-Fei Chen",
+        "chinese": "Miao Zi (苗子)",
+        "japanese": "Makino Yui (牧野由依)",
+        "korean": "Kim Ha-ru (김하루)"
+      }
+    },
+
+    {
+      "id": "rover",
+      "name": "Rover",
+      "rarity": 5,
+      "attribute": "Spectro",
+      "weaponType": "Sword",
+      "isNew": false,
+      "defaultAttribute": "Spectro",
+      "variants": [
+        {
+          "id": "rover_spectro",
+          "attribute": "Spectro",
+          "name": "Rover (Spectro)",
+          "combatRoles": ["Concerto Efficiency", "Stagnation", "Spectro Frazzle"],
+          "stats": {
+            "hp": { "min": 860, "max": 10800 },
+            "atk": { "min": 34, "max": 425 },
+            "def": { "min": 95, "max": 1160 }
+          },
+          "nation": "Huanglong",
+          "versionRelease": 1.0
+        },
+        {
+          "id": "rover_havoc",
+          "attribute": "Havoc",
+          "name": "Rover (Havoc)",
+          "combatRoles": ["Main Damage Dealer"],
+          "stats": {
+            "hp": { "min": 860, "max": 10800 },
+            "atk": { "min": 34, "max": 425 },
+            "def": { "min": 95, "max": 1160 }
+          },
+          "nation": "Huanglong",
+          "versionRelease": 1.4
+        },
+        {
+          "id": "rover_aero",
+          "attribute": "Aero",
+          "name": "Rover (Aero)",
+          "combatRoles": ["Support and Healer", "Resonance Skill Damage", "Aero Erosion"],
+          "stats": {
+            "hp": { "min": 860, "max": 10800 },
+            "atk": { "min": 34, "max": 425 },
+            "def": { "min": 95, "max": 1160 }
+          },
+          "nation": "Huanglong",
+          "versionRelease": 1.0
+        }
+      ]
+    },
+
+    {
+      "id": "aalto",
+      "name": "Aalto",
+      "rarity": 4,
+      "attribute": "Aero",
+      "weaponType": "Pistol",
+      "isNew": false,
+      "description": "Mistcloak Strike",
+      "combatRoles": ["Concerto Efficiency", "Aero DMG Amplification"],
+      "stats": {
+        "hp": { "min": 788, "max": 9850 },
+        "atk": { "min": 21, "max": 263 },
+        "def": { "min": 88, "max": 1076 }
+      }
+    },
+    {
+      "id": "baizhi",
+      "name": "Baizhi",
+      "rarity": 4,
+      "attribute": "Glacio",
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "description": "Healing You'tan",
+      "combatRoles": ["Support and Healer", "Coordinated Attack", "DMG Amplification"],
+      "stats": {
+        "hp": { "min": 1025, "max": 12813 },
+        "atk": { "min": 17, "max": 213 },
+        "def": { "min": 82, "max": 1002 }
+      }
+    },
+    {
+      "id": "buling",
+      "name": "Buling",
+      "rarity": 4,
+      "attribute": "Electro",
+      "weaponType": "Rectifier",
+      "isNew": true,
+      "description": "Divine Hearing",
+      "combatRoles": ["Support and Healer", "DMG Amplification", "Resonance Skill DMG Amplification", "Electro Flare"],
+      "stats": {
+        "hp": { "min": 850, "max": 10625 },
+        "atk": { "min": 18, "max": 225 },
+        "def": { "min": 103, "max": 1258 }
+      },
+      "nation": "Huanglong",
+      "versionRelease": 2.8,
+      "voiceActors": {
+        "english": "Elizabeth Chu",
+        "chinese": "Zhang Ye (张晔)",
+        "japanese": "Senbongi Sayaka (千本木彩花)",
+        "korean": "Lee I Ro (이이로)"
+      }
+    },
+    {
+      "id": "chixia",
+      "name": "Chixia",
+      "rarity": 4,
+      "attribute": "Fusion",
+      "weaponType": "Pistol",
+      "isNew": false,
+      "description": "Gallant Blaze",
+      "combatRoles": ["Main Damage Dealer"],
+      "stats": {
+        "hp": { "min": 727, "max": 9088 },
+        "atk": { "min": 24, "max": 300 },
+        "def": { "min": 78, "max": 953 }
+      }
+    },
+    {
+      "id": "danjin",
+      "name": "Danjin",
+      "rarity": 4,
+      "attribute": "Havoc",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Scarlet Shade",
+      "combatRoles": ["Concerto Efficiency", "Havoc DMG Amplification"],
+      "stats": {
+        "hp": { "min": 755, "max": 9438 },
+        "atk": { "min": 21, "max": 263 },
+        "def": { "min": 94, "max": 1149 }
+      }
+    },
+    {
+      "id": "lumi",
+      "name": "Lumi",
+      "rarity": 4,
+      "attribute": "Electro",
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "description": "Kaleido Refraction",
+      "combatRoles": ["Main Damage Dealer", "Basic Attack Damage", "Resonance Skill DMG Amplification"],
+      "stats": {
+        "hp": { "min": 680, "max": 8500 },
+        "atk": { "min": 27, "max": 338 },
+        "def": { "min": 72, "max": 880 }
+      }
+    },
+    {
+      "id": "mortefi",
+      "name": "Mortefi",
+      "rarity": 4,
+      "attribute": "Fusion",
+      "weaponType": "Pistol",
+      "isNew": false,
+      "description": "Dragon's Breath",
+      "combatRoles": ["Concerto Efficiency", "Resonance Liberation Damage", "Coordinated Attack", "Heavy Attack DMG Amplification"],
+      "stats": {
+        "hp": { "min": 802, "max": 10025 },
+        "atk": { "min": 20, "max": 250 },
+        "def": { "min": 93, "max": 1137 }
+      }
+    },
+    {
+      "id": "sanhua",
+      "name": "Sanhua",
+      "rarity": 4,
+      "attribute": "Glacio",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Snow Waltz",
+      "combatRoles": ["Concerto Efficiency", "Basic Attack DMG Amplification"],
+      "stats": {
+        "hp": { "min": 805, "max": 10063 },
+        "atk": { "min": 22, "max": 275 },
+        "def": { "min": 77, "max": 941 }
+      }
+    },
+    {
+      "id": "taoqi",
+      "name": "Taoqi",
+      "rarity": 4,
+      "attribute": "Havoc",
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "description": "Blossom of Slashes ",
+      "combatRoles": ["Support and Healer", "Resonance Liberation Damage", "Resonance Skill DMG Amplification"],
+      "stats": {
+        "hp": { "min": 716, "max": 8950 },
+        "atk": { "min": 18, "max": 225 },
+        "def": { "min": 128, "max": 1564 }
+      }
+    },
+    {
+      "id": "yangyang",
+      "name": "Yangyang",
+      "rarity": 4,
+      "attribute": "Aero",
+      "weaponType": "Sword",
+      "isNew": false,
+      "description": "Breath of Winds",
+      "combatRoles": ["Concerto Efficiency", "Traction", "Resonance Liberation Regeneration"],
+      "stats": {
+        "hp": { "min": 816, "max": 10200 },
+        "atk": { "min": 20, "max": 250 },
+        "def": { "min": 90, "max": 1100 }
+      }
+    },
+    {
+      "id": "youhu",
+      "name": "Youhu",
+      "rarity": 4,
+      "attribute": "Glacio",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Cryogenic Wonders",
+      "combatRoles": ["Support and Healer", "Resonance Skill Damage", "Vibration Strength Reduction", "Coordinated Attack DMG Amplification"],
+      "stats": {
+        "hp": { "min": 798, "max": 9975 },
+        "atk": { "min": 21, "max": 263 },
+        "def": { "min": 86, "max": 1051 }
+      }
+    },
+    {
+      "id": "yuanwu",
+      "name": "Yuanwu",
+      "rarity": 4,
+      "attribute": "Electro",
+      "weaponType": "Gauntlet",
+      "isNew": false,
+      "description": "Fist of Thunder",
+      "combatRoles": ["Concerto Efficiency", "Coordinated Attack", "Interruption Resistance Boost", "Vibration Strength Reduction"],
+      "stats": {
+        "hp": { "min": 682, "max": 8525 },
+        "atk": { "min": 18, "max": 225 },
+        "def": { "min": 134, "max": 1638 }
+      }
+    }
+  ]
+}
+
+

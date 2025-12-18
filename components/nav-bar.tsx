@@ -1,6 +1,6 @@
 "use client"
 
-import { navItems } from "@/app/constants/navigation"
+import { navItems } from "@/constants/navigation"
 import { useIsMobile } from "@/hooks/use-mobile"
 import { Button } from "@/components/ui/button"
 import Link from "next/link"
@@ -18,7 +18,7 @@ export default function NavBar() {
   const isMobile = useIsMobile()
 
   return (
-    <nav className="flex items-center justify-between w-full">
+    <nav className="flex items-center justify-between w-full lg:mx-80">
       <div className="flex items-center gap-2">
         <Button variant="ghost" size="icon">
           <Link href="/">
