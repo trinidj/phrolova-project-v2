@@ -16,7 +16,7 @@ import {
   FieldGroup, 
   FieldSet, 
   Field, 
-  FieldLabel 
+  FieldLabel,
 } from "@/components/ui/field"
 
 import { Toggle } from "@/components/ui/toggle"
@@ -72,8 +72,8 @@ export default function FilterDialog() {
             <FieldGroup>
               {/* Rarity Field */}
               <Field>
-                <FieldLabel>Rarity</FieldLabel>
-                <div className="flex gap-1">
+                <FieldLabel className="text-base">Rarity</FieldLabel>
+                <div className="flex gap-1.5">
                   {RARITIES.map((rarity) => {
                     const isCurrentActive = selectedRarities.includes(rarity.value);
 
@@ -101,8 +101,8 @@ export default function FilterDialog() {
 
               {/* Attribute Field */}
               <Field>
-                <FieldLabel>Attribute</FieldLabel>
-                <div className="flex gap-1">
+                <FieldLabel className="text-base">Attribute</FieldLabel>
+                <div className="flex gap-1.5">
                   {ATTRIBUTES.map((attribute) => {
                     const isCurrentActive = selectedAttributes.includes(attribute.value);
 
@@ -137,8 +137,8 @@ export default function FilterDialog() {
 
               {/* Weapon Field */}
               <Field>
-                <FieldLabel>Weapon Type</FieldLabel>
-                <div className="flex gap-1">
+                <FieldLabel className="text-base">Weapon Type</FieldLabel>
+                <div className="flex gap-1.5">
                   {WEAPON_TYPES.map((weaponType) => {
                     const isCurrentActive = selectedWeaponTypes.includes(weaponType.value);
 
@@ -170,6 +170,16 @@ export default function FilterDialog() {
                 </div>
               </Field>
             </FieldGroup>
+
+            <Field>
+              <Button type="submit">
+                Save
+              </Button>
+
+              <Button variant="outline">
+                Cancel
+              </Button>
+            </Field>
           </FieldSet>
         </form>
       </DialogContent>
