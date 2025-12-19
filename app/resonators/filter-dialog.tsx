@@ -82,7 +82,7 @@ export default function FilterDialog({ value, onApply }: FilterDialogProps) {
       </DialogTrigger>
       <DialogContent className="p-4 border-4 gap-0">
         <DialogHeader>
-          <DialogTitle>Filters</DialogTitle>
+          <DialogTitle></DialogTitle>
         </DialogHeader>
 
         <form onSubmit={handleSubmit}>
