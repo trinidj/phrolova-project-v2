@@ -23,7 +23,7 @@ export default function SearchDialog() {
     <Dialog>
       <DialogTrigger asChild>
         <Button
-          variant="secondary"
+          variant="ghost"
           size="icon-sm"
           className="shrink-0 cursor-pointer"
           aria-label="Search"

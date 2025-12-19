@@ -1,6 +1,5 @@
 "use client"
 
-import { useState } from "react"
 import { Search } from "lucide-react"
 
 import {
@@ -10,23 +9,14 @@ import {
 } from "@/components/ui/input-group"
 
 import FilterDialog from "@/components/filter-dialog"
-import Image from "next/image"
-import Link from "next/link"
-
+import { ResonatorCard } from "@/components/resonator-card"
 import data from "@/data/resonators/index.json"
 import type { Resonator } from "@/types/resonator"
-import { getResonatorAssets, getAttributeIcon} from "@/utils/resonator-assets"
-import { getRarityColor } from "@/lib/color-utils"
-import { Card, CardContent } from "@/components/ui/card"
-import { Label } from "@/components/ui/label"
+import { useResonatorFilters } from "@/hooks/use-resonator-filter"
 
 export default function ResonatorsPage() {
-  const [searchQuery, setSearchQuery] = useState("")
   const resonators = data.resonators as Resonator[]
-
-  const filteredResonators = resonators.filter((resonator) => {
-    return resonator.name.toLowerCase().includes(searchQuery.toLowerCase())
-  })
+  const { searchQuery, setSearchQuery, filters, setFilters, filteredResonators } = useResonatorFilters(resonators)
 
   return (
     <div className="min-h-screen flex flex-col gap-6">
@@ -48,60 +38,19 @@ export default function ResonatorsPage() {
             />
           </InputGroup>
 
-          <FilterDialog />
+          <FilterDialog value={filters} onApply={setFilters} />
         </div>
       </section>
 
       <section className="container">
         <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-8">
-          {filteredResonators.map((resonator) => {
-            const assets = getResonatorAssets(resonator)
-            const rarityColor = getRarityColor(resonator.rarity)
-
-            return (
-              <Link key={resonator.id} href={`/resonators/${resonator.id}`}>
-                <Card className="overflow-hidden gap-0 p-0">
-                  <CardContent className="px-0">
-                    <div className="relative h-32 w-full flex justify-center items-center">
-                      <Image 
-                        src={assets.icon} 
-                        alt={resonator.name} 
-                        width={256}
-                        height={256}
-                        quality={100}
-                        className="object-contain overflow-hidden hover:scale-110 transition-transform will-change-transform duration-300"
-                      />
-
-                      <div className="absolute top-1 left-1 border-2 border-accent bg-card rounded-full">
-                        <Image 
-                          src={`${getAttributeIcon(resonator.attribute)}`}
-                          alt={resonator.attribute}
-                          width={28}
-                          height={28}
-                          quality={100}
-                          className="object-contain"
-                        />
-                      </div>
-                      
-                    </div>
-                    <div 
-                      className="bg-accent relative h-8 w-full flex items-center justify-center border-t-2 " 
-                      style={{ 
-                        borderColor: `var(--${rarityColor})`,
-                        boxShadow: `0 -4px 35px -2px var(--${rarityColor})`
-                      }}
-                    >
-                      <Label className="font-semibold">{resonator.name}</Label>
-                    </div>
-                  </CardContent>
-                </Card>
-              </Link>
-            )
-          })}
+          {filteredResonators.map((resonator) => (
+            <ResonatorCard key={resonator.id} resonator={resonator} />
+          ))}
 
           {filteredResonators.length === 0 && (
             <div className="col-span-full py-12 text-center text-muted-foreground">
-              No resonators found matching &quot;{searchQuery}&quot;
+              No resonators found
             </div>
           )}
         </div>
