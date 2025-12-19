@@ -422,11 +422,7 @@
       "weaponType": "Pistol",
       "description": "???",
       "combatRoles": [""],
-      "stats": {
-        "hp": { "min": 953, "max": 11913 },
-        "atk": { "min": 31, "max": 388 },
-        "def": { "min": 97, "max": 1186 }
-      }
+      "stats": {}
     },
     {
       "id": "mornye",
@@ -436,11 +432,7 @@
       "weaponType": "Broadblade",
       "description": "???",
       "combatRoles": [""],
-      "stats": {
-        "hp": { "min": 953, "max": 11913 },
-        "atk": { "min": 31, "max": 388 },
-        "def": { "min": 97, "max": 1186 }
-      }
+      "stats": {}
     },
     {
       "id": "phoebe",

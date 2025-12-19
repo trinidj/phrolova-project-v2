@@ -8,8 +8,8 @@ import {
   InputGroupAddon
 } from "@/components/ui/input-group"
 
-import FilterDialog from "@/components/filter-dialog"
-import { ResonatorCard } from "@/components/resonator-card"
+import FilterDialog from "@/app/resonators/filter-dialog"
+import { ResonatorCard } from "@/app/resonators/resonator-card"
 import data from "@/data/resonators/index.json"
 import type { Resonator } from "@/types/resonator"
 import { useResonatorFilters } from "@/hooks/use-resonator-filter"

@@ -1,6 +1,6 @@
 import { useState, useMemo } from "react"
 import { Resonator } from "@/types/resonator"
-import { ResonatorFilters } from "@/components/filter-dialog"
+import { ResonatorFilters } from "@/app/resonators/filter-dialog"
 
 export function useResonatorFilters(resonators: Resonator[]) {
   const [searchQuery, setSearchQuery] = useState("")
