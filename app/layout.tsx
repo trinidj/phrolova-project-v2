@@ -47,7 +47,7 @@ export default async function RootLayout({
             <AppSidebar />
             <div className="w-full min-h-screen">
               <header className="flex items-center bg-card/50 h-14 border-b-2 border-b-primary/80">
-                <div className="flex w-full items-center gap-2 md:hidden">
+                <div className="flex mx-5 w-full items-center gap-2 md:hidden">
                   <SidebarTrigger />
                   <span className="text-sm font-semibold tracking-[0.25em] uppercase text-muted-foreground">
                     Phrolova Project
@@ -62,7 +62,7 @@ export default async function RootLayout({
                 </div>
               </header>
 
-              <main className="lg:mx-80 lg:my-20">
+              <main className="m-5 lg:mx-80 lg:my-20">
                 {children}
               </main>
             </div>

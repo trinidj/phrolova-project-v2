@@ -53,7 +53,6 @@
   --radius: 0.625rem;
   --rarity-4: oklch(0.501 0.171 314);
   --rarity-5: oklch(0.886 0.147 91.0);
-  --rarity-5-comp: oklch(0.615 0.170 47.1);
 
   /* Attribute Colours */
   --electro: rgba(181, 104, 255);
