@@ -4,7 +4,7 @@ import { getAttributeColor } from "@/lib/color-utils"
 import { getRarityColor } from "@/lib/color-utils"
 import Image from "next/image"
 import SplashArtDialog from "../splash-art-dialog"
-
+import CombatRolesDialog from "../combat-roles-dialog"
 
 import {
   Card,
@@ -80,7 +80,7 @@ export default function Profile({ resonator }: ProfileSectionProps) {
                     width={128}
                     height={128}
                     quality={100}
-                    className="size-20"
+                    className="size-15"
                   />
                 </div>
 
@@ -117,7 +117,7 @@ export default function Profile({ resonator }: ProfileSectionProps) {
             </div>
           </CardHeader>
           <Separator />
-          <CardContent className="flex justify-center px-0 lg:justify-start">
+          <CardContent className="flex justify-center px-0 lg:justify-between">
             {combatRoles.length > 0 && (
               <div className="flex flex-wrap gap-1">
                 {combatRoles.map((role) => (
@@ -128,9 +128,10 @@ export default function Profile({ resonator }: ProfileSectionProps) {
                           <Image
                             src={role.icon}
                             alt={role.name}
-                            width={32}
-                            height={32}
+                            width={50}
+                            height={50}
                             quality={100}
+                            className="size-8.5"
                           />
                         </div>
                       </TooltipTrigger>
@@ -142,6 +143,8 @@ export default function Profile({ resonator }: ProfileSectionProps) {
                 ))}
               </div>
             )}
+
+            <CombatRolesDialog resonator={resonator} />
           </CardContent>
         </Card>
       </div>
