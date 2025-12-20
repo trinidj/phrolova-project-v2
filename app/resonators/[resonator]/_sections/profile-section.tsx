@@ -1,6 +1,4 @@
-"use client"
-
-import { Resonator } from "@/types/resonator"
+import type { AscensionMaterials, Resonator } from "@/types/resonator"
 import { getResonatorAssets, getAttributeIcon, getCombatRoles } from "@/utils/resonator-assets"
 import { getAttributeColor } from "@/lib/color-utils"
 import { getRarityColor } from "@/lib/color-utils"
@@ -11,10 +9,12 @@ import StatCard from "../stat-card"
 import { Badge } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
+import { getMaterialAssets } from "@/utils/resonator-assets"
 
 import {
   Card,
   CardContent,
+  CardTitle,
 } from "@/components/ui/card"
 
 import {
@@ -27,14 +27,20 @@ import {
 interface ProfileSectionProps {
   resonator: Resonator
   hasSplashArt: boolean
+  ascensionMaterials: AscensionMaterials[]
 }
 
-export default function Profile({ resonator, hasSplashArt }: ProfileSectionProps) {
+export default function Profile({ resonator, hasSplashArt, ascensionMaterials }: ProfileSectionProps) {
   const assets = getResonatorAssets(resonator)
   const rarityColor = getRarityColor(resonator.rarity)
   const attributeIcon = getAttributeIcon(resonator.attribute)
   const attributeColor = getAttributeColor(resonator.attribute)
   const combatRoles = getCombatRoles(resonator)
+  const totalMaterials = ascensionMaterials.flatMap((phase) =>
+    phase.materials.map((material) => ({
+      ...material,
+    }))
+  )
 
   return (
     <section id="profile" className="flex flex-col lg:flex-row gap-8">
@@ -147,6 +153,34 @@ export default function Profile({ resonator, hasSplashArt }: ProfileSectionProps
             )}
 
             <CombatRolesDialog resonator={resonator} />
+          </CardContent>
+        </Card>
+
+        {/* Ascension Materials */}
+        <Card className="p-6">
+          <CardContent className="px-0">
+            <div className="grid grid-cols-7 gap-4">
+              {totalMaterials.map((material) => (
+                <Card key={material.name} className="p-0 overflow-hidden">
+                  <CardContent className="px-0">
+                    <div className="flex items-center justify-center">
+                      <Image 
+                        src={`${getMaterialAssets(material.name, material.type)}`}
+                        alt={material.name}
+                        width={74}
+                        height={74}
+                        quality={100}
+                        className="scale-80"
+                      />
+                    </div>
+
+                    <div className="bg-accent h-6 flex items-center justify-center border-t-2 border-rarity-5">
+                      <CardTitle>{material.amount}</CardTitle>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
           </CardContent>
         </Card>
       </div>

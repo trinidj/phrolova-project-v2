@@ -17,11 +17,9 @@ export interface AscensionMaterial {
   name: string;
   amount: number;
   type?: string;
-  icon?: string;
 }
 
-export interface AscensionPhase {
-  level: string;
+export interface AscensionMaterials {
   materials: AscensionMaterial[];
 }
 
@@ -115,5 +113,5 @@ export interface Resonator {
     inheritSkill2?: Skill;
   };
   sequenceNodes?: SequenceNode[];
-  ascension?: AscensionPhase[];
+  ascension?: AscensionMaterials[];
 }

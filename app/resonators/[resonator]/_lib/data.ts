@@ -1,5 +1,7 @@
+import fs from "fs";
+import path from "path";
 import resonatorsIndex from "@/data/resonators/index.json";
-import type { Resonator } from "@/types/resonator";
+import type { AscensionMaterials, Resonator } from "@/types/resonator";
 
 type ResonatorIndexEntry = Resonator & {
   variants?: Array<Partial<Resonator> & { id: string }>;
@@ -32,4 +34,24 @@ export function getResonatorBySlug(slug: string): Resonator | undefined {
   }
 
   return undefined;
+}
+
+export function getResonatorAscension(resonator: string): AscensionMaterials[] {
+  try {
+    const folderName = resonator.toLowerCase().replace(/\s+/g, '-');
+    const filePath = path.join(process.cwd(), 'data', 'resonators', folderName, 'ascension.json');
+
+    if (!fs.existsSync(filePath)) {
+      console.error(`Ascension file not found: ${filePath}`);
+      return [];
+    }
+
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const materials: AscensionMaterials[] = JSON.parse(fileContent);
+
+    return materials;
+  } catch (error) {
+    console.error(`Error loading materials for ${resonator}:`, error);
+    return [];
+  }
 }

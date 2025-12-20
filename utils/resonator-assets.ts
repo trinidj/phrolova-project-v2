@@ -103,3 +103,15 @@ export function getCombatRoles(resonator: Resonator): CombatRole[] {
     };
   }).filter((role): role is CombatRole => role !== undefined);
 }
+
+export function getMaterialAssets(materialName: string, materialType?: string): string {
+  if (materialType === 'boss') {
+    // Boss materials are in a subdirectory
+    return `/assets/materials/boss/${materialName.replace(/\s+/g, '_')}.png`;
+  }
+
+  // Convert material name to lowercase filename format
+  // Example: "Luminous Calendula" -> "luminous_calendula.png"
+  const filename = materialName.toLowerCase().replace(/\s+/g, '_') + '.png';
+  return `/assets/materials/${filename}`;
+}
