@@ -164,26 +164,28 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
             <CardTitle className="text-xl">Ascension</CardTitle>
           </CardHeader>
           <CardContent className="px-0">
-            {totalMaterials.map((material) => (
-              <Card key={material.name} className="p-0 overflow-hidden">
-                <CardContent className="px-0">
-                  <div className="flex items-center justify-center">
-                    <Image
-                      src={`${getMaterialAssets(material.name, material.type)}`}
-                      alt={material.name}
-                      width={74}
-                      height={74}
-                      quality={100}
-                      className="scale-80"
-                    />
-                  </div>
+            <div className="grid grid-cols-7 gap-4">
+              {totalMaterials.map((material) => (
+                <Card key={material.name} className="p-0 overflow-hidden">
+                  <CardContent className="px-0">
+                    <div className="flex items-center justify-center">
+                      <Image
+                        src={`${getMaterialAssets(material.name, material.type)}`}
+                        alt={material.name}
+                        width={74}
+                        height={74}
+                        quality={100}
+                        className="scale-80"
+                      />
+                    </div>
 
-                  <div className="bg-accent h-6 flex items-center justify-center border-t-2 border-rarity-5">
-                    <CardTitle>{material.amount}</CardTitle>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
+                    <div className="bg-accent h-6 flex items-center justify-center border-t-2 border-rarity-5">
+                      <CardTitle>{material.amount}</CardTitle>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
 
             {totalMaterials.length === 0 && (
               <p className="text-center text-muted-foreground py-4">
