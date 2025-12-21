@@ -4,25 +4,24 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-background">
       <section className="flex justify-center text-center">
-        <div className="flex flex-col items-center justify-center gap-4">
-          <div className="bg-card rounded-full p-2">
-            <Image 
-              src="/assets/site_icon.png"
-              alt="Site Logo"
-              quality={100}
-              width={130}
-              height={130}
-              className="h-24 w-24 object-contain sm:h-28 sm:w-28 md:h-32 md:w-32"
-            />
-          </div>
+        <div className="flex flex-col items-center justify-center gap-8">
+          <Image
+            src="/assets/site_icon.png"
+            alt="Site Logo"
+            quality={100}
+            width={160}
+            height={160}
+          />
 
-          <h1 className="text-3xl font-bold text-center sm:text-4xl md:text-5xl">Phrolova Project</h1>
-          <p className="max-w-3xl text-base text-muted-foreground sm:text-lg md:text-xl">
-            Phrolova is an unofficial Wuthering Waves database and tools site,
-            offering clear stats, materials, and builds.
-          </p>
+          <div className="flex flex-col gap-6">
+            <h1 className="text-3xl font-bold text-center tracking-wide sm:text-4xl md:text-5xl">Tethys System</h1>
+            <p className="max-w-3xl text-base text-muted-foreground sm:text-lg md:text-lg">
+              Phrolova is an unofficial Wuthering Waves database and tools site,
+              offering clear stats, materials, and builds.
+            </p>
+          </div>
         </div>
-      </section>     
+      </section>
     </div>
   );
 }

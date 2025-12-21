@@ -8,18 +8,16 @@ import ScrollToTop from "@/components/scroll-to-top";
 import { cookies } from "next/headers";
 
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Roboto, Roboto_Mono } from "next/font/google";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+const robotoSans = Roboto({
+  variable: "--font-roboto-sans",
+})
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const robotoMono = Roboto_Mono({
+  variable: "--font-roboto-mono",
+})
 
 export const metadata: Metadata = {
   title: "Phrolova Project",
@@ -37,7 +35,7 @@ export default async function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${robotoSans.variable} ${robotoMono.variable} antialiased`}
       >
         <ThemeProvider
           attribute="class"
@@ -51,7 +49,7 @@ export default async function RootLayout({
                 <div className="flex mx-5 w-full items-center gap-2 md:hidden">
                   <SidebarTrigger />
                   <span className="text-sm font-semibold tracking-[0.25em] uppercase text-muted-foreground">
-                    Phrolova Project
+                    Tethys System
                   </span>
                   <div className="ml-auto">
                     <SearchDialog />

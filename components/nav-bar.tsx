@@ -19,26 +19,26 @@ export default function NavBar() {
 
   return (
     <nav className="flex items-center justify-between w-full lg:mx-90">
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-6">
         <Button variant="ghost" size="icon">
           <Link href="/">
             <Image
               src="/assets/site_icon.png"
               alt="Phrolova Logo"
-              width={48}
-              height={48}
+              width={32}
+              height={32}
               quality={100}
             />
           </Link>
         </Button>
 
         <NavigationMenu viewport={isMobile}>
-          <NavigationMenuList>
+          <NavigationMenuList className="gap-2">
             {navItems.map((item) => (
               <NavigationMenuItem key={item.title}>
                 <NavigationMenuLink asChild>
                   <Link href={item.url}>
-                    <span className="font-medium text-sm">{item.title}</span>
+                    <span className="font-semibold text-sm">{item.title}</span>
                   </Link>
                 </NavigationMenuLink>
               </NavigationMenuItem>
