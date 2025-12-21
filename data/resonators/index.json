@@ -8,11 +8,24 @@
       "weaponType": "Broadblade",
       "isNew": false,
       "description": "Magnetism Before Light",
-      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage", "DMG Amplification"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Heavy Attack Damage",
+        "DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 824, "max": 10300 },
-        "atk": { "min": 37, "max": 463 },
-        "def": { "min": 91, "max": 1112 }
+        "hp": {
+          "min": 824,
+          "max": 10300
+        },
+        "atk": {
+          "min": 37,
+          "max": 463
+        },
+        "def": {
+          "min": 91,
+          "max": 1112
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.6,
@@ -31,11 +44,25 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Flamebound Compass",
-      "combatRoles": ["Support and Healer", "Basic Attack Damage", "Fusion DMG Amplification", "Resonance Skill DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Basic Attack Damage",
+        "Fusion DMG Amplification",
+        "Resonance Skill DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 934, "max": 11675 },
-        "atk": { "min": 30, "max": 375 },
-        "def": { "min": 107, "max": 1308 }
+        "hp": {
+          "min": 934,
+          "max": 11675
+        },
+        "atk": {
+          "min": 30,
+          "max": 375
+        },
+        "def": {
+          "min": 107,
+          "max": 1308
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.1,
@@ -54,11 +81,23 @@
       "weaponType": "Broadblade",
       "isNew": false,
       "description": "Phantom Hunter",
-      "combatRoles": ["Main Damage Dealer", "Resonance Liberation Damage"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Resonance Liberation Damage"
+      ],
       "stats": {
-        "hp": { "min": 840, "max": 10500 },
-        "atk": { "min": 35, "max": 438 },
-        "def": { "min": 97, "max": 1186 }
+        "hp": {
+          "min": 840,
+          "max": 10500
+        },
+        "atk": {
+          "min": 35,
+          "max": 438
+        },
+        "def": {
+          "min": 97,
+          "max": 1186
+        }
       },
       "nation": "New Federation",
       "versionRelease": 1.0,
@@ -77,11 +116,24 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Crimson Blossom",
-      "combatRoles": ["Main Damage Dealer", "Concerto Efficiency", "Basic Attack Damage"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Concerto Efficiency",
+        "Basic Attack Damage"
+      ],
       "stats": {
-        "hp": { "min": 840, "max": 10325 },
-        "atk": { "min": 36, "max": 450 },
-        "def": { "min": 95, "max": 1161 }
+        "hp": {
+          "min": 840,
+          "max": 10325
+        },
+        "atk": {
+          "min": 36,
+          "max": 450
+        },
+        "def": {
+          "min": 95,
+          "max": 1161
+        }
       },
       "nation": "The Black Shores",
       "versionRelease": 1.4,
@@ -100,11 +152,27 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Sea of Dreams",
-      "combatRoles": ["Support and Healer", "Concerto Efficiency", "Basic Attack Damage", "Coordinated Attack", "Havoc DMG Amplification", "Resonance Skill DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Concerto Efficiency",
+        "Basic Attack Damage",
+        "Coordinated Attack",
+        "Havoc DMG Amplification",
+        "Resonance Skill DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 928, "max": 11600 },
-        "atk": { "min": 32, "max": 400 },
-        "def": { "min": 90, "max": 1100 }
+        "hp": {
+          "min": 928,
+          "max": 11600
+        },
+        "atk": {
+          "min": 32,
+          "max": 400
+        },
+        "def": {
+          "min": 90,
+          "max": 1100
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.2,
@@ -123,11 +191,23 @@
       "weaponType": "Pistol",
       "isNew": false,
       "description": "Crystal Remorph",
-      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Resonance Skill Damage"
+      ],
       "stats": {
-        "hp": { "min": 996, "max": 12450 },
-        "atk": { "min": 37, "max": 463 },
-        "def": { "min": 98, "max": 1198 }
+        "hp": {
+          "min": 996,
+          "max": 12450
+        },
+        "atk": {
+          "min": 37,
+          "max": 463
+        },
+        "def": {
+          "min": 98,
+          "max": 1198
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.0,
@@ -146,11 +226,25 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Feathered Tempest",
-      "combatRoles": ["Main Damage Dealer", "Aero Erosion", "DMG Amplification", "Traction"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Aero Erosion",
+        "Aero DMG Amplification",
+        "Traction"
+      ],
       "stats": {
-        "hp": { "min": 1184, "max": 14800 },
-        "atk": { "min": 25, "max": 313 },
-        "def": { "min": 50, "max": 611 }
+        "hp": {
+          "min": 1184,
+          "max": 14800
+        },
+        "atk": {
+          "min": 25,
+          "max": 313
+        },
+        "def": {
+          "min": 50,
+          "max": 611
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.4,
@@ -169,11 +263,25 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Eternal Blaze",
-      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage", "Fusion DMG Amplification", "Resonance Liberation DMG Amplification"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Resonance Skill Damage",
+        "Fusion DMG Amplification",
+        "Resonance Liberation DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 831, "max": 10388 },
-        "atk": { "min": 37, "max": 463 },
-        "def": { "min": 90, "max": 1100 }
+        "hp": {
+          "min": 831,
+          "max": 10388
+        },
+        "atk": {
+          "min": 37,
+          "max": 463
+        },
+        "def": {
+          "min": 90,
+          "max": 1100
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.1,
@@ -192,11 +300,24 @@
       "weaponType": "Broadblade",
       "isNew": true,
       "description": "Eye of Unraveling",
-      "combatRoles": ["Support and Healer", "Havoc Bane", "Resonance Liberation Damage"],
+      "combatRoles": [
+        "Support and Healer",
+        "Havoc Bane",
+        "Resonance Liberation Damage"
+      ],
       "stats": {
-        "hp": { "min": 862, "max": 10775 },
-        "atk": { "min": 37, "max": 438 },
-        "def": { "min": 93, "max": 1137 }
+        "hp": {
+          "min": 862,
+          "max": 10775
+        },
+        "atk": {
+          "min": 37,
+          "max": 438
+        },
+        "def": {
+          "min": 93,
+          "max": 1137
+        }
       },
       "nation": "Ashinohara",
       "versionRelease": 2.8,
@@ -215,11 +336,24 @@
       "weaponType": "Pistol",
       "isNew": false,
       "description": "Woven Melodies",
-      "combatRoles": ["Concerto Efficiency", "Traction", "Aero Erosion"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Traction",
+        "Aero Erosion"
+      ],
       "stats": {
-        "hp": { "min": 979, "max": 12238 },
-        "atk": { "min": 30, "max": 375 },
-        "def": { "min": 98, "max": 1198 }
+        "hp": {
+          "min": 979,
+          "max": 12238
+        },
+        "atk": {
+          "min": 30,
+          "max": 375
+        },
+        "def": {
+          "min": 98,
+          "max": 1198
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.3,
@@ -238,11 +372,23 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Consultant from the Black Shores",
-      "combatRoles": ["Main Damage Dealer", "Basic Attack Damage"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Basic Attack Damage"
+      ],
       "stats": {
-        "hp": { "min": 841, "max": 10513 },
-        "atk": { "min": 34, "max": 425 },
-        "def": { "min": 102, "max": 1247 }
+        "hp": {
+          "min": 841,
+          "max": 10513
+        },
+        "atk": {
+          "min": 34,
+          "max": 425
+        },
+        "def": {
+          "min": 102,
+          "max": 1247
+        }
       },
       "nation": "The Black Shores",
       "versionRelease": 1.0,
@@ -261,11 +407,23 @@
       "weaponType": "Pistol",
       "isNew": false,
       "description": "Infernal Descent",
-      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Heavy Attack Damage"
+      ],
       "stats": {
-        "hp": { "min": 824, "max": 10300 },
-        "atk": { "min": 37, "max": 463 },
-        "def": { "min": 91, "max": 1112 }
+        "hp": {
+          "min": 824,
+          "max": 10300
+        },
+        "atk": {
+          "min": 37,
+          "max": 463
+        },
+        "def": {
+          "min": 91,
+          "max": 1112
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.7,
@@ -284,11 +442,25 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Stasis, Cycle, Renewal",
-      "combatRoles": ["Support and Healer", "Concerto Efficiency", "Resonance Liberation Damage", "Heavy Attack DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Concerto Efficiency",
+        "Resonance Liberation Damage",
+        "Heavy Attack DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 842, "max": 10525 },
-        "atk": { "min": 36, "max": 450 },
-        "def": { "min": 92, "max": 1124 }
+        "hp": {
+          "min": 842,
+          "max": 10525
+        },
+        "atk": {
+          "min": 36,
+          "max": 450
+        },
+        "def": {
+          "min": 92,
+          "max": 1124
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.6,
@@ -307,11 +479,25 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Cleansing Reflections",
-      "combatRoles": ["Support and Healer", "Heavy Attack Damage", "Traction", "Resonance Liberation DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Heavy Attack Damage",
+        "Traction",
+        "Resonance Liberation DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 1129, "max": 14113 },
-        "atk": { "min": 27, "max": 338 },
-        "def": { "min": 92, "max": 1124 }
+        "hp": {
+          "min": 1129,
+          "max": 14113
+        },
+        "atk": {
+          "min": 27,
+          "max": 338
+        },
+        "def": {
+          "min": 92,
+          "max": 1124
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.0,
@@ -330,11 +516,23 @@
       "weaponType": "Broadblade",
       "isNew": false,
       "description": "Thawborn Renewal",
-      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Resonance Skill Damage"
+      ],
       "stats": {
-        "hp": { "min": 866, "max": 10825 },
-        "atk": { "min": 33, "max": 413 },
-        "def": { "min": 103, "max": 1259 }
+        "hp": {
+          "min": 866,
+          "max": 10825
+        },
+        "atk": {
+          "min": 33,
+          "max": 413
+        },
+        "def": {
+          "min": 103,
+          "max": 1259
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.1,
@@ -353,11 +551,24 @@
       "weaponType": "Broadblade",
       "isNew": false,
       "description": "General of the Midnight Rangers",
-      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage", "Traction"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Heavy Attack Damage",
+        "Traction"
+      ],
       "stats": {
-        "hp": { "min": 839, "max": 10488 },
-        "atk": { "min": 35, "max": 438 },
-        "def": { "min": 97, "max": 1186 }
+        "hp": {
+          "min": 839,
+          "max": 10488
+        },
+        "atk": {
+          "min": 35,
+          "max": 438
+        },
+        "def": {
+          "min": 97,
+          "max": 1186
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.0,
@@ -376,11 +587,22 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Frosty Gusto",
-      "combatRoles": ["Main Damage Dealer"],
+      "combatRoles": [
+        "Main Damage Dealer"
+      ],
       "stats": {
-        "hp": { "min": 831, "max": 10388 },
-        "atk": { "min": 35, "max": 438 },
-        "def": { "min": 99, "max": 1210 }
+        "hp": {
+          "min": 831,
+          "max": 10388
+        },
+        "atk": {
+          "min": 35,
+          "max": 438
+        },
+        "def": {
+          "min": 99,
+          "max": 1210
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.0,
@@ -399,11 +621,25 @@
       "weaponType": "Broadblade",
       "isNew": false,
       "description": "Howling Flame",
-      "combatRoles": ["Concerto Efficiency", "Resonance Liberation Damage", "Fusion DMG Amplification", "Basic Attack DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Resonance Liberation Damage",
+        "Fusion DMG Amplification",
+        "Basic Attack DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 953, "max": 11913 },
-        "atk": { "min": 31, "max": 388 },
-        "def": { "min": 97, "max": 1186 }
+        "hp": {
+          "min": 953,
+          "max": 11913
+        },
+        "atk": {
+          "min": 31,
+          "max": 388
+        },
+        "def": {
+          "min": 97,
+          "max": 1186
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.4,
@@ -421,7 +657,9 @@
       "attribute": "Spectro",
       "weaponType": "Pistol",
       "description": "???",
-      "combatRoles": [""],
+      "combatRoles": [
+        ""
+      ],
       "stats": {}
     },
     {
@@ -431,7 +669,9 @@
       "attribute": "Fusion",
       "weaponType": "Broadblade",
       "description": "???",
-      "combatRoles": [""],
+      "combatRoles": [
+        ""
+      ],
       "stats": {}
     },
     {
@@ -442,11 +682,24 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Graceful Luminescence",
-      "combatRoles": ["Main Damage Dealer", "Concerto Efficiency", "Spectro Frazzle"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Concerto Efficiency",
+        "Spectro Frazzle"
+      ],
       "stats": {
-        "hp": { "min": 866, "max": 10825 },
-        "atk": { "min": 33, "max": 413 },
-        "def": { "min": 103, "max": 1259 }
+        "hp": {
+          "min": 866,
+          "max": 10825
+        },
+        "atk": {
+          "min": 33,
+          "max": 413
+        },
+        "def": {
+          "min": 103,
+          "max": 1259
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.1,
@@ -465,11 +718,25 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Symphony of Beyond",
-      "combatRoles": ["Main Damage Dealer", "Resonance Skill Damage", "Havoc DMG Amplification", "Heavy Attack DMG Amplification"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Resonance Skill Damage",
+        "Havoc DMG Amplification",
+        "Heavy Attack DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 862, "max": 10775 },
-        "atk": { "min": 35, "max": 438 },
-        "def": { "min": 93, "max": 1137 }
+        "hp": {
+          "min": 862,
+          "max": 10775
+        },
+        "atk": {
+          "min": 35,
+          "max": 438
+        },
+        "def": {
+          "min": 93,
+          "max": 1137
+        }
       },
       "nation": "Unknown",
       "versionRelease": 2.5,
@@ -488,11 +755,24 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Bambooscape",
-      "combatRoles": ["Concerto Efficiency", "Heavy Attack Damage", "Echo Skill DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Heavy Attack Damage",
+        "Echo Skill DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 979, "max": 12238 },
-        "atk": { "min": 30, "max": 375 },
-        "def": { "min": 98, "max": 1198 }
+        "hp": {
+          "min": 979,
+          "max": 12238
+        },
+        "atk": {
+          "min": 30,
+          "max": 375
+        },
+        "def": {
+          "min": 98,
+          "max": 1198
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 2.7,
@@ -511,11 +791,26 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Stage in the Box",
-      "combatRoles": ["Concerto Efficiency", "Heavy Attack Damage", "Traction", "Havoc DMG Amplification", "Basic Attack DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Heavy Attack Damage",
+        "Traction",
+        "Havoc DMG Amplification",
+        "Basic Attack DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 980, "max": 12250 },
-        "atk": { "min": 30, "max": 375 },
-        "def": { "min": 98, "max": 1198 }
+        "hp": {
+          "min": 980,
+          "max": 12250
+        },
+        "atk": {
+          "min": 30,
+          "max": 375
+        },
+        "def": {
+          "min": 98,
+          "max": 1198
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.0,
@@ -534,11 +829,24 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Euphonic Chrysalis",
-      "combatRoles": ["Support and Healer", "Traction", "DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Traction",
+        "DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 1337, "max": 16713 },
-        "atk": { "min": 23, "max": 288 },
-        "def": { "min": 90, "max": 1100 }
+        "hp": {
+          "min": 1337,
+          "max": 16713
+        },
+        "atk": {
+          "min": 23,
+          "max": 288
+        },
+        "def": {
+          "min": 90,
+          "max": 1100
+        }
       },
       "nation": "The Black Shores",
       "versionRelease": 1.3,
@@ -557,11 +865,24 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Nature Calling",
-      "combatRoles": ["Support and Healer", "Coordinated Attack", "DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Coordinated Attack",
+        "DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 1139, "max": 14238 },
-        "atk": { "min": 27, "max": 338 },
-        "def": { "min": 90, "max": 1100 }
+        "hp": {
+          "min": 1139,
+          "max": 14238
+        },
+        "atk": {
+          "min": 27,
+          "max": 338
+        },
+        "def": {
+          "min": 90,
+          "max": 1100
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.3,
@@ -580,11 +901,23 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Matter Weaver",
-      "combatRoles": ["Main Damage Dealer", "Resonance Liberation Damage"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Resonance Liberation Damage"
+      ],
       "stats": {
-        "hp": { "min": 850, "max": 10625 },
-        "atk": { "min": 34, "max": 425 },
-        "def": { "min": 100, "max": 1222 }
+        "hp": {
+          "min": 850,
+          "max": 10625
+        },
+        "atk": {
+          "min": 34,
+          "max": 425
+        },
+        "def": {
+          "min": 100,
+          "max": 1222
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.2,
@@ -603,11 +936,26 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Evil-conquering Puppet",
-      "combatRoles": ["Concerto Efficiency", "Resonance Skill Damage", "Coordinated Attack", "Electro DMG Amplification", "Resonance Liberation DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Resonance Skill Damage",
+        "Coordinated Attack",
+        "Electro DMG Amplification",
+        "Resonance Liberation DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 880, "max": 11000 },
-        "atk": { "min": 32, "max": 400 },
-        "def": { "min": 105, "max": 1283 }
+        "hp": {
+          "min": 880,
+          "max": 11000
+        },
+        "atk": {
+          "min": 32,
+          "max": 400
+        },
+        "def": {
+          "min": 105,
+          "max": 1283
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.0,
@@ -626,11 +974,25 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Scorched Radiance",
-      "combatRoles": ["Main Damage Dealer", "Heavy Attack Damage", "Spectro DMG Amplification", "Spectro Frazzle"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Heavy Attack Damage",
+        "Spectro DMG Amplification",
+        "Spectro Frazzle"
+      ],
       "stats": {
-        "hp": { "min": 862, "max": 10775 },
-        "atk": { "min": 35, "max": 438 },
-        "def": { "min": 93, "max": 1137 }
+        "hp": {
+          "min": 862,
+          "max": 10775
+        },
+        "atk": {
+          "min": 35,
+          "max": 438
+        },
+        "def": {
+          "min": 93,
+          "max": 1137
+        }
       },
       "nation": "Rinascita",
       "versionRelease": 2.3,
@@ -649,11 +1011,26 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Enchancted Brush",
-      "combatRoles": ["Concerto Efficiency", "Basic Attack Damage", "Coordinated Attack", "Glacio DMG Amplification", "Resonance Skill DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Basic Attack Damage",
+        "Coordinated Attack",
+        "Glacio DMG Amplification",
+        "Resonance Skill DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 980, "max": 12250 },
-        "atk": { "min": 30, "max": 375 },
-        "def": { "min": 98, "max": 1198 }
+        "hp": {
+          "min": 980,
+          "max": 12250
+        },
+        "atk": {
+          "min": 30,
+          "max": 375
+        },
+        "def": {
+          "min": 98,
+          "max": 1198
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 1.2,
@@ -664,7 +1041,6 @@
         "korean": "Kim Ha-ru (김하루)"
       }
     },
-
     {
       "id": "rover",
       "name": "Rover",
@@ -678,11 +1054,24 @@
           "id": "rover_spectro",
           "attribute": "Spectro",
           "name": "Rover (Spectro)",
-          "combatRoles": ["Concerto Efficiency", "Stagnation", "Spectro Frazzle"],
+          "combatRoles": [
+            "Concerto Efficiency",
+            "Stagnation",
+            "Spectro Frazzle"
+          ],
           "stats": {
-            "hp": { "min": 860, "max": 10800 },
-            "atk": { "min": 34, "max": 425 },
-            "def": { "min": 95, "max": 1160 }
+            "hp": {
+              "min": 860,
+              "max": 10800
+            },
+            "atk": {
+              "min": 34,
+              "max": 425
+            },
+            "def": {
+              "min": 95,
+              "max": 1160
+            }
           },
           "nation": "Huanglong",
           "versionRelease": 1.0
@@ -691,11 +1080,22 @@
           "id": "rover_havoc",
           "attribute": "Havoc",
           "name": "Rover (Havoc)",
-          "combatRoles": ["Main Damage Dealer"],
+          "combatRoles": [
+            "Main Damage Dealer"
+          ],
           "stats": {
-            "hp": { "min": 860, "max": 10800 },
-            "atk": { "min": 34, "max": 425 },
-            "def": { "min": 95, "max": 1160 }
+            "hp": {
+              "min": 860,
+              "max": 10800
+            },
+            "atk": {
+              "min": 34,
+              "max": 425
+            },
+            "def": {
+              "min": 95,
+              "max": 1160
+            }
           },
           "nation": "Huanglong",
           "versionRelease": 1.4
@@ -704,18 +1104,30 @@
           "id": "rover_aero",
           "attribute": "Aero",
           "name": "Rover (Aero)",
-          "combatRoles": ["Support and Healer", "Resonance Skill Damage", "Aero Erosion"],
+          "combatRoles": [
+            "Support and Healer",
+            "Resonance Skill Damage",
+            "Aero Erosion"
+          ],
           "stats": {
-            "hp": { "min": 860, "max": 10800 },
-            "atk": { "min": 34, "max": 425 },
-            "def": { "min": 95, "max": 1160 }
+            "hp": {
+              "min": 860,
+              "max": 10800
+            },
+            "atk": {
+              "min": 34,
+              "max": 425
+            },
+            "def": {
+              "min": 95,
+              "max": 1160
+            }
           },
           "nation": "Huanglong",
           "versionRelease": 1.0
         }
       ]
     },
-
     {
       "id": "aalto",
       "name": "Aalto",
@@ -724,11 +1136,23 @@
       "weaponType": "Pistol",
       "isNew": false,
       "description": "Mistcloak Strike",
-      "combatRoles": ["Concerto Efficiency", "Aero DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Aero DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 788, "max": 9850 },
-        "atk": { "min": 21, "max": 263 },
-        "def": { "min": 88, "max": 1076 }
+        "hp": {
+          "min": 788,
+          "max": 9850
+        },
+        "atk": {
+          "min": 21,
+          "max": 263
+        },
+        "def": {
+          "min": 88,
+          "max": 1076
+        }
       }
     },
     {
@@ -739,11 +1163,24 @@
       "weaponType": "Rectifier",
       "isNew": false,
       "description": "Healing You'tan",
-      "combatRoles": ["Support and Healer", "Coordinated Attack", "DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Coordinated Attack",
+        "DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 1025, "max": 12813 },
-        "atk": { "min": 17, "max": 213 },
-        "def": { "min": 82, "max": 1002 }
+        "hp": {
+          "min": 1025,
+          "max": 12813
+        },
+        "atk": {
+          "min": 17,
+          "max": 213
+        },
+        "def": {
+          "min": 82,
+          "max": 1002
+        }
       }
     },
     {
@@ -754,11 +1191,25 @@
       "weaponType": "Rectifier",
       "isNew": true,
       "description": "Divine Hearing",
-      "combatRoles": ["Support and Healer", "DMG Amplification", "Resonance Skill DMG Amplification", "Electro Flare"],
+      "combatRoles": [
+        "Support and Healer",
+        "DMG Amplification",
+        "Resonance Skill DMG Amplification",
+        "Electro Flare"
+      ],
       "stats": {
-        "hp": { "min": 850, "max": 10625 },
-        "atk": { "min": 18, "max": 225 },
-        "def": { "min": 103, "max": 1258 }
+        "hp": {
+          "min": 850,
+          "max": 10625
+        },
+        "atk": {
+          "min": 18,
+          "max": 225
+        },
+        "def": {
+          "min": 103,
+          "max": 1258
+        }
       },
       "nation": "Huanglong",
       "versionRelease": 2.8,
@@ -777,11 +1228,22 @@
       "weaponType": "Pistol",
       "isNew": false,
       "description": "Gallant Blaze",
-      "combatRoles": ["Main Damage Dealer"],
+      "combatRoles": [
+        "Main Damage Dealer"
+      ],
       "stats": {
-        "hp": { "min": 727, "max": 9088 },
-        "atk": { "min": 24, "max": 300 },
-        "def": { "min": 78, "max": 953 }
+        "hp": {
+          "min": 727,
+          "max": 9088
+        },
+        "atk": {
+          "min": 24,
+          "max": 300
+        },
+        "def": {
+          "min": 78,
+          "max": 953
+        }
       }
     },
     {
@@ -792,11 +1254,23 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Scarlet Shade",
-      "combatRoles": ["Concerto Efficiency", "Havoc DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Havoc DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 755, "max": 9438 },
-        "atk": { "min": 21, "max": 263 },
-        "def": { "min": 94, "max": 1149 }
+        "hp": {
+          "min": 755,
+          "max": 9438
+        },
+        "atk": {
+          "min": 21,
+          "max": 263
+        },
+        "def": {
+          "min": 94,
+          "max": 1149
+        }
       }
     },
     {
@@ -807,11 +1281,24 @@
       "weaponType": "Broadblade",
       "isNew": false,
       "description": "Kaleido Refraction",
-      "combatRoles": ["Main Damage Dealer", "Basic Attack Damage", "Resonance Skill DMG Amplification"],
+      "combatRoles": [
+        "Main Damage Dealer",
+        "Basic Attack Damage",
+        "Resonance Skill DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 680, "max": 8500 },
-        "atk": { "min": 27, "max": 338 },
-        "def": { "min": 72, "max": 880 }
+        "hp": {
+          "min": 680,
+          "max": 8500
+        },
+        "atk": {
+          "min": 27,
+          "max": 338
+        },
+        "def": {
+          "min": 72,
+          "max": 880
+        }
       }
     },
     {
@@ -822,11 +1309,25 @@
       "weaponType": "Pistol",
       "isNew": false,
       "description": "Dragon's Breath",
-      "combatRoles": ["Concerto Efficiency", "Resonance Liberation Damage", "Coordinated Attack", "Heavy Attack DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Resonance Liberation Damage",
+        "Coordinated Attack",
+        "Heavy Attack DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 802, "max": 10025 },
-        "atk": { "min": 20, "max": 250 },
-        "def": { "min": 93, "max": 1137 }
+        "hp": {
+          "min": 802,
+          "max": 10025
+        },
+        "atk": {
+          "min": 20,
+          "max": 250
+        },
+        "def": {
+          "min": 93,
+          "max": 1137
+        }
       }
     },
     {
@@ -837,11 +1338,23 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Snow Waltz",
-      "combatRoles": ["Concerto Efficiency", "Basic Attack DMG Amplification"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Basic Attack DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 805, "max": 10063 },
-        "atk": { "min": 22, "max": 275 },
-        "def": { "min": 77, "max": 941 }
+        "hp": {
+          "min": 805,
+          "max": 10063
+        },
+        "atk": {
+          "min": 22,
+          "max": 275
+        },
+        "def": {
+          "min": 77,
+          "max": 941
+        }
       }
     },
     {
@@ -852,11 +1365,24 @@
       "weaponType": "Broadblade",
       "isNew": false,
       "description": "Blossom of Slashes ",
-      "combatRoles": ["Support and Healer", "Resonance Liberation Damage", "Resonance Skill DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Resonance Liberation Damage",
+        "Resonance Skill DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 716, "max": 8950 },
-        "atk": { "min": 18, "max": 225 },
-        "def": { "min": 128, "max": 1564 }
+        "hp": {
+          "min": 716,
+          "max": 8950
+        },
+        "atk": {
+          "min": 18,
+          "max": 225
+        },
+        "def": {
+          "min": 128,
+          "max": 1564
+        }
       }
     },
     {
@@ -867,11 +1393,24 @@
       "weaponType": "Sword",
       "isNew": false,
       "description": "Breath of Winds",
-      "combatRoles": ["Concerto Efficiency", "Traction", "Resonance Liberation Regeneration"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Traction",
+        "Resonance Liberation Regeneration"
+      ],
       "stats": {
-        "hp": { "min": 816, "max": 10200 },
-        "atk": { "min": 20, "max": 250 },
-        "def": { "min": 90, "max": 1100 }
+        "hp": {
+          "min": 816,
+          "max": 10200
+        },
+        "atk": {
+          "min": 20,
+          "max": 250
+        },
+        "def": {
+          "min": 90,
+          "max": 1100
+        }
       }
     },
     {
@@ -882,11 +1421,25 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Cryogenic Wonders",
-      "combatRoles": ["Support and Healer", "Resonance Skill Damage", "Vibration Strength Reduction", "Coordinated Attack DMG Amplification"],
+      "combatRoles": [
+        "Support and Healer",
+        "Resonance Skill Damage",
+        "Vibration Strength Reduction",
+        "Coordinated Attack DMG Amplification"
+      ],
       "stats": {
-        "hp": { "min": 798, "max": 9975 },
-        "atk": { "min": 21, "max": 263 },
-        "def": { "min": 86, "max": 1051 }
+        "hp": {
+          "min": 798,
+          "max": 9975
+        },
+        "atk": {
+          "min": 21,
+          "max": 263
+        },
+        "def": {
+          "min": 86,
+          "max": 1051
+        }
       }
     },
     {
@@ -897,14 +1450,26 @@
       "weaponType": "Gauntlet",
       "isNew": false,
       "description": "Fist of Thunder",
-      "combatRoles": ["Concerto Efficiency", "Coordinated Attack", "Interruption Resistance Boost", "Vibration Strength Reduction"],
+      "combatRoles": [
+        "Concerto Efficiency",
+        "Coordinated Attack",
+        "Interruption Resistance Boost",
+        "Vibration Strength Reduction"
+      ],
       "stats": {
-        "hp": { "min": 682, "max": 8525 },
-        "atk": { "min": 18, "max": 225 },
-        "def": { "min": 134, "max": 1638 }
+        "hp": {
+          "min": 682,
+          "max": 8525
+        },
+        "atk": {
+          "min": 18,
+          "max": 225
+        },
+        "def": {
+          "min": 134,
+          "max": 1638
+        }
       }
     }
   ]
 }
-
-

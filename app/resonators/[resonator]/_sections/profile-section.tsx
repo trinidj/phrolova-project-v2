@@ -44,7 +44,7 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
   )
 
   return (
-    <section id="profile" className="flex h-[675px] flex-col lg:flex-row gap-8">
+    <section id="profile" className="flex h-[675px] flex-col lg:flex-row gap-10">
       {/* Sprite */}
       <Card className="h-full w-full lg:w-[400px] p-0 overflow-hidden shadow-none bg-linear-to-t from-background to-card">
         <CardContent className="h-full p-0">
