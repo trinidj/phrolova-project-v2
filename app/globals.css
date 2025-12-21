@@ -48,6 +48,11 @@
   --color-rarity-4: var(--rarity-4);
   --color-rarity-5: var(--rarity-5);
 
+  --color-rarity-basic: var(--rarity-basic);
+  --color-rarity-medium: var(--rarity-medium);
+  --color-rarity-advanced: var(--rarity-advanced);
+  --color-rarity-premium: var(--rarity-premium);
+
   --color-electro: var(--electro);
   --color-aero: var(--aero);
   --color-fusion: var(--fusion);
@@ -58,8 +63,15 @@
 
 :root {
   --radius: 0.625rem;
+  /* Resonator Rarities */
   --rarity-4: oklch(0.501 0.171 314);
   --rarity-5: oklch(0.886 0.147 91.0);
+
+  /* Material Rarites */
+  --rarity-basic: oklch(0.8597 0.1366 149.62);
+  --rarity-medium: oklch(0.8396 0.0844 219.19);
+  --rarity-advanced: oklch(0.501 0.171 314);
+  --rarity-premium: oklch(0.886 0.147 91.0);
 
   /* Attribute Colours */
   --electro: rgba(181, 104, 255);

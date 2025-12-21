@@ -166,12 +166,12 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
           <CardContent className="px-0">
             <div className="grid grid-cols-7 gap-4">
               {totalMaterials.map((material) => (
-                <Card key={material.name} className="p-0 overflow-hidden">
+                <Card key={material.item.name} className="p-0 overflow-hidden">
                   <CardContent className="px-0">
                     <div className="flex items-center justify-center">
                       <Image
-                        src={`${getMaterialAssets(material.name, material.type)}`}
-                        alt={material.name}
+                        src={`${getMaterialAssets(material.item.name, material.item.type)}`}
+                        alt={material.item.name}
                         width={74}
                         height={74}
                         quality={100}

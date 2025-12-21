@@ -1,3 +1,5 @@
+import { DevelopmentMaterial } from "./development_material";
+
 export type Attribute = "Fusion" | "Aero" | "Glacio" | "Havoc" | "Electro" | "Spectro";
 export type WeaponType = "Pistol" | "Sword" | "Broadblade" | "Rectifier" | "Gauntlet";
 export type Rarity = 4 | 5;
@@ -14,9 +16,8 @@ export interface StatRange {
 }
 
 export interface AscensionMaterial {
-  name: string;
+  item: DevelopmentMaterial;
   amount: number;
-  type?: string;
 }
 
 export interface AscensionMaterials {

@@ -46,7 +46,18 @@ export function getResonatorAscension(resonator: string): AscensionMaterials[] {
     }
 
     const fileContent = fs.readFileSync(filePath, 'utf-8');
-    const materials: AscensionMaterials[] = JSON.parse(fileContent);
+    const rawMaterials: { level: number; materials: { name: string; amount: number; type?: string }[] }[] = JSON.parse(fileContent);
+
+    const materials: AscensionMaterials[] = rawMaterials.map(phase => ({
+      materials: phase.materials.map(m => ({
+        item: {
+          name: m.name,
+          rarity: "Basic", // Defaulting as we don't have this in JSON
+          type: m.type
+        },
+        amount: m.amount
+      }))
+    }));
 
     return materials;
   } catch (error) {
