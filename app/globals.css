@@ -48,6 +48,7 @@
   --color-rarity-4: var(--rarity-4);
   --color-rarity-5: var(--rarity-5);
 
+  --color-rarity-local: var(--rarity-local);
   --color-rarity-basic: var(--rarity-basic);
   --color-rarity-medium: var(--rarity-medium);
   --color-rarity-advanced: var(--rarity-advanced);
@@ -68,6 +69,7 @@
   --rarity-5: oklch(0.886 0.147 91.0);
 
   /* Material Rarites */
+  --rarity-local: oklch(0.7348 0 0);
   --rarity-basic: oklch(0.8597 0.1366 149.62);
   --rarity-medium: oklch(0.8396 0.0844 219.19);
   --rarity-advanced: oklch(0.501 0.171 314);

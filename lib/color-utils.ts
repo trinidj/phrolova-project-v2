@@ -28,7 +28,8 @@ export function getDevelopmentMaterialRarityColor(rarity: DevelopmentMaterialRar
     "Premium": "rarity-premium",
     "Advanced": "rarity-advanced",
     "Medium": "rarity-medium",
-    "Basic": "rarity-basic"
+    "Basic": "rarity-basic",
+    "Local": "rarity-local"
   }
 
   return colors[rarity]

@@ -1,0 +1,328 @@
+{
+  "development_materials": [
+    {
+      "name": "Mysterious Code",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Heterized Metallic Drip",
+      "rarity": "Premium"
+    },
+    {
+      "name": "FF Whisperin Core",
+      "rarity": "Premium"
+    },
+    {
+      "name": "FF Howler Core",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Tailored Ring",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Mask of Insanity",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Flawless Phlogiston",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Presto Helix",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Waveworn Residue 239",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Cadence Blossom",
+      "rarity": "Premium"
+    },
+    {
+      "name": "FF Tidal Residuum",
+      "rarity": "Premium"
+    },
+    {
+      "name": "FF Polygon Core",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Polarized Metallic Drip",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Strife Tacet Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Thundering Tacet Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Elegy Tacet Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Rage Tacet Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Roaring Rock Fist",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Gold-Dissolving Feather",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Sound-Keeping Tacet Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Group Abomination Tacet Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "HF Whisperin Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "HF Howler Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Improved Ring",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Mask of Distortion",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Monument Bell",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Unending Destruction",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Refined Phlogiston",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Andante Helix",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Waveworn Residue 235",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Cadence Leaf",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Hidden Thunder Tacet Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Dreamless Feather",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Sentinel's Dagger",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Topological Confinement",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "HF Tidal Residuum",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "HF Polygon Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "The Netherworld's Stare",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Cleansing Conch",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Platinum Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Blazing Bone",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Unfading Glory",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Truth in Lies",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Blighted Crown of Pupprt King",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Abyssal Husk",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Curse of the Abyss",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "When Irises Bloom",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Reactive Metallic Drip",
+      "rarity": "Medium"
+    },
+    {
+      "name": "MF Whisperin Core",
+      "rarity": "Medium"
+    },
+    {
+      "name": "MF Howler Core",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Basic Ring",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Mask of Erosion",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Extracted Phlogiston",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Adagio Helix",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Waveworn Residue 226",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Cadence Bud",
+      "rarity": "Medium"
+    },
+    {
+      "name": "MF Tidal Residuum",
+      "rarity": "Medium"
+    },
+    {
+      "name": "MF Polygon Core",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Shell Credits",
+      "rarity": "Local"
+    },
+    {
+      "name": "Afterlife",
+      "rarity": "Local"
+    },
+    {
+      "name": "Bamboo Iris",
+      "rarity": "Local"
+    },
+    {
+      "name": "Belle Poppy",
+      "rarity": "Local"
+    },
+    {
+      "name": "Bloodleaf Viburnum",
+      "rarity": "Local"
+    },
+    {
+      "name": "Coriolus",
+      "rarity": "Local"
+    },
+    {
+      "name": "Firecracker Jewelweed",
+      "rarity": "Local"
+    },
+    {
+      "name": "Golden Fleece",
+      "rarity": "Local"
+    },
+    {
+      "name": "Iris",
+      "rarity": "Local"
+    },
+    {
+      "name": "Lanternberry",
+      "rarity": "Local"
+    },
+    {
+      "name": "Loong's Pearl",
+      "rarity": "Local"
+    },
+    {
+      "name": "Luminous Calendula",
+      "rarity": "Local"
+    },
+    {
+      "name": "Nova",
+      "rarity": "Local"
+    },
+    {
+      "name": "Pavo Plum",
+      "rarity": "Local"
+    },
+    {
+      "name": "Pecok Flower",
+      "rarity": "Local"
+    },
+    {
+      "name": "Seaside Cendrelis",
+      "rarity": "Local"
+    },
+    {
+      "name": "Silverglow Bloom",
+      "rarity": "Local"
+    },
+    {
+      "name": "Stone Rose",
+      "rarity": "Local"
+    },
+    {
+      "name": "Summer Flower",
+      "rarity": "Local"
+    },
+    {
+      "name": "Sword Acorus",
+      "rarity": "Local"
+    },
+    {
+      "name": "Terraspawn Fungus",
+      "rarity": "Local"
+    },
+    {
+      "name": "Violet Coral",
+      "rarity": "Local"
+    },
+    {
+      "name": "Wintry Bell",
+      "rarity": "Local"
+    }
+  ]
+}
