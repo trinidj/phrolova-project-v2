@@ -24,7 +24,7 @@ export default function SplashArtDialog({ resonator, hasSplashArt, gender }: Spl
   return (
     <Dialog>
       <DialogTrigger asChild>
-        <Button variant="outline">
+        <Button variant="outline" disabled={!hasSplashArt}>
           {hasSplashArt ? "View Splash Art" : "Splash Art Unavailable"}
         </Button>
       </DialogTrigger>
