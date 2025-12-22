@@ -1054,24 +1054,11 @@
           "id": "rover_spectro",
           "attribute": "Spectro",
           "name": "Rover (Spectro)",
-          "combatRoles": [
-            "Concerto Efficiency",
-            "Stagnation",
-            "Spectro Frazzle"
-          ],
+          "combatRoles": ["Concerto Efficiency", "Stagnation", "Spectro Frazzle"],
           "stats": {
-            "hp": {
-              "min": 860,
-              "max": 10800
-            },
-            "atk": {
-              "min": 34,
-              "max": 425
-            },
-            "def": {
-              "min": 95,
-              "max": 1160
-            }
+            "hp": { "min": 912, "max": 11400 },
+            "atk": { "min": 30, "max": 375 },
+            "def": { "min": 112, "max": 1369 }
           },
           "nation": "Huanglong",
           "versionRelease": 1.0
@@ -1080,22 +1067,11 @@
           "id": "rover_havoc",
           "attribute": "Havoc",
           "name": "Rover (Havoc)",
-          "combatRoles": [
-            "Main Damage Dealer"
-          ],
+          "combatRoles": ["Main Damage Dealer"],
           "stats": {
-            "hp": {
-              "min": 860,
-              "max": 10800
-            },
-            "atk": {
-              "min": 34,
-              "max": 425
-            },
-            "def": {
-              "min": 95,
-              "max": 1160
-            }
+            "hp": { "min": 866, "max": 10825 },
+            "atk": { "min": 33, "max": 413 },
+            "def": { "min": 103, "max": 1259 }
           },
           "nation": "Huanglong",
           "versionRelease": 1.4
@@ -1104,24 +1080,11 @@
           "id": "rover_aero",
           "attribute": "Aero",
           "name": "Rover (Aero)",
-          "combatRoles": [
-            "Support and Healer",
-            "Resonance Skill Damage",
-            "Aero Erosion"
-          ],
+          "combatRoles": ["Support and Healer", "Resonance Skill Damage", "Aero Erosion"],
           "stats": {
-            "hp": {
-              "min": 860,
-              "max": 10800
-            },
-            "atk": {
-              "min": 34,
-              "max": 425
-            },
-            "def": {
-              "min": 95,
-              "max": 1160
-            }
+            "hp": { "min": 862, "max": 10775 },
+            "atk": { "min": 35, "max": 438 },
+            "def": { "min": 93, "max": 1137 }
           },
           "nation": "Huanglong",
           "versionRelease": 1.0
