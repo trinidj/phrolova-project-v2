@@ -31,7 +31,7 @@ export default function StatCard({ resonator }: StatCardProps) {
     {
       label: "ATK",
       icon: "/assets/stats/stat_atk.png",
-      min: resonator.stats.atk.min.toLocaleString(),
+      min: resonator.stats.atk.min,
       max: resonator.stats.atk.max,
     },
     {
@@ -69,7 +69,7 @@ export default function StatCard({ resonator }: StatCardProps) {
                   />
                   {stat.label}
                 </TableCell>
-                <TableCell className="font-medium text-sm">
+                <TableCell className="font-medium text-base">
                   {isMaxLevel ? stat.max : stat.min}
                 </TableCell>
               </TableRow>

@@ -1,7 +1,7 @@
-export type Rarity = "Premium" | "Advanced" | "Medium" | "Basic"
+export type DevelopmentMaterialRarity = "Premium" | "Advanced" | "Medium" | "Basic"
 
 export interface DevelopmentMaterial {
   name: string;
-  rarity: Rarity;
+  rarity: DevelopmentMaterialRarity;
   type?: string;
 }

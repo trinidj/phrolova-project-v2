@@ -1,6 +1,7 @@
-import { Rarity, Attribute } from "@/types/resonator";
+import { ResonatorRarity, Attribute } from "@/types/resonator";
+import { DevelopmentMaterialRarity } from "@/types/development_material";
 
-export function getRarityColor(rarity: Rarity) {
+export function getResonatorRarityColor(rarity: ResonatorRarity) {
   const colors = {
     5: "rarity-5",
     4: "rarity-4"
@@ -20,4 +21,15 @@ export function getAttributeColor(attribute: Attribute) {
   }
 
   return colors[attribute]
+}
+
+export function getDevelopmentMaterialRarityColor(rarity: DevelopmentMaterialRarity) {
+  const colors = {
+    "Premium": "rarity-premium",
+    "Advanced": "rarity-advanced",
+    "Medium": "rarity-medium",
+    "Basic": "rarity-basic"
+  }
+
+  return colors[rarity]
 }

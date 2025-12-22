@@ -2,7 +2,7 @@ import { DevelopmentMaterial } from "./development_material";
 
 export type Attribute = "Fusion" | "Aero" | "Glacio" | "Havoc" | "Electro" | "Spectro";
 export type WeaponType = "Pistol" | "Sword" | "Broadblade" | "Rectifier" | "Gauntlet";
-export type Rarity = 4 | 5;
+export type ResonatorRarity = 4 | 5;
 
 export interface CombatRole {
   name: string;
@@ -84,7 +84,7 @@ export interface SkillAssets {
 export interface Resonator {
   id: string;
   name: string;
-  rarity: Rarity;
+  rarity: ResonatorRarity;
   attribute: Attribute;
   weaponType: WeaponType;
   isNew?: boolean;

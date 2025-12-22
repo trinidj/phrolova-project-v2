@@ -1,7 +1,6 @@
 import type { AscensionMaterials, Resonator } from "@/types/resonator"
 import { getResonatorAssets, getAttributeIcon, getCombatRoles } from "@/utils/resonator-assets"
-import { getAttributeColor } from "@/lib/color-utils"
-import { getRarityColor } from "@/lib/color-utils"
+import { getAttributeColor, getResonatorRarityColor, getDevelopmentMaterialRarityColor } from "@/lib/color-utils"
 import Image from "next/image"
 import SplashArtDialog from "../_components/splash-art-dialog"
 import CombatRolesDialog from "../_components/combat-roles-dialog"
@@ -9,7 +8,7 @@ import StatCard from "../_components/stat-card"
 import { Badge } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
-import { getMaterialAssets } from "@/utils/resonator-assets"
+import { getMaterialAssets } from "@/utils/development_material_assets"
 
 import {
   Card,
@@ -33,7 +32,7 @@ interface ProfileSectionProps {
 
 export default function Profile({ resonator, hasSplashArt, ascensionMaterials }: ProfileSectionProps) {
   const assets = getResonatorAssets(resonator)
-  const rarityColor = getRarityColor(resonator.rarity)
+  const resonatorRarityColor = getResonatorRarityColor(resonator.rarity)
   const attributeIcon = getAttributeIcon(resonator.attribute)
   const attributeColor = getAttributeColor(resonator.attribute)
   const combatRoles = getCombatRoles(resonator)
@@ -44,7 +43,7 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
   )
 
   return (
-    <section id="profile" className="flex h-[675px] flex-col lg:flex-row gap-10">
+    <section id="profile" className="flex h-[675px] flex-col lg:flex-row gap-14">
       {/* Sprite */}
       <Card className="h-full w-full lg:w-[400px] p-0 overflow-hidden shadow-none bg-linear-to-t from-background to-card">
         <CardContent className="h-full p-0">
@@ -64,8 +63,8 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
             <div
               className="bg-card flex justify-center h-14 items-center border-t-2"
               style={{
-                borderColor: `var(--${rarityColor})`,
-                boxShadow: `0 -4px 100px -2px var(--${rarityColor})`
+                borderColor: `var(--${resonatorRarityColor})`,
+                boxShadow: `0 -4px 100px -2px var(--${resonatorRarityColor})`
               }}
             >
               <SplashArtDialog resonator={resonator} hasSplashArt={hasSplashArt} />
@@ -179,7 +178,13 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
                       />
                     </div>
 
-                    <div className="bg-accent h-6 flex items-center justify-center border-t-2 border-rarity-5">
+                    <div 
+                      className="bg-accent to-card h-6 flex items-center justify-center border-t-2"
+                      style={{
+                        borderColor: `var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`,
+                        boxShadow: `0 -4px 12px -2px var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`
+                      }}
+                    >
                       <CardTitle>{material.amount}</CardTitle>
                     </div>
                   </CardContent>
