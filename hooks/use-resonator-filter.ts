@@ -1,4 +1,4 @@
-import { useState, useMemo } from "react"
+import { useState, useMemo, useDeferredValue } from "react" // Added useDeferredValue
 import { Resonator } from "@/types/resonator"
 import { ResonatorFilters } from "@/app/resonators/filter-dialog"
 
@@ -10,21 +10,29 @@ export function useResonatorFilters(resonators: Resonator[]) {
     weaponTypes: [],
   })
 
+  const deferredQuery = useDeferredValue(searchQuery)
+  const deferredFilters = useDeferredValue(filters)
+
   const filteredResonators = useMemo(() => {
     return resonators.filter((resonator) => {
-      const matchesSearch = resonator.name.toLowerCase().includes(searchQuery.toLowerCase())
-      const matchesRarity = filters.rarities.length === 0 || filters.rarities.includes(String(resonator.rarity))
-      const matchesAttribute = filters.attributes.length === 0 || filters.attributes.includes(resonator.attribute.toLowerCase())
+      const matchesSearch = resonator.name.toLowerCase().includes(deferredQuery.toLowerCase())
+      const matchesRarity = deferredFilters.rarities.length === 0 || deferredFilters.rarities.includes(String(resonator.rarity))
+      const matchesAttribute = deferredFilters.attributes.length === 0 || deferredFilters.attributes.includes(resonator.attribute.toLowerCase())
       
-      const matchesWeaponType = filters.weaponTypes.length === 0 ||
-        filters.weaponTypes.some((weapon) => {
+      const matchesWeaponType = deferredFilters.weaponTypes.length === 0 ||
+        deferredFilters.weaponTypes.some((weapon) => {
           const normalized = weapon.endsWith("s") ? weapon.slice(0, -1) : weapon
           return normalized === resonator.weaponType.toLowerCase()
         })
 
       return matchesSearch && matchesRarity && matchesAttribute && matchesWeaponType
     })
-  }, [resonators, searchQuery, filters])
-
-  return { searchQuery, setSearchQuery, filters, setFilters, filteredResonators }
+  }, [resonators, deferredQuery, deferredFilters])
+  return { 
+    searchQuery, 
+    setSearchQuery, 
+    filters, 
+    setFilters, 
+    filteredResonators,
+  }
 }
