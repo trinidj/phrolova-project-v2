@@ -4,6 +4,7 @@ import resonatorsIndex from "@/data/resonators/index.json";
 import developmentMaterialsIndex from "@/data/development_materials.json";
 import type { AscensionMaterials, Resonator } from "@/types/resonator";
 import type { DevelopmentMaterialRarity } from "@/types/development_material";
+import { marked } from "marked";
 
 type ResonatorIndexEntry = Resonator & {
   variants?: Array<Partial<Resonator> & { id: string }>;
@@ -81,5 +82,23 @@ export function getResonatorAscension(resonator: string): AscensionMaterials[] {
   } catch (error) {
     console.error(`Error loading materials for ${resonator}:`, error);
     return [];
+  }
+}
+
+export function parseTalentsMarkdown(resonator: string): string {
+  try {
+    const folderName = resonator.toLowerCase().replace(/\s+/g, '-')
+    const filePath = path.join(process.cwd(), 'data', 'resonators', folderName, 'talents.md')
+
+    if (!fs.existsSync(filePath)) {
+      return "";
+    }
+
+    const fileContent = fs.readFileSync(filePath, 'utf-8')
+
+    return marked.parse(fileContent) as string
+    
+  } catch (error) {
+    return ""
   }
 }
