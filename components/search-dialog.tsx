@@ -1,5 +1,9 @@
 "use client"
 
+import * as React from "react"
+import Link from "next/link"
+import Image from "next/image"
+import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { Search } from "lucide-react"
@@ -18,9 +22,38 @@ import {
   InputGroupInput,
 } from "@/components/ui/input-group"
 
+import {
+  Item,
+  ItemActions,
+  ItemContent,
+  ItemDescription,
+  ItemMedia,
+  ItemTitle,
+} from "@/components/ui/item"
+
+import resonatorsIndex from "@/data/resonators/index.json"
+import { getResonatorAssets, getAttributeIcon } from "@/utils/resonator-assets"
+import type { Resonator } from "@/types/resonator"
+
 export default function SearchDialog() {
+  const [open, setOpen] = React.useState(false)
+  const [query, setQuery] = React.useState("")
+
+  const resonators = React.useMemo(() => {
+    return resonatorsIndex.resonators as Resonator[]
+  }, [])
+
+  const filteredResonators = React.useMemo(() => {
+    if (!query) return resonators
+    
+    const lowerQuery = query.toLowerCase()
+    return resonators.filter((resonator) => 
+      resonator.name.toLowerCase().includes(lowerQuery)
+    )
+  }, [query, resonators])
+
   return (
-    <Dialog>
+    <Dialog open={open} onOpenChange={setOpen}>
       <DialogTrigger asChild>
         <Button
           variant="ghost"
@@ -38,17 +71,57 @@ export default function SearchDialog() {
         </DialogHeader>
 
         <div>
-          <InputGroup>
+          <InputGroup className="mb-4">
             <InputGroupInput 
-              placeholder="Search"
+              placeholder="Search by name..."
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              className="text-lg"
+              autoFocus
             />
             <InputGroupAddon>
-              <Search />
+              <Search className="h-4 w-4 text-muted-foreground" />
             </InputGroupAddon>
           </InputGroup>
 
-          <ScrollArea className="h-112">
-            {/* No Data Yet */}
+          <ScrollArea className="h-[400px] pr-4">
+            <div className="flex flex-col gap-2">
+              {filteredResonators.length === 0 && (
+                <div className="text-center text-muted-foreground py-8">
+                  No results found.
+                </div>
+              )}
+
+              {filteredResonators.map((resonator) => {
+                const assets = getResonatorAssets(resonator)
+                const attributeIcon = getAttributeIcon(resonator.attribute)
+                
+                return (
+                  <Link
+                    key={resonator.id}
+                    href={`/resonators/${resonator.id}`}
+                    onClick={() => setOpen(false)}
+                  >
+                    <Item variant="muted">
+                      <ItemMedia>
+                        <div className="overflow-hidden border-2 border-primary rounded-xl">
+                          <Image 
+                            src={assets.icon}
+                            alt={resonator.name}
+                            width={48}
+                            height={48}
+                            sizes="(max-width: 640px) 50vw, (max-width: 1024) 25vw, 150px"
+                          />
+                        </div>
+                      </ItemMedia>
+                      <ItemContent>
+                        <ItemTitle>{resonator.name}</ItemTitle>
+                      </ItemContent>
+                    </Item>
+                  </Link>
+                )
+              })}
+            </div>
           </ScrollArea>
         </div>
       </DialogContent>

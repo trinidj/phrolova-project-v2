@@ -68,33 +68,19 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
         <CardContent className="h-full p-0">
           <div className="flex flex-col h-full">
             <div className="flex-1 flex overflow-hidden relative">
-              {isRover ? (
-                <AnimatePresence mode="wait" initial={false}>
-                  <motion.div
-                    key={gender}
-                    initial={{ opacity: 0, x: -100 }}
-                    animate={{ opacity: 1, x: 0 }}
-                    exit={{ opacity: 0, x: 100 }}
-                    transition={{ 
-                      type: "spring", 
-                      stiffness: 300, 
-                      damping: 30 
-                    }}
-                    className="absolute inset-0 w-full h-full"
-                  >
-                    <Image
-                      src={assets.sprite}
-                      alt={resonator.name}
-                      width={696}
-                      height={960}
-                      priority
-                      sizes="(max-width: 1024px) 100vw, 400px"
-                      className="object-cover w-full h-full"
-                    />
-                  </motion.div>
-                </AnimatePresence>
-              ) : (
-                <div className="absolute inset-0 w-full h-full">
+              <AnimatePresence mode="wait">
+                <motion.div
+                  key={gender}
+                  initial={{ opacity: 0, x: -100 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: 100 }}
+                  transition={{ 
+                    type: "spring", 
+                    stiffness: 300, 
+                    damping: 30
+                  }}
+                  className="absolute inset-0 w-full h-full"
+                >
                   <Image
                     src={assets.sprite}
                     alt={resonator.name}
@@ -104,8 +90,8 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
                     sizes="(max-width: 1024px) 100vw, 400px"
                     className="object-cover w-full h-full"
                   />
-                </div>
-              )}
+                </motion.div>
+              </AnimatePresence>
 
               {isRover && (
                 <div className="absolute top-2 left-2">
@@ -120,7 +106,7 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
             </div>
 
             <div
-              className={`bg-card flex ${isRover ? "flex-col" : "justify-center"} items-center border-t-2 p-2 gap-2`}
+              className="bg-card flex justify-center h-14 items-center border-t-2"
               style={{
                 borderColor: `var(--${resonatorRarityColor})`,
                 boxShadow: `0 -4px 100px -2px var(--${resonatorRarityColor})`
