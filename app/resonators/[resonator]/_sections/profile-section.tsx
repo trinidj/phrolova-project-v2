@@ -42,7 +42,7 @@ interface ProfileSectionProps {
 const CombatRolesDialog = dynamic(() => import("../_components/combat-roles-dialog"), {
   ssr: false
 })
-const SplashArtDialog = dynamic(() => import("../_components/splash-art-dialog"), {
+const DetailsDialog = dynamic(() => import("../_components/details-dialog"), {
   ssr: false
 })
 
@@ -112,7 +112,7 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
                 boxShadow: `0 -4px 100px -2px var(--${resonatorRarityColor})`
               }}
             >
-              <SplashArtDialog resonator={resonator} hasSplashArt={hasSplashArt} gender={gender} />
+              <DetailsDialog resonator={resonator} hasSplashArt={hasSplashArt} gender={gender} />
             </div>
           </div>
         </CardContent>
@@ -208,7 +208,7 @@ export default function Profile({ resonator, hasSplashArt, ascensionMaterials }:
 
         <StatCard resonator={resonator} />
 
-        <Card className="p-6">
+        <Card className="p-6 h-full">
           <CardHeader className="px-0">
             <CardTitle className="text-xl">Ascension</CardTitle>
           </CardHeader>
