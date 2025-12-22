@@ -1,12 +1,11 @@
 "use client"
 
 import { useState } from "react"
+import dynamic from "next/dynamic"
 import type { AscensionMaterials, Resonator } from "@/types/resonator"
 import { getResonatorAssets, getAttributeIcon, getCombatRoles } from "@/utils/resonator-assets"
 import { getAttributeColor, getResonatorRarityColor, getDevelopmentMaterialRarityColor } from "@/lib/color-utils"
 import Image from "next/image"
-import SplashArtDialog from "../_components/splash-art-dialog"
-import CombatRolesDialog from "../_components/combat-roles-dialog"
 import StatCard from "../_components/stat-card"
 import { Badge } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
@@ -39,6 +38,13 @@ interface ProfileSectionProps {
   hasSplashArt: boolean
   ascensionMaterials: AscensionMaterials[]
 }
+
+const CombatRolesDialog = dynamic(() => import("../_components/combat-roles-dialog"), {
+  ssr: false
+})
+const SplashArtDialog = dynamic(() => import ("../_components/splash-art-dialog"), {
+  ssr: false
+})
 
 export default function Profile({ resonator, hasSplashArt, ascensionMaterials }: ProfileSectionProps) {
   const [gender, setGender] = useState<"male" | "female">("female")

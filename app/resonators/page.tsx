@@ -1,6 +1,7 @@
 "use client"
 
 import { Search } from "lucide-react"
+import dynamic from "next/dynamic"
 
 import {
   InputGroup,
@@ -8,7 +9,6 @@ import {
   InputGroupAddon
 } from "@/components/ui/input-group"
 
-import FilterDialog from "@/app/resonators/filter-dialog"
 import { ResonatorCard } from "@/app/resonators/resonator-card"
 import data from "@/data/resonators/index.json"
 import type { Resonator } from "@/types/resonator"
@@ -22,6 +22,9 @@ export default function ResonatorsPage() {
     return r
   })
   const { searchQuery, setSearchQuery, filters, setFilters, filteredResonators } = useResonatorFilters(resonators)
+  const FilterDialog = dynamic(() => import("./filter-dialog"), {
+    ssr: false
+  })
 
   return (
     <div className="min-h-screen flex flex-col gap-6">
