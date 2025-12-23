@@ -36,7 +36,7 @@ import {
 interface ProfileSectionProps {
   resonator: Resonator
   hasSplashArt: boolean
-  ascensionMaterials: AscensionMaterials[]
+  resonatorAscensionMaterials: AscensionMaterials[]
 }
 
 const CombatRolesDialog = dynamic(() => import("../_components/combat-roles-dialog"), {
@@ -46,14 +46,15 @@ const DetailsDialog = dynamic(() => import("../_components/details-dialog"), {
   ssr: false
 })
 
-export default function Profile({ resonator, hasSplashArt, ascensionMaterials }: ProfileSectionProps) {
+export default function Profile({ resonator, hasSplashArt, resonatorAscensionMaterials }: ProfileSectionProps) {
   const [gender, setGender] = useState<"male" | "female">("female")
   const assets = getResonatorAssets(resonator, gender)
   const resonatorRarityColor = getResonatorRarityColor(resonator.rarity)
   const attributeIcon = getAttributeIcon(resonator.attribute)
   const attributeColor = getAttributeColor(resonator.attribute)
   const combatRoles = getCombatRoles(resonator)
-  const totalMaterials = ascensionMaterials.flatMap((phase) =>
+
+  const totalMaterials = resonatorAscensionMaterials.flatMap((phase) =>
     phase.materials.map((material) => ({
       ...material,
     }))

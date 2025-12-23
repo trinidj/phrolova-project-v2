@@ -2,7 +2,7 @@ import fs from "fs";
 import path from "path";
 import resonatorsIndex from "@/data/resonators/index.json";
 import developmentMaterialsIndex from "@/data/development_materials.json";
-import type { AscensionMaterials, Resonator } from "@/types/resonator";
+import type { AscensionMaterials, ForteAscensionMaterials, Resonator } from "@/types/resonator";
 import type { DevelopmentMaterialRarity } from "@/types/development_material";
 import { marked } from "marked";
 
@@ -50,10 +50,10 @@ export function getAllResonatorSlugs(): string[] {
   })
 }
 
-export function getResonatorAscension(resonatorId: string): AscensionMaterials[] {
+export function getResonatorAscension(resonator: Resonator): AscensionMaterials[] {
   try {
-    const isRover = resonatorId.startsWith("rover");
-    const folderName = isRover ? "rover" : resonatorId.toLowerCase().replace(/\s+/g, '-');
+    const isRover = resonator.id.startsWith("rover");
+    const folderName = isRover ? "rover" : resonator.id.toLowerCase().replace(/\s+/g, '-');
     const filePath = path.join(process.cwd(), 'data', 'resonators', folderName, 'ascension.json');
 
     if (!fs.existsSync(filePath)) {
@@ -88,10 +88,60 @@ export function getResonatorAscension(resonatorId: string): AscensionMaterials[]
 
     return materials;
   } catch (error) {
-    console.error(`Error loading materials for ${resonatorId}:`, error);
+    console.error(`Error loading materials for ${resonator.id}:`, error);
     return [];
   }
 }
+
+export function getForteAscension(resonator: Resonator): ForteAscensionMaterials[] {
+  try {
+    const isRover = resonator.id.startsWith("rover");
+    const folderName = isRover ? "rover" : resonator.id.toLowerCase().replace(/\s+/g, '-');
+    
+    let filePath: string;
+    if (isRover && resonator.attribute) {
+      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, resonator.attribute.toLowerCase(), 'skill-ascension.json');
+    } else {
+      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, 'skill-ascension.json');
+    }
+
+    if (!fs.existsSync(filePath)) {
+      return [];
+    }
+
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const rawMaterials: { level: number; materials: { name: string; amount: number; type?: string }[] }[] = JSON.parse(fileContent);
+
+    const materials: ForteAscensionMaterials[] = rawMaterials.map(phase => ({
+      materials: phase.materials.map(m => {
+        const materialInfo = developmentMaterials.find(dm => dm.name === m.name);
+        let rarity: DevelopmentMaterialRarity = "Basic";
+        
+        if (materialInfo) {
+          rarity = materialInfo.rarity as DevelopmentMaterialRarity;
+        } else if (m.name === "Shell Credits") {
+          rarity = "Basic";
+        }
+
+        return {
+          item: {
+            name: m.name,
+            rarity: rarity,
+            type: m.type
+          },
+          amount: m.amount
+        };
+      })
+    }));
+
+    return materials;
+  } catch (error) {
+    console.error(`Error loading forte materials for ${resonator.id}:`, error);
+    return [];
+  }
+}
+
+
 
 export function parseForteMarkdown(markdown: string): string {
   try {

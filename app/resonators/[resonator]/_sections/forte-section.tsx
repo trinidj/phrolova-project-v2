@@ -1,8 +1,8 @@
-import { Resonator } from "@/types/resonator";
+import { Resonator, ForteAscensionMaterials } from "@/types/resonator";
 import { getForteAssets } from "@/utils/resonator-assets";
-import { getResonatorForte } from "../_lib/data";
-import { getAttributeColor } from "@/lib/color-utils";
-import { parseForteMarkdown } from "../_lib/data";
+import { getMaterialAssets } from "@/utils/development_material_assets";
+import { getAttributeColor, getDevelopmentMaterialRarityColor } from "@/lib/color-utils";
+import { parseForteMarkdown, getResonatorForte } from "../_lib/data";
 import Image from "next/image";
 import parse from "html-react-parser";
 
@@ -24,12 +24,19 @@ import { Separator } from "@/components/ui/separator";
 
 interface ForteSectionProps {
   resonator: Resonator
+  forteAscensionMaterials: ForteAscensionMaterials[]
 }
 
-export function Forte({ resonator }: ForteSectionProps) {
+export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps) {
   const assets = getForteAssets(resonator)
   const forte = getResonatorForte(resonator)
   const attributeColor = getAttributeColor(resonator.attribute)
+
+  const totalMaterials = forteAscensionMaterials.flatMap((phase) => 
+    phase.materials.map((material) => ({
+      ...material
+    }))
+  )
 
   const activeForteSkills = [
     "normalAttack",
@@ -52,7 +59,8 @@ export function Forte({ resonator }: ForteSectionProps) {
       </header>
 
       <Card className="p-6">
-        <CardContent className="px-0">
+        <CardContent className="px-0 flex flex-col gap-6">
+          {/* Forte Skills */}
           <Tabs defaultValue="normalAttack" className="w-full gap-6">
             <TabsList className="bg-transparent h-auto flex-wrap justify-center gap-6">
               {activeForteSkills.map((key) => {
@@ -64,7 +72,7 @@ export function Forte({ resonator }: ForteSectionProps) {
                     key={key}
                     value={key}
                     className="
-                      data-[state=active]:shadow-[0_0_15px_var(--glow-color)] data-[state=active]:border-(--glow-color) border-transparent border-2 rounded-xl p-0 relative transition-all duration-300"
+                      data-[state=active]:shadow-[0_0_15px_var(--glow-color)] data-[state=active]:border-(--glow-color) cursor-pointer border-transparent border-2 rounded-xl p-0 relative transition-all duration-300"
                     style={{
                       "--glow-color": `var(--${attributeColor})`,
                       borderColor: `var(--${attributeColor})`
@@ -81,6 +89,7 @@ export function Forte({ resonator }: ForteSectionProps) {
                 )
               })}
             </TabsList>
+
             <Separator />
 
             {activeForteSkills.map((key) => {
@@ -122,14 +131,16 @@ export function Forte({ resonator }: ForteSectionProps) {
                 </TabsContent>
               )
             })}
+
             <Separator />
+
             <div className="grid grid-cols-2 gap-4">
               {inherentForteSkills.map((key) => {
                 const skillData = forte?.[key]
                 if (!skillData) return null;
 
                 return (
-                  <Card key={key} className="flex flex-col gap-4 bg-accent">
+                  <Card key={key} className="flex flex-col gap-4 bg-muted border-0 shadow-none">
                     <CardHeader className="flex gap-4">
                       <div 
                         className="border-2 flex items-center justify-center rounded-xl"
@@ -164,6 +175,48 @@ export function Forte({ resonator }: ForteSectionProps) {
               })}
             </div>
           </Tabs>
+        </CardContent>
+      </Card>
+
+      <Card className="p-6">
+        <CardHeader className="px-0">
+          <CardTitle className="font-semibold text-xl">Ascension</CardTitle>
+        </CardHeader>
+        <CardContent className="px-0">
+          <div className="grid grid-cols-11 gap-4">
+            {totalMaterials.map((material) => (
+              <Card key={material.item.name} className="p-0 overflow-hidden">
+                <CardContent className="px-0">
+                  <div className="flex items-center justify-center">
+                    <Image
+                      src={`${getMaterialAssets(material.item.name, material.item.type)}`}
+                      alt={material.item.name}
+                      width={74}
+                      height={74}
+                      quality={100}
+                      className="scale-80"
+                    />
+                  </div>
+
+                  <div 
+                    className="bg-accent to-card h-6 flex items-center justify-center border-t-2"
+                    style={{
+                      borderColor: `var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`,
+                      boxShadow: `0 -4px 12px -2px var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`
+                    }}
+                  >
+                    <CardTitle>{material.amount}</CardTitle>
+                  </div>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+
+          {totalMaterials.length === 0 && (
+            <p className="text-center text-muted-foreground py-4">
+              Ascension Materials Unavailable
+            </p>
+          )}
         </CardContent>
       </Card>
     </section>
