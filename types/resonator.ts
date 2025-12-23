@@ -100,7 +100,7 @@ export interface Resonator {
     inheritSkill1?: Forte;
     inheritSkill2?: Forte;
   };
-  sequenceNodes?: SequenceNode[];
+  resonanceChain?: SequenceNode[];
   ascension?: AscensionMaterials[];
   variants?: Array<Partial<Resonator> & { id: string }>;
 }
