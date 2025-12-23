@@ -122,7 +122,7 @@ export function Forte({ resonator }: ForteSectionProps) {
                 </TabsContent>
               )
             })}
-
+            <Separator />
             <div className="grid grid-cols-2 gap-4">
               {inherentForteSkills.map((key) => {
                 const skillData = forte?.[key]
@@ -130,9 +130,26 @@ export function Forte({ resonator }: ForteSectionProps) {
 
                 return (
                   <Card key={key} className="flex flex-col gap-4 bg-accent">
-                    <CardHeader>
-                      <CardTitle className="font-semibold text-2xl">{skillData.name}</CardTitle>
-                      <CardDescription className="text-muted-foreground font-medium text-sm">{skillData.type}</CardDescription>
+                    <CardHeader className="flex gap-4">
+                      <div 
+                        className="border-2 flex items-center justify-center rounded-xl"
+                        style={{
+                          borderColor: `var(--${attributeColor})`,
+                        }}
+                      >
+                        <Image
+                          src={assets[key]}
+                          alt={skillData.name}
+                          className="object-contain p-1"
+                          width={48}
+                          height={48}
+                        />
+                      </div>
+
+                      <div>
+                        <CardTitle className="font-semibold text-2xl">{skillData.name}</CardTitle>
+                        <CardDescription className="text-muted-foreground font-medium text-sm">{skillData.type}</CardDescription>
+                      </div>
                     </CardHeader>
                     <CardContent>
                       <div 
