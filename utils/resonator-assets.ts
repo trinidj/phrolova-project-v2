@@ -2,8 +2,6 @@ import type {
   Resonator,
   ResonatorAssets,
   WeaponType,
-  SequenceNodeAssets,
-  ForteAssets,
   Attribute,
   CombatRole
 } from "@/types/resonator";
@@ -34,44 +32,6 @@ export function getResonatorAssets(resonator: Resonator, gender: "male" | "femal
   };
 }
 
-/**
- * Get all skill/talent asset URLs for a resonator based on naming conventions
- */
-export function getForteAssets(resonator: Resonator): ForteAssets {
-  const assetFolderName = resonator.id.startsWith("rover") ? "Rover" : resonator.name
-  const roverVariantPath = resonator.id.startsWith("rover") ? `/${resonator.attribute}` : ""
-  const basePath = `/assets/resonators/${resonator.rarity}_stars/${assetFolderName}${roverVariantPath}`
-
-  return {
-    normalAttack: `${basePath}/normal_attack.png`,
-    resonanceSkill: `${basePath}/resonance_skill.png`,
-    resonanceLiberation: `${basePath}/resonance_liberation.png`,
-    forteCircuit: `${basePath}/forte_circuit.png`,
-    inheritSkill1: `${basePath}/inherent_skill_1.png`,
-    inheritSkill2: `${basePath}/inherent_skill_2.png`,
-    introSkill: `${basePath}/intro_skill.png`,
-    outroSkill: `${basePath}/outro_skill.png`
-  }
-}
-
-/**
- * Get all sequence node asset URLs for a resonator based on naming conventions
- */
-export function getSequenceNodeAssets(resonator: Resonator): SequenceNodeAssets {
-  const assetFolderName = resonator.id.startsWith("rover") ? "Rover" : resonator.name
-  const roverVariantPath = resonator.id.startsWith("rover") ? `/${resonator.attribute}` : ""
-  const basePath = `/assets/resonators/${resonator.rarity}_stars/${assetFolderName}${roverVariantPath}`
-
-  return {
-    sequenceNode1: `${basePath}/node_1.png`,
-    sequenceNode2: `${basePath}/node_2.png`,
-    sequenceNode3: `${basePath}/node_3.png`,
-    sequenceNode4: `${basePath}/node_4.png`,
-    sequenceNode5: `${basePath}/node_5.png`,
-    sequenceNode6: `${basePath}/node_6.png`
-  }
-}
-
 const ATTRIBUTE_ICON_MAP: Record<Attribute, string> = {
   Electro: "/assets/attributes/electro.png",
   Aero: "/assets/attributes/aero.png",
@@ -93,8 +53,6 @@ export function getCombatRoles(resonator: Resonator): CombatRole[] {
     const roleData = roles.find(r => r.name === roleName);
     if (!roleData) return undefined;
 
-    // Convert name to snake_case for filename
-    // e.g. "Basic Attack DMG Amplification" -> "basic_attack_dmg_amplification"
     const fileName = roleData.name
       .toLowerCase()
       .replace(/ /g, "_");

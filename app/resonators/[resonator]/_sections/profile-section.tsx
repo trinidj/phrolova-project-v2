@@ -10,7 +10,7 @@ import StatCard from "../_components/stat-card"
 import { Badge } from "@/components/ui/badge"
 import { Label } from "@/components/ui/label"
 import { Separator } from "@/components/ui/separator"
-import { getMaterialAssets } from "@/utils/development_material_assets"
+import { getMaterialAssets } from "@/utils/development-material-assets"
 import { motion, AnimatePresence } from "motion/react"
 
 import {

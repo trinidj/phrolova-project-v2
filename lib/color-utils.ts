@@ -1,5 +1,5 @@
 import { ResonatorRarity, Attribute } from "@/types/resonator";
-import { DevelopmentMaterialRarity } from "@/types/development_material";
+import { DevelopmentMaterialRarity } from "@/types/development-material";
 
 export function getResonatorRarityColor(rarity: ResonatorRarity) {
   const colors = {

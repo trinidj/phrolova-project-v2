@@ -3,7 +3,8 @@ import path from "path";
 import resonatorsIndex from "@/data/resonators/index.json";
 import developmentMaterialsIndex from "@/data/development_materials.json";
 import type { AscensionMaterials, ForteAscensionMaterials, Resonator } from "@/types/resonator";
-import type { DevelopmentMaterialRarity } from "@/types/development_material";
+import type { SequenceNode } from "@/types/resonance-chain";
+import type { DevelopmentMaterialRarity } from "@/types/development-material";
 import { marked } from "marked";
 import { colorizeText } from "@/lib/color-utils";
 
@@ -142,8 +143,6 @@ export function getForteAscension(resonator: Resonator): ForteAscensionMaterials
   }
 }
 
-
-
 export function parseForteMarkdown(markdown: string): string {
   try {
     if (!markdown) return "";
@@ -237,3 +236,42 @@ export function getResonatorForte(resonator: Resonator): Resonator["forte"] {
     return undefined;
   }
 }
+
+export function getResonanceChain(resonator: Resonator): SequenceNode[] {
+  try {
+    const isRover = resonator.id.startsWith("rover");
+    const folderName = isRover ? "rover" : resonator.id.toLowerCase().replace(/\s+/g, '-');
+    
+    let filePath: string;
+    if (isRover && resonator.attribute) {
+      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, resonator.attribute.toLowerCase(), 'sequence-nodes.md');
+    } else {
+      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, 'sequence-nodes.md');
+    }
+
+    if (!fs.existsSync(filePath)) {
+      return [];
+    }
+
+    const fileContent = fs.readFileSync(filePath, 'utf-8');
+    const sections = fileContent.split(/^## /m).slice(1);
+
+    return sections.map(section => {
+      const splitIndex = section.indexOf('\n');
+      const headerLine = section.slice(0, splitIndex).trim();
+      const contentRaw = section.slice(splitIndex + 1).trim();
+      
+      const name = headerLine.split(':')[1]?.trim() || headerLine;
+
+      return {
+        name: name,
+        description: contentRaw
+      };
+    });
+
+  } catch (error) {
+    console.error(`Error parsing resonance chain for ${resonator.name}:`, error);
+    return [];
+  }
+}
+

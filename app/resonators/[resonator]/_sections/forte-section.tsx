@@ -1,6 +1,6 @@
 import { Resonator, ForteAscensionMaterials } from "@/types/resonator";
-import { getForteAssets } from "@/utils/resonator-assets";
-import { getMaterialAssets } from "@/utils/development_material_assets";
+import { getForteAssets } from "@/utils/forte-assets";
+import { getMaterialAssets } from "@/utils/development-material-assets";
 import { getAttributeColor, getDevelopmentMaterialRarityColor } from "@/lib/color-utils";
 import { parseForteMarkdown, getResonatorForte } from "../_lib/data";
 import Image from "next/image";

@@ -1,4 +1,6 @@
-import { DevelopmentMaterial } from "./development_material";
+import { DevelopmentMaterial } from "./development-material";
+import { SequenceNode } from "./resonance-chain";
+import { Forte } from "./forte";
 
 export type Attribute = "Fusion" | "Aero" | "Glacio" | "Havoc" | "Electro" | "Spectro";
 export type WeaponType = "Pistol" | "Sword" | "Broadblade" | "Rectifier" | "Gauntlet";
@@ -28,44 +30,12 @@ export interface ForteAscensionMaterials {
   materials: AscensionMaterial[];
 }
 
-export interface Forte {
-  name: string;
-  type: string;
-  description: string;
-  icon?: string;
-}
-
-export interface SequenceNode {
-  name: string;
-  description?: string;
-}
-
 export interface ResonatorAssets {
   icon: string;
   sprite: string;
   splashArt: string;
   attribute: string;
   weaponType: string;
-}
-
-export interface SequenceNodeAssets {
-  sequenceNode1?: string;
-  sequenceNode2?: string;
-  sequenceNode3?: string;
-  sequenceNode4?: string;
-  sequenceNode5?: string;
-  sequenceNode6?: string;
-}
-
-export interface ForteAssets {
-  normalAttack: string;
-  resonanceSkill: string;
-  resonanceLiberation: string;
-  forteCircuit: string;
-  inheritSkill1: string;
-  inheritSkill2: string;
-  introSkill: string;
-  outroSkill: string;
 }
 
 export interface Resonator {
