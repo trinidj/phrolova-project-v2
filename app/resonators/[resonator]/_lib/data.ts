@@ -5,6 +5,7 @@ import developmentMaterialsIndex from "@/data/development_materials.json";
 import type { AscensionMaterials, ForteAscensionMaterials, Resonator } from "@/types/resonator";
 import type { DevelopmentMaterialRarity } from "@/types/development_material";
 import { marked } from "marked";
+import { colorizeText } from "@/lib/color-utils";
 
 type ResonatorIndexEntry = Resonator & {
   variants?: Array<Partial<Resonator> & { id: string }>;
@@ -147,14 +148,13 @@ export function parseForteMarkdown(markdown: string): string {
   try {
     if (!markdown) return "";
     
-    // Split the description into semantic sections based on bold headers
-    // e.g. **Basic Attack** starts a new section
     const sections = markdown.split(/\n(?=\*\*)/g);
     
     return sections.map(section => {
       const cleaned = section.replace(/\n{3,}/g, '\n\n').trim();
       const html = marked.parse(cleaned, { breaks: true, gfm: true }) as string;
-      return `<div class="forte-category-block">${html}</div>`;
+      const colorizedHtml = colorizeText(html);
+      return `<div class="forte-category-block">${colorizedHtml}</div>`;
     }).join('\n');
     
   } catch (error) {

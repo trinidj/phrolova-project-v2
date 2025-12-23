@@ -4,7 +4,8 @@ import { useState } from "react"
 import dynamic from "next/dynamic"
 import type { AscensionMaterials, Resonator } from "@/types/resonator"
 import { getResonatorAssets, getAttributeIcon, getCombatRoles } from "@/utils/resonator-assets"
-import { getAttributeColor, getResonatorRarityColor, getDevelopmentMaterialRarityColor } from "@/lib/color-utils"
+import { getAttributeColor, getResonatorRarityColor, getDevelopmentMaterialRarityColor, colorizeText } from "@/lib/color-utils"
+import parse from "html-react-parser"
 import Image from "next/image"
 import StatCard from "../_components/stat-card"
 import { Badge } from "@/components/ui/badge"
@@ -195,7 +196,7 @@ export default function Profile({ resonator, hasSplashArt, resonatorAscensionMat
                         </div>
                       </TooltipTrigger>
                       <TooltipContent>
-                        <p className="font-semibold text-xs">{role.name}</p>
+                        <p className="font-semibold text-xs">{parse(colorizeText(role.name))}</p>
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>

@@ -10,6 +10,24 @@ export function getResonatorRarityColor(rarity: ResonatorRarity) {
   return colors[rarity]
 }
 
+export function colorizeText(text: string): string {
+  if (!text) return "";
+  
+  const attributes = ["Electro", "Aero", "Fusion", "Glacio", "Havoc", "Spectro"];
+  let colorized = text;
+
+  attributes.forEach((attr) => {
+    const regex = new RegExp(`\\b(${attr}(?:[ \\t\\n\\r]+(?:DMG(?:[ \\t\\n\\r]+Bonus)?|Erosion|Bane|Flare|Burst|Chafe|Frazzle))?)\\b`, "gi");
+    
+    colorized = colorized.replace(
+      regex,
+      `<span style="color: var(--${attr.toLowerCase()}); font-weight: 500;">$1</span>`
+    );
+  });
+
+  return colorized;
+}
+
 export function getAttributeColor(attribute: Attribute) {
   const colors = {
     Electro: "electro",

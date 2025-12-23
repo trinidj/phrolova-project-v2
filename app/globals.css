@@ -165,7 +165,7 @@
     @apply prose dark:prose-invert max-w-none;
 
     & p {
-      @apply my-2;
+      @apply my-2 text-muted-foreground;
     }
 
     & ul {
