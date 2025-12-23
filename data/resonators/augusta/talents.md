@@ -60,13 +60,9 @@ Augusta can hold up to 100 points of Prowess.
 
 - Prowess is fully restored when casting Intro Skill - Stride of Goldenflare.
 
----
-
 ## Resonance Skill: Warrior's Blade
 
 Augusta leaps and slams down her Broadblade, dealing Electro DMG.
-
----
 
 ## Resonance Liberation: Sunward Conquest
 
@@ -109,8 +105,6 @@ Augusta can hold up to 2 stacks of Majesty.
 - 1 stack of Majesty is obtained when casting Resonance Skill - Undying Sunlight: Plunge.
 
 - 1 stack of Majesty is obtained when other Resonators in the team cast Outro Skill under the effect of Augusta's Outro Skill - Battlesong of the Unyielding.
-
----
 
 ## Forte Circuit: Call Me By the Sun
 
@@ -166,7 +160,21 @@ Augusta can hold up to 100 points of Ascendancy.
 
 - Casting Resonance Liberation - Sword of Eternal Oath restores 40% Ascendancy.
 
----
+## Intro Skill: Stride of Goldenflare
+
+Deal Electro DMG.
+
+## Outro Skill: Battlesong of the Unyielding
+
+The next Resonator switched onto the field gains the following effects for 14s, which end immediately if they are switched out:
+
+- Gain 15% DMG Amplification for all Attributes.
+
+- Casting Outro Skill grants 1 stacks of Majesty and 1 stacks Crown of Wills to Augusta.
+
+**Crown of Wills**
+
+Each stack grants 15% Electro DMG Bonus, up to 1 stack. When Resonance Liberation - Sublime is the Sun: Everbright Protector ends, all stacks of Crown of Wills are removed.
 
 ## Inherent Skills
 
@@ -181,23 +189,3 @@ When Augusta is out of combat for over 4s, she gains the following effects that 
 - If Majesty is less than 1 stack, restore 1 stack.
 
 - Fully restore Crown of Wills.
-
----
-
-## Intro Skill: Stride of Goldenflare
-
-Deal Electro DMG.
-
----
-
-## Outro Skill: Battlesong of the Unyielding
-
-The next Resonator switched onto the field gains the following effects for 14s, which end immediately if they are switched out:
-
-- Gain 15% DMG Amplification for all Attributes.
-
-- Casting Outro Skill grants 1 stacks of Majesty and 1 stacks Crown of Wills to Augusta.
-
-**Crown of Wills**
-
-Each stack grants 15% Electro DMG Bonus, up to 1 stack. When Resonance Liberation - Sublime is the Sun: Everbright Protector ends, all stacks of Crown of Wills are removed.

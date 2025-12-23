@@ -22,8 +22,6 @@ Press successful Dodge to attack the target, dealing Spectro DMG. Then press Nor
 
 If Dodge Counter is not followed by Basic Attack Stage 4, press Normal Attack on the ground within a certain time to cast Basic Attack Stage 4.
 
----
-
 ## Resonance Skill: Restless Watch
 
 **Standard Defense Protocol**
@@ -46,8 +44,6 @@ Casting Targeted Action or Forcible Riposte inflicts a stack of Heliacal Ember u
 
 The Spectro Frazzle DMG dealt by Zani to the target is Amplified by 20%.
 
----
-
 ## Resonance Liberation: Between Dawn and Dusk
 
 **Rekindle**
@@ -59,8 +55,6 @@ Deal Spectro DMG and enter Inferno Mode, increasing Max Blaze from 100 to 150 an
 When in Inferno Mode, Resonance Liberation The Last Stand becomes available when Blaze is lower than 30 or after 8s in Inferno Mode.
 
 Casting Resonance Liberation The Last Stand deals Spectro DMG and ends the Inferno Mode.
-
----
 
 ## Forte Circuit: There Will Be A Light
 
@@ -114,7 +108,13 @@ Blaze is capped at 100 when not in Inferno Mode.
 
 - Casting Resonance Liberation Rekindle grants 50 Blazes.
 
----
+## Intro Skill: Immediate Execution
+
+Attack the target, dealing Spectro DMG.
+
+## Outro Skill: Beacon For the Future
+
+Attack the target, dealing Spectro DMG equal to 150% of Zani's ATK and removing all stacks of Heliacal Ember inflicted upon the target. Each stack increases the DMG dealt by 10%. This DMG is considered Spectro Frazzle DMG. The Spectro DMG dealt by other Resonators in the team to the target marked by Heliacal Ember is Amplified by 20% for 20s.
 
 ## Inherent Skills
 
@@ -125,15 +125,3 @@ Casting Intro Skill Immediate Execution gives 12% Spectro DMG Bonus for 14s.
 ### Fear No Pain
 
 When in Ready Stance, all DMG taken is reduced by 40%.
-
----
-
-## Intro Skill: Immediate Execution
-
-Attack the target, dealing Spectro DMG.
-
----
-
-## Outro Skill: Beacon For the Future
-
-Attack the target, dealing Spectro DMG equal to 150% of Zani's ATK and removing all stacks of Heliacal Ember inflicted upon the target. Each stack increases the DMG dealt by 10%. This DMG is considered Spectro Frazzle DMG. The Spectro DMG dealt by other Resonators in the team to the target marked by Heliacal Ember is Amplified by 20% for 20s.

@@ -42,15 +42,11 @@ Press Normal Attack after a successful Dodge to attack the target, dealing Havoc
 
 Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.
 
----
-
 ## Resonance Skill: Whispers in a Fleeting Dream
 
 Attack the target and deal Havoc DMG.
 
 Casting this skill sends Phrolova into Reincarnate.
-
----
 
 ## Resonance Liberation: Waltz of Forsaken Depths
 
@@ -118,10 +114,6 @@ Curtain Call can be cast via the following 5 ways, Stagnating the targets and de
 
 When in Resolving Chord state, casting Curtain Call removes all Volatile Notes and ends the Resolving Chord state.
 
-
-
----
-
 ## Forte Circuit: Rhapsody of a New World
 
 **Basic Attack - Movement of Fate and Finality**
@@ -152,24 +144,6 @@ When Inherent Skill - Accidental is activated, casting Suite of Quietus, Suite o
 
 Phrolova cannot obtain Volatile Notes during Resolving Chord.
 
----
-
-## Inherent Skills
-
-### Accidental
-
-Casting Echo Skill grants increased resistance to interruption and reduces damage taken by 30% for 15s.
-
-After casting Suite of Quietus, Suite of Immortality, and Echo Skill, the next Volatile Note becomes Volatile Note - Cadenza.
-
-### Octet
-
-Obtain 10 stacks of Aftersound upon entering battle. This effect cannot be triggered again within 4s after exiting the combat state. For every 1 stacks of Aftersound, Crit. DMG is increased by 2.5%.
-
-When Aftersound reaches the max, each new stack of Aftersound increases Phrolova's Crit. DMG by 1%, up to 100%. The increased Crit. DMG is removed when Aftersound stacks are cleared.
-
----
-
 ## Intro Skill: Suite of Quietus
 
 **Suite of Quietus**
@@ -184,10 +158,22 @@ When in the Maestro state, the next Suite of Quietus is replaced with Suite of I
 
 Press Normal Attack shortly after casting this skill to cast Basic Attack Stage 3.
 
----
-
 ## Outro Skill: Unfinished Piece
 
 The incoming Resonator gains 20% Havoc DMG Amplification and 25% Heavy Attack DMG Amplification for 14s or until they are switched out.
 
 If Phrolova is in Maestro state when she casts this skill, Hecate additionally casts Enhanced Attack - Hecate 2 times when Phrolova is switched off the field while in the same Maestro state duration.
+
+## Inherent Skills
+
+### Accidental
+
+Casting Echo Skill grants increased resistance to interruption and reduces damage taken by 30% for 15s.
+
+After casting Suite of Quietus, Suite of Immortality, and Echo Skill, the next Volatile Note becomes Volatile Note - Cadenza.
+
+### Octet
+
+Obtain 10 stacks of Aftersound upon entering battle. This effect cannot be triggered again within 4s after exiting the combat state. For every 1 stacks of Aftersound, Crit. DMG is increased by 2.5%.
+
+When Aftersound reaches the max, each new stack of Aftersound increases Phrolova's Crit. DMG by 1%, up to 100%. The increased Crit. DMG is removed when Aftersound stacks are cleared.

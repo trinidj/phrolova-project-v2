@@ -16,13 +16,9 @@ Perform a Plunging Attack from mid-air at the cost of STA, dealing Electro DMG.
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.
 
----
-
 ## Resonance Skill: Deduction
 
 Attack the target, dealing Electro DMG.
-
----
 
 ## Resonance Liberation: Cogitation Model
 
@@ -35,8 +31,6 @@ Attack the target, dealing Electro DMG. Enter Intuition. When in Intuition:
 - Resonance Skill Deduction is replaced with Resonance Skill Divergence, which deals Electro DMG.
 
 - Dodge Counter is replaced with Dodge Counter Unfathomed, considered as Resonance Liberation DMG.
-
----
 
 ## Forte Circuit: Forever Seeking
 
@@ -80,7 +74,13 @@ When in Intuition triggered by Resonance Liberation:
 
 - Obtain 2 Performance Capacity for every Dodge Counter Unfathomed on hit.
 
----
+## Intro Skill: Principle
+
+Attack the target, dealing Electro DMG.
+
+## Outro Skill: Chain Rule
+
+Xiangli Yao will call down a laser beam upon the first target the incoming Resonator's Basic Attack hits, dealing Electro DMG equal to 237.63% of Xiangli Yao's ATK to an area. This effect lasts for 8s and can be triggered once every 2s, up to 3 times.
 
 ## Inherent Skills
 
@@ -91,15 +91,3 @@ Gain 5% Electro DMG Bonus after casting Resonance Skill for 8s, stackable for up
 ### Focus
 
 When in Intuition triggered by Resonance Liberation, Xiangli Yao's resistance to interruption is enhanced.
-
----
-
-## Intro Skill: Principle
-
-Attack the target, dealing Electro DMG.
-
----
-
-## Outro Skill: Chain Rule
-
-Xiangli Yao will call down a laser beam upon the first target the incoming Resonator's Basic Attack hits, dealing Electro DMG equal to 237.63% of Xiangli Yao's ATK to an area. This effect lasts for 8s and can be triggered once every 2s, up to 3 times.

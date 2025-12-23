@@ -42,8 +42,6 @@ Press Normal Attack after Mid-air Attack Stage 2 to cast Basic Attack Stage 4.
 
 Follow up successful Dodges with Basic Attack to attack the target, dealing Aero DMG.
 
----
-
 ## Resonance Skill: Harmonic Allegro
 
 Move a certain distance, dealing Aero DMG and inflicting 1 stack of Aero Erosion on the target upon hit.
@@ -53,8 +51,6 @@ Press Normal Attack in time to cast Basic Attack Stage 2.
 - When Ciaccona interrupts Basic Attack, Heavy Attack, Mid-air Attack, or Solo Concert with Resonance Skill, an Ensemble Sylph is generated.
 
 - Ciaccona's Resonance Skill can be cast in mid-air.
-
----
 
 ## Resonance Liberation: Singer's Triple Cadenza
 
@@ -80,8 +76,6 @@ During Recital:
 
 - Yellow Tonic: Deal Aero DMG to nearby targets and inflict a stack of Spectro Frazzle on targets hit.
 
----
-
 ## Forte Circuit: Symphony of Wind and Verse
 
 **Heavy Attack - Quadruple Downbeat**
@@ -98,7 +92,15 @@ Ciaccona can hold up to 3 segments of Musical Essence.
 
 Casting Basic Attack Stage 4 or Intro Skill recovers 1 segment of Musical Essence.
 
----
+## Intro Skill: Roaming with the Wind
+
+Attack the target to deal Aero DMG and inflict a stack of Aero Erosion.
+
+Follow up with Basic Attack in time to cast Basic Attack Stage 3.
+
+## Outro Skill: Windcalling Tune
+
+Aero Erosion DMG dealt to targets near the active Resonator is Amplified by 100% for 30s.
 
 ## Inherent Skills
 
@@ -109,17 +111,3 @@ Casting Resonance Liberation Singer's Triple Cadenza grants Ciaccona a Shield eq
 ### Winds of Rinascita
 
 Increase Heavy Attack - Quadruple Downbeat's DMG by 30%.
-
----
-
-## Intro Skill: Roaming with the Wind
-
-Attack the target to deal Aero DMG and inflict a stack of Aero Erosion.
-
-Follow up with Basic Attack in time to cast Basic Attack Stage 3.
-
----
-
-## Outro Skill: Windcalling Tune
-
-Aero Erosion DMG dealt to targets near the active Resonator is Amplified by 100% for 30s.

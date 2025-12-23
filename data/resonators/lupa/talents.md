@@ -50,8 +50,6 @@ Attack the target, dealing Fusion DMG.
 
 Press Normal Attack after a successful Dodge to attack the target, dealing Fusion DMG.
 
----
-
 ## Resonance Skill: Shewolf's Hunt
 
 Lupa hurls her Wildfire Banner at the target, dealing Fusion DMG and restoring 15 points of Wolflame. Mark the target for 8s. After performing Resonance Skill Shewolf's Hunt, Lupa can perform Feral Fang within a certain period of time.
@@ -65,8 +63,6 @@ Hold Resonance Skill to leap into the air, then press Normal Attack in time to c
 Lupa locks onto a target, dealing Fusion DMG and restoring 15 points of Wolflame. The DMG Multiplier to marked targets is increased by 50%. Resonance Skill - Feral Fang enters cooldown if not cast in time or when Lupa is switched out.
 
 Can be performed in mid-air close to the ground.
-
----
 
 ## Resonance Liberation: Fire-Kissed Glory
 
@@ -93,8 +89,6 @@ Consume all Wolflame to perform Foebreaker, dealing Fusion DMG and entering Burn
 **Burning Matchpoint**
 
 Normal Attacks restore 500% more Wolflame on hit. Cannot perform Resonance Skill Shewolf's Hunt and Resonance Skill Feral Fang in this state.
-
----
 
 ## Forte Circuit: Ignis Lupa
 
@@ -144,7 +138,17 @@ Lupa can hold up to 100 points of Wolflame.
 
 - Restore 1 point of Wolfaith when casting Heavy Attack - Wolf's Gnawing, Heavy Attack - Wolf's Claw, or Mid-air Attack - Firestrike.
 
----
+## Intro Skill: Try Focusing, Eh?
+
+Attack the target, dealing Fusion DMG. Press Normal Attack following Intro Skill Try Focusing, Eh? to cast Mid-air Attack Stage 3.
+
+**Nowhere to Run!**
+
+When Lupa enters the Wild Hunt state, her next Intro Skill is replaced with Nowhere to Run!. Casting Nowhere to Run! removes the Pack Hunt and Glory effects on all Resonators in the team, dealing Fusion DMG (considered Resonance Liberation DMG).
+
+## Outro Skill: Stand by Me, Warrior
+
+The incoming Resonator will have their Fusion DMG Amplified by 20% and Basic Attack DMG Amplified by 25% for 14s or until the Resonator is switched out.
 
 ## Inherent Skills
 
@@ -163,19 +167,3 @@ Defeating a marked target resets the cooldown of Resonance Skill Shewolf's Hunt.
 Casting Resonance Liberation Fire-Kissed Glory grants Glory. Within 35s:
 
 Attacks of all Resonators in the team ignore 3% of the target's Fusion RES. For each Fusion Resonator in the team other than Lupa, this effect increases by 3%, up to the maximum of 9%. When there are 3 Fusion Resonators in the team, Resonators' attacks further ignore 6% Fusion RES.
-
----
-
-## Intro Skill: Try Focusing, Eh?
-
-Attack the target, dealing Fusion DMG. Press Normal Attack following Intro Skill Try Focusing, Eh? to cast Mid-air Attack Stage 3.
-
-**Nowhere to Run!**
-
-When Lupa enters the Wild Hunt state, her next Intro Skill is replaced with Nowhere to Run!. Casting Nowhere to Run! removes the Pack Hunt and Glory effects on all Resonators in the team, dealing Fusion DMG (considered Resonance Liberation DMG).
-
----
-
-## Outro Skill: Stand by Me, Warrior
-
-The incoming Resonator will have their Fusion DMG Amplified by 20% and Basic Attack DMG Amplified by 25% for 14s or until the Resonator is switched out.

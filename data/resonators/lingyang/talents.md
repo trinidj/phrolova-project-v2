@@ -20,8 +20,6 @@ Consume Stamina to perform a Mid-air Plunging Attack, dealing Glacio damage.
 
 Use a Basic Attack after a successful Dodge to attack the target, dealing Glacio damage.
 
----
-
 ## Resonance Skill: Ancient Arts
 
 **Ancient Arts**
@@ -34,8 +32,6 @@ When Basic Attacks III, IV, or V or Basic Attack Feral Roars hits the target, Re
 
 Lingyang's Resonance Skill will not reset his Basic Attack stage.
 
----
-
 ## Resonance Liberation: Strive: Lion's Vigor
 
 Attack the target, dealing Glacio damage, and receive the blessing of Lion's Vigor, which lasts for 14 seconds.
@@ -43,8 +39,6 @@ Attack the target, dealing Glacio damage, and receive the blessing of Lion's Vig
 **Lion's Vigor**
 
 Lingyang's Glacio DMG Bonus is increased by 50%.
-
----
 
 ## Forte Circuit: Unification of Spirits
 
@@ -68,7 +62,13 @@ Lingyang's Basic Attack is replaced with Basic Attack Feral Gyrate, which perfor
 
 Lingyang can hold up to 100 Lion's Spirit. When casting Resonance Skill Furious Punches, Lion's Spirit is restored. When casting Intro Skill Lion Awakens, Lion's Spirit is restored. When casting Resonance Liberation Strive: Lion's Vigor, Lion's Spirit is restored.
 
----
+## Intro Skill: Lion Awakens
+
+Lingyang appears and deals Glacio damage.
+
+## Outro Skill: Frosty Marks
+
+Lingyang releases a shock wave centered on the skill target, dealing Glacio DMG equal to 587.94% of Lingyang's ATK to targets within the range.
 
 ## Inherent Skills
 
@@ -79,15 +79,3 @@ The damage of the Intro Skill Lion Awakens is increased by 50%.
 ### Diligent Practice
 
 Under the Striding Lion state, within 3s after each Basic Attack, the next Mountain Roamer will deal an additional Glacio damage, equal to 150% of Mountain Roamer damage, considered as Resonance Skill damage.
-
----
-
-## Intro Skill: Lion Awakens
-
-Lingyang appears and deals Glacio damage.
-
----
-
-## Outro Skill: Frosty Marks
-
-Lingyang releases a shock wave centered on the skill target, dealing Glacio DMG equal to 587.94% of Lingyang's ATK to targets within the range.

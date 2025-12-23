@@ -31,8 +31,6 @@ Flip over the target and deliver a surprise shot, dealing Glacio DMG.
 
 Press Normal Attack shortly after a successful Dodge to deliver a riposte shot, dealing Glacio DMG. This consumes 1 Moldable Crystals.
 
----
-
 ## Resonance Skill: Art of Violence
 
 Deal Glacio DMG and inflict Dispersion on the target. Press Resonance Skill again shortly after to cast Chromatic Splendor.
@@ -46,8 +44,6 @@ Targets with Dispersion are immobilized for 1.5s.
 Consume all Moldable Crystals and deal Glacio DMG.
 
 The Resonance Skill enters cooldown after a while if Chromatic Splendor is not cast or Carlotta is switched off the field.
-
----
 
 ## Resonance Liberation: Era of New Wave
 
@@ -82,8 +78,6 @@ Carlotta fires powerful shots with her musket and summons 4 crystal shards to at
 Deal Glacio DMG to an area, considered Resonance Skill DMG.
 
 - Twilight Tango ends after casting Fatal Finale.
-
----
 
 ## Forte Circuit: Lethal Repertoire
 
@@ -121,7 +115,13 @@ Restore 3 Moldable Crystal(s) upon casting Intro Skill Wintertime Aria.
 Restore 3 Moldable Crystal(s) upon casting Resonance Skill Art of Violence.
 Restore 3 Moldable Crystal(s) upon a successful Dodge.
 
----
+## Intro Skill: Wintertime Aria
+
+Attack the target, dealing Glacio DMG.
+
+## Outro Skill: Closing Remark
+
+Attack the target, dealing Glacio DMG equal to 794.2% of Carlotta's ATK.
 
 ## Inherent Skills
 
@@ -134,15 +134,3 @@ When Carlotta is on the team, the active Resonator's Flight STA cost is reduced 
 ### Ars Gratia Artis
 
 Intro Skill Wintertime Aria, Resonance Skill Chromatic Splendor, Resonance Liberation Death Knell, and Heavy Attack Imminent Oblivion can inflict Deconstruction.
-
----
-
-## Intro Skill: Wintertime Aria
-
-Attack the target, dealing Glacio DMG.
-
----
-
-## Outro Skill: Closing Remark
-
-Attack the target, dealing Glacio DMG equal to 794.2% of Carlotta's ATK.

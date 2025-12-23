@@ -16,8 +16,6 @@ Aalto consumes Stamina to perform consecutive shots at the target in mid-air, de
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG.
 
----
-
 ## Resonance Skill: Shift Trick
 
 **Mist Avatar**
@@ -28,13 +26,9 @@ Casts "Mist" and 1 "Mist Avatar(s)" to taunt the surrounding targets. The avatar
 
 Deals Aero DMG, considered as Resonance Skill damage.
 
----
-
 ## Resonance Liberation: Flower in the Mist
 
 Generate a "Gate of Quandary" in front of you dealing Aero DMG. When bullets pass through the "Gate of Quandary", ATK is increased. "Gate of Quandary" lasts for 10s.
-
----
 
 ## Forte Circuit: Misty Cover
 
@@ -48,7 +42,13 @@ Movement speed increased; During this period, "Mist Drops" are continuously cons
 
 Aalto can hold up to 6 Mist Drops. When Basic Attack or Mid-air Attack passes through "Mist" and hits the target, 1 "Mist Drop" is recovered.
 
----
+## Intro Skill: Feint Shot
+
+Aalto suddenly appears and performs rapid continuous shooting, dealing Aero DMG.
+
+## Outro Skill: Dissolving Mist
+
+The next character (or other characters on a nearby team that activates an Outro Skill) gains 23% Aero DMG Deepen for 14 seconds or until the Character is switched.
 
 ## Inherent Skills
 
@@ -59,15 +59,3 @@ Aalto's Heavy Attack will always critically hit, triggered once every 30 seconds
 ### Mid-game Break
 
 Aalto will continuously recover Stamina when he is in the Forte Circuit Miscloak Dash state.
-
----
-
-## Intro Skill: Feint Shot
-
-Aalto suddenly appears and performs rapid continuous shooting, dealing Aero DMG.
-
----
-
-## Outro Skill: Dissolving Mist
-
-The next character (or other characters on a nearby team that activates an Outro Skill) gains 23% Aero DMG Deepen for 14 seconds or until the Character is switched.

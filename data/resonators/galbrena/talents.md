@@ -26,8 +26,6 @@ Press Normal Attack right after casting Plunging Attack to cast Basic Attack Sta
 
 Press Normal Attack right after a successful Dodge to attack the target, dealing Fusion DMG, considered as Heavy Attack DMG. Press Normal Attack right after casting this skill to cast Basic Attack Stage 4.
 
----
-
 ## Resonance Skill: Edge Transcended
 
 **Resonance Skill - Encroach**
@@ -46,8 +44,6 @@ Slash at enemies with her wings, dealing Fusion DMG, considered Heavy Attack DMG
 
 - Can be followed by Basic Attack - Seraphic Execution Stage 2.
 
----
-
 ## Resonance Liberation: Hellfire Absolution
 
 Attack the target and deal Fusion DMG, considered Echo Skill DMG.
@@ -57,8 +53,6 @@ Gain 85% DMG Multiplier increase for Basic Attack - Seraphic Execution, Heavy At
 Press Normal Attack after casting Resonance Liberation to cast Basic Atttack Stage 2. While in Demon Hypostasis, cast Basic Attack - Seraphic Execution Stage 2 instead.
 
 Can be cast in mid-air close to the ground.
-
----
 
 ## Forte Circuit: Beyond Threshold
 
@@ -132,7 +126,17 @@ Galbrena can hold up to 100 points of Sinflame.
 
 While in Threshold State, hitting an enemy with Basic Attack, Heavy Attack - Volley of Death, Mid-air Attack - Ashfall Barrage, Resonance Skill - Encroach, and Intro Skill - Hellflare Overload recovers Sinflame.
 
----
+## Intro Skill: Hellflare Overload
+
+Attack the target and deal Fusion DMG.
+
+Hold Normal Attack after casting this skill to cast Heavy Attack - Volley of Death Stage 2. While in Demon Hypostasis, cast Heavy Attack - Flamewing Verdict Stage 2 instead.
+
+Press Normal Attack right after casting this skill to perform Basic Attack Stage 2, which is replaced with Basic Attack - Seraphic Execution Stage 2 if Galbrena is in Demon Hypostasis.
+
+## Outro Skill: Ashen Pursuit
+
+Attack the target, dealing Fusion DMG equal to 79.5%*3+556.5% of Galbrena's ATK.
 
 ## Inherent Skills
 
@@ -147,19 +151,3 @@ Resonance Skill - Encroach and Resonance Skill - Ravage are considered the same 
 ### Sin Feaster
 
 Casting Basic Attack Stage 4, Basic Attack - Seraphic Execution Stage 5, Heavy Attack - Volley of Death Stage 3, and Heavy Attack - Flamewing Verdict Stage 3 recovers 10 points of STA.
-
----
-
-## Intro Skill: Hellflare Overload
-
-Attack the target and deal Fusion DMG.
-
-Hold Normal Attack after casting this skill to cast Heavy Attack - Volley of Death Stage 2. While in Demon Hypostasis, cast Heavy Attack - Flamewing Verdict Stage 2 instead.
-
-Press Normal Attack right after casting this skill to perform Basic Attack Stage 2, which is replaced with Basic Attack - Seraphic Execution Stage 2 if Galbrena is in Demon Hypostasis.
-
----
-
-## Outro Skill: Ashen Pursuit
-
-Attack the target, dealing Fusion DMG equal to 79.5%*3+556.5% of Galbrena's ATK.

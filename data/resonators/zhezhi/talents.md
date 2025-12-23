@@ -18,8 +18,6 @@ Consume STA to perform up to 2 consecutive attacks while in mid-air, dealing Gla
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Glacio DMG.
 
----
-
 ## Resonance Skill: Manifestation
 
 Deal Glacio DMG. If Afflatus is no less than 60, consume 60 Afflatus to summon Phantasmic Imprint - Left and Phantasmic Imprint - Right.
@@ -27,8 +25,6 @@ Deal Glacio DMG. If Afflatus is no less than 60, consume 60 Afflatus to summon P
 - Press the button on the ground to summon the Phantasmic Imprints on the ground.
 
 - Hold the button on the ground or press the button in mid-air to summon the Phantasmic Imprints in mid-air.
-
----
 
 ## Resonance Liberation: Living Canvas
 
@@ -45,8 +41,6 @@ When the active Resonator deals DMG, an Inklit Spirit will be summoned to perfor
 - Up to 1 Inklit Spirit can be summoned every second, and up to 21 in total.
 
 - This effect lasts for 30s, or until max Inklit Spirits are summoned.
-
----
 
 ## Forte Circuit: Ink and Wash
 
@@ -96,7 +90,13 @@ When a Phantasmic Imprint is nearby and there are 2 stacks of Painter's Delight,
 
 - Casting Intro Skill grants Afflatus.
 
----
+## Intro Skill: Radiant Ruin
+
+Attack the target, dealing Glacio DMG.
+
+## Outro Skill: Carve and Draw
+
+The incoming Resonator has their Glacio DMG Amplified by 20% and Resonance Skill DMG Amplified by 25% for 14s or until they are switched out.
 
 ## Inherent Skills
 
@@ -107,15 +107,3 @@ When casting Resonance Skill Stroke of Genius or Resonance Skill Creation's Zeni
 ### Flourish
 
 After Outro Skill is cast, restore 15 Resonance Energy for the incoming Resonator.
-
----
-
-## Intro Skill: Radiant Ruin
-
-Attack the target, dealing Glacio DMG.
-
----
-
-## Outro Skill: Carve and Draw
-
-The incoming Resonator has their Glacio DMG Amplified by 20% and Resonance Skill DMG Amplified by 25% for 14s or until they are switched out.

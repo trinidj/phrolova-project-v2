@@ -20,13 +20,9 @@ Hold Basic Attack to consume Stamina and perform mid-air Plunging Attack, dealin
 
 Use Basic Attack after a successful Dodge, to attack the target, dealing Spectro DMG.
 
----
-
 ## Resonance Skill: Botany Experiment
 
 Verina converges an energy field in front to grow foliage, dealing Spectro DMG within the range.
-
----
 
 ## Resonance Liberation: Arboreal Flourish
 
@@ -35,8 +31,6 @@ Verina nourishes nearby foliage at rapid speed, dealing Spectro DMG while restor
 **Photosynthesis Mark**
 
 Whenever a team member nearby performs an attack on targets with a Photosynthesis Mark, Verina performs a Coordinated Attack, dealing Spectro DMG while restoring HP to the party members dealing damage, triggered once per second.
-
----
 
 ## Forte Circuit: Starflower Blooms
 
@@ -52,7 +46,13 @@ When casting Mid-air Attack, if Verina carries "Photosynthesis Energy", Verina c
 
 Verina can hold up to 4 "Photosynthesis Energy". Verina obtains 1 stack of "Photosynthesis Energy" for every Basic Attack V on hit; Verina obtains 1 stack of "Photosynthesis Energy" for every Resonance Skill Botany Experiment on hit; Verina obtains 1 stack of "Photosynthesis Energy" for every Intro Skill Verdant Growth on hit.
 
----
+## Intro Skill: Verdant Growth
+
+Verina attacks the target, dealing Spectro DMG.
+
+## Outro Skill: Blossom
+
+Verina recovers HP to The next character (or other characters on a nearby team that activates an Outro Skill) equal to 19% of her ATK per second for 6s. All Characters on nearby teams gain 15% all-Type DMG Deepen for 30s.
 
 ## Inherent Skills
 
@@ -63,15 +63,3 @@ Verina protects a party member from fatal damage and grants a shield with streng
 ### Gift of Nature
 
 When Verina casts Heavy Attack Starflower Blooms, Mid-air Attack Starflower Blooms, Resonance Liberation Arboreal Flourish or Outro Skill Blossom, ATK for all party members is increased by 20% for 20s.
-
----
-
-## Intro Skill: Verdant Growth
-
-Verina attacks the target, dealing Spectro DMG.
-
----
-
-## Outro Skill: Blossom
-
-Verina recovers HP to The next character (or other characters on a nearby team that activates an Outro Skill) equal to 19% of her ATK per second for 6s. All Characters on nearby teams gain 15% all-Type DMG Deepen for 30s.

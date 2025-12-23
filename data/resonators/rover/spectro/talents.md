@@ -28,13 +28,9 @@ Use Basic Attack after a successful Dodge to attack the target, dealing Spectro 
 
 Rover launches an attack forward, dealing Spectro DMG.
 
----
-
 ## Resonance Liberation: Echoing Orchestra
 
 Channel Spectro energy to attack the target area, causing a blast after a short delay, dealing Spectro DMG and applying 6 stack(s) of Spectro Frazzle.
-
----
 
 ## Forte Circuit: World in a Grain of Sand
 
@@ -54,7 +50,13 @@ After Resonance Skill Resonating Spin ends, Rover performs Resonance Skill Reson
 
 Rover can hold up to 100 "Diminutive Sounds". Rover obtains "Diminutive Sound" for every Normal Attack Vibration Manifestation on hit. Rover obtains "Diminutive Sound" for every Heavy Attack aftertune on hit. Rover obtains "Diminutive Sound" upon casting Intro Skill Waveshock.
 
----
+## Intro Skill: Waveshock
+
+Rover attacks the target, dealing Spectro DMG.
+
+## Outro Skill: Instant
+
+Rover generates an area of stasis surrounding the next character (or other characters on a nearby team that activates an Outro Skill) over 3s.
 
 ## Inherent Skills
 
@@ -65,15 +67,3 @@ Damage dealt by Rover's Resonance Skill Resonating Echoes is increased by 60%.
 ### Silent Listener
 
 Rover's ATK is increased by 15% for 5s upon casting Heavy Attack Resonance.
-
----
-
-## Intro Skill: Waveshock
-
-Rover attacks the target, dealing Spectro DMG.
-
----
-
-## Outro Skill: Instant
-
-Rover generates an area of stasis surrounding the next character (or other characters on a nearby team that activates an Outro Skill) over 3s.

@@ -18,8 +18,6 @@ Press Normal Attack right after a successful Dodge to attack the target, dealing
 
 Moments after a Basic Attack or Heavy Attack, Qiuyuan becomes immune to the next instance of DMG he takes and casts Dodge Counter upon being attacked, dealing Aero DMG.
 
----
-
 ## Resonance Skill: Through the Groves
 
 Press Resonance Skill to dash forward for a distance, dealing Aero DMG, considered as Echo Skill DMG. If Resonance Skill is cast upon being attacked by an enemy target, Qiuyuan becomes immune to this instance of DMG and stagnates nearby enemies, while gaining immunity to interruption during this Resonance Skill.
@@ -32,15 +30,11 @@ Hold Resonance Skill to dash forward for a distance at the cost of STA, dealing 
 
 If there are no targets nearby, Qiuyuan will leap up and dash through the air by continuously consuming STA until it runs out. Release Resonance Skill to immediately end the dash and land. If there are targets nearby when Qiuyuan lands, deal Aero DMG to nearby targets, considered as Echo Skill DMG. This skill can be cast in mid-air.
 
----
-
 ## Resonance Liberation: Sundering Strike
 
 Deal Aero DMG to targets within range, considered as Echo Skill DMG.
 
 For every 1% of Qiuyuan's Crit. Rate over 50%, this skill increases the Crit. DMG of all nearby active Resonators in the team by 2% for 30s, up to 30%.
-
----
 
 ## Forte Circuit: Rhapsody of a New World
 
@@ -78,7 +72,17 @@ Qiuyuan can hold up to 600 points of Swordster's Soliloquy.
 
 - Swordster's Soliloquy is cleared when the Inksplash of Mind state ends.
 
----
+## Intro Skill: Attack the Must-Defend
+
+Attack the target, dealing Aero DMG, considered as Heavy Attack DMG.
+
+Within a certain period of time after casting this skill, press Normal Attack to perform Basic Attack Thus Spoke the Blade: Inkwash Stage 3.
+
+## Outro Skill: Strike Before Ready
+
+Attack the target, dealing Aero DMG equal to 100% of Qiuyuan's ATK, considered as Echo Skill DMG.
+
+Grant 50% Echo Skill DMG Amplification to the incoming Resonator, lasting for 14s or until the Resonator is switched out.
 
 ## Inherent Skills
 
@@ -95,18 +99,3 @@ This effect ends early when Qiuyuan is switched off the field.
 When casting Echo Skill, Qiuyuan's bamboo flask absorbs the overflowing energy and brews it into Flowing Panacea.
 
 The next time Swordster's Soliloquy is obtained, the Flowing Panacea is consumed to gain 10% ATK increase for 20s.
----
-
-## Intro Skill: Attack the Must-Defend
-
-Attack the target, dealing Aero DMG, considered as Heavy Attack DMG.
-
-Within a certain period of time after casting this skill, press Normal Attack to perform Basic Attack Thus Spoke the Blade: Inkwash Stage 3.
-
----
-
-## Outro Skill: Strike Before Ready
-
-Attack the target, dealing Aero DMG equal to 100% of Qiuyuan's ATK, considered as Echo Skill DMG.
-
-Grant 50% Echo Skill DMG Amplification to the incoming Resonator, lasting for 14s or until the Resonator is switched out.

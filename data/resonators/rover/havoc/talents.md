@@ -20,13 +20,9 @@ Use Basic Attack after a successful Dodge to attack the target, dealing Havoc DM
 
 Transforms sound into feathers, dealing Havoc DMG.
 
----
-
 ## Resonance Liberation: Deadening Abyss
 
 Gather the echoes between Rover's palms to attack a target, dealing Havoc DMG.
-
----
 
 ## Forte Circuit: Umbra Eclipse
 
@@ -52,7 +48,13 @@ Rover can hold up to 100 points of Umbra.
 
 Normal Attack Tuneslayer recovers Umbra on hit. Resonance Skill Wingblade recovers Umbra when cast. Resonance Skill Lifetaker recovers Umbra when cast. Intro Skill Instant of Annihilation recovers Umbra when cast.
 
----
+## Intro Skill: Instant of Annihilation
+
+Attack the target, dealing Havoc DMG.
+
+## Outro Skill: Soundweaver
+
+Summons a Havoc Field to attack a target, dealing 143.3% Havoc DMG to targets within range every 2s for 6s.
 
 ## Inherent Skills
 
@@ -63,15 +65,3 @@ In the Dark Surge state, Havoc DMG Bonus is increased by 20%.
 ### Bleak Crescendo
 
 While in the Dark Surge state, Basic Attack recovers 1 Resonance Energy when it hits a target, and this effect can be triggered once per second.
-
----
-
-## Intro Skill: Instant of Annihilation
-
-Attack the target, dealing Havoc DMG.
-
----
-
-## Outro Skill: Soundweaver
-
-Summons a Havoc Field to attack a target, dealing 143.3% Havoc DMG to targets within range every 2s for 6s.

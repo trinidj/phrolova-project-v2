@@ -28,8 +28,6 @@ Press Normal Attack shortly after a successful Dodge to attack the target with M
 
 - Can be cast in mid-air.
 
----
-
 ## Resonance Skill: Foresight Fugue
 
 **Pulse of Origins**
@@ -56,15 +54,11 @@ Unfinished Refrain shares the same Cooldown as Closing Refrain.
 
 - Directional input can be used to extend the travel distance. If Iuno is hit or launched into mid-air, casting Arc Beyond the Edge immediately makes her recover from the attack. Can be cast in mid-air.
 
----
-
 ## Resonance Liberation: Beneath Lunar Tides
 
 Deal Aero DMG and activate the Lunar Cycle state.
 
 Can be cast in mid-air.
-
----
 
 ## Forte Circuit: Ebb and Flow
 
@@ -126,7 +120,15 @@ The receiving Resonator gains 4% all DMG Amplification for 10s, stacking up to 1
 
 - When Iuno is in Lunar Cycle, Moonring - Basic Attack, Moonring - Dodge Counter, and Mid-air Attack restore Sentience on hit.
 
----
+## Intro Skill: Illuminated Manifestation
+
+Deal Aero DMG.
+
+## Outro Skill: From Gloom to Gleam
+
+Attack the target to deal 100% Aero DMG. The incoming Resonator gains 50% Heavy Attack DMG Amplification for 14s. This effect ends early if they are switched off the field.
+
+Casting Outro Skill won't interrupt Heavy Attack - Absolute Fullness, and the Outro Skill effect still applies.
 
 ## Inherent Skills
 
@@ -137,17 +139,3 @@ Every time Iuno casts Basic Attack, Heavy Attack, Dodge Counter, Resonance Skill
 ### Derivation
 
 When Iuno casts Intro Skill or Resonance Liberation, she immediately gains 5 stacks of Blessing of the Wan Light.
-
----
-
-## Intro Skill: Illuminated Manifestation
-
-Deal Aero DMG.
-
----
-
-## Outro Skill: From Gloom to Gleam
-
-Attack the target to deal 100% Aero DMG. The incoming Resonator gains 50% Heavy Attack DMG Amplification for 14s. This effect ends early if they are switched off the field.
-
-Casting Outro Skill won't interrupt Heavy Attack - Absolute Fullness, and the Outro Skill effect still applies.

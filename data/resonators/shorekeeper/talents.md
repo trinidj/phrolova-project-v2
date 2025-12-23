@@ -22,15 +22,11 @@ Consume STA to perform a Plunging Attack. Each hit generates 1 Collapsed Core. Q
 
 Press the Normal Attack Button after a successful Dodge to attack a target, dealing Spectro DMG.
 
----
-
 ## Resonance Skill: Chaos Theory
 
 Restore HP for all nearby party members and summon 5 Dim Star Butterflies, which automatically track and attack a target, dealing Spectro DMG. Follow up with Basic Attack in time to start the Basic Attack cycle from Stage 2.
 
 Can be performed in mid-air.
-
----
 
 ## Resonance Liberation: End Loop
 
@@ -49,8 +45,6 @@ When a party member uses Intro Skill within the Inner Stellarealm, it evolves in
 Supernal Stellarealm has all the effects of the Inner Stellarealm.
 
 When Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. This effect takes place once each time a Supernal Stellarealm is generated.
-
----
 
 ## Forte Circuit: Astral Chord
 
@@ -78,20 +72,6 @@ Shorekeeper can hold up to 5 segments of Empirical Data.
 
 - Obtain 1 segment of Empirical Data when Dodge Counter hits a target.
 
----
-
-## Inherent Skills
-
-### Life Entwined
-
-When a Resonator other than Shorekeeper takes a fatal blow, they will not be knocked out and will instead be healed for 50% of Shorekeeper's HP while Shorekeeper loses the same amount of HP. Shorekeeper's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.
-
-### Self Gravitation
-
-When the Resonator on the field is within the effective range of a Stellarealm, Shorekeeper's Energy Regen increases by 10%. If Rover is on the same team, Rover's Energy Regen also increases by 10%.
-
----
-
 ## Intro Skill: Proof of Existence
 
 **Enlightenment**
@@ -102,8 +82,6 @@ Shorekeeper appears to restore HP for all nearby party members and summon 5 Dim 
 
 When a Supernal Stellarealm is generated, Shorekeeper's first Intro Skill triggered in its duration will be replaced with Intro Skill Discernment. Casting Discernment ends the current Stellarealm, restores HP for all nearby party members, and deals Spectro DMG to the targets. This attack is guaranteed to be a Critical Hit dealing Resonance Liberation DMG. The Intro Skill Discernment can only be cast one time for each Supernal Stellarealm generated.
 
----
-
 ## Outro Skill: Binary Butterfly
 
 Shorekeeper summons 1 Flare Star Butterfly and 1 Dim Star Butterfly to circle the Resonator on the field for up to 30s, granting the following effects:
@@ -111,3 +89,13 @@ Shorekeeper summons 1 Flare Star Butterfly and 1 Dim Star Butterfly to circle th
 - If the Resonator on the field is hit or launched, tapping the Dodge Button allows the Resonator to immediately recover from the interruption, triggering a successful Dodge. The Resonator launched in the air can land on the ground standing if they are close to the ground. This effect can be triggered up to 5 time(s).
 
 - All nearby party members' DMG is Amplified by 15%.
+
+## Inherent Skills
+
+### Life Entwined
+
+When a Resonator other than Shorekeeper takes a fatal blow, they will not be knocked out and will instead be healed for 50% of Shorekeeper's HP while Shorekeeper loses the same amount of HP. Shorekeeper's HP will not go below 1 from this effect. This effect can be triggered once every 10 minutes.
+
+### Self Gravitation
+
+When the Resonator on the field is within the effective range of a Stellarealm, Shorekeeper's Energy Regen increases by 10%. If Rover is on the same team, Rover's Energy Regen also increases by 10%.

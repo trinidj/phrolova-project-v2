@@ -78,8 +78,6 @@ Hold Dodge after a successful Dodge on the ground to cast Dodge Counter - Eye of
 
 - While in Chainsaw Mode, press Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 3.
 
----
-
 ## Resonance Skill: Fractured Composition
 
 **Eye of Unraveling**
@@ -102,8 +100,6 @@ Press Normal Attack shortly after casting this skill to cast Sawring - Blitz Sta
 
 Hold Resonance Skill while casting this skill to continuously attack and pull in nearby targets. Release the Resonance Skill button in the duration or keep holding it for a certain period of time to cast Sawring - Blitz Stage 1.
 
----
-
 ## Resonance Liberation: Moment of Nihility
 
 Deal Havoc DMG and recover HP for all nearby Resonators in the team.
@@ -121,8 +117,6 @@ Can be cast in mid-air close to the ground.
 - The bonus DMG Multiplier for Sawring - Eradication granted by Sawring- Blitz and Chainsaw Mode - Dodge Counter when Ring of Chainsaw is consumed additionally increases by 120%.
 
 - Casting Sawring - Eradication ends Woven Myriad - Convergence.
-
----
 
 ## Forte Circuit: Sight of Unraveling - Oblivion
 
@@ -248,7 +242,23 @@ Exiting Chainsaw Mode resets Lifethread - Jetstream to the max limit.
 
 Chisa cannot obtain Lifethread - Jetstream passively for a short period of time after casting Lifethread - Glide.
 
----
+## Intro Skill: Reverberance - Return
+
+Attack the target, dealing Havoc DMG.
+
+While not in Chainsaw Mode, press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.
+
+While in Chainsaw Mode, use Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 2.
+
+## Outro Skill: Unraveling - Law Zero
+
+Grant Resonant Thread of Closure to all nearby Resonators in the team for 20s.
+
+While in Resonant Thread of Closure:
+
+- When an attack hits, increase the max stacks of Negative Status and Electro Rage the target can receive by 3 for 15s. Unstackable.
+
+- Inflicting Negative Status or dealing Negative Status DMG grants Thread of Bane for 15s.
 
 ## Inherent Skills
 
@@ -263,25 +273,3 @@ Casting Intro Skill Reverberance - Return or Resonance Liberation Moment of Nihi
 When Resonators in the team with Thread of Bane defeat a target marked by Unseen Snare, Chisa gains Sight of Unraveling, lasting 3s.
 
 While in Sight of Unraveling, Chisa inflicts Unseen Snare that lasts for 30s on the targets damaged by Resonators in the team with Thread of Bane.
-
----
-
-## Intro Skill: Reverberance - Return
-
-Attack the target, dealing Havoc DMG.
-
-While not in Chainsaw Mode, press Normal Attack shortly after casting this skill to cast Basic Attack Stage 2.
-
-While in Chainsaw Mode, use Normal Attack shortly after casting this skill to cast Sawring - Blitz Stage 2.
-
----
-
-## Outro Skill: Unraveling - Law Zero
-
-Grant Resonant Thread of Closure to all nearby Resonators in the team for 20s.
-
-While in Resonant Thread of Closure:
-
-- When an attack hits, increase the max stacks of Negative Status and Electro Rage the target can receive by 3 for 15s. Unstackable.
-
-- Inflicting Negative Status or dealing Negative Status DMG grants Thread of Bane for 15s.

@@ -34,15 +34,11 @@ Jump up into the mid-air and slash the target, dealing Aero DMG. Skyfall Severan
 
 While in mid-air, press Resonance Skill to deal Aero DMG, which removes all stacks of Spectro Frazzle, Havoc Bane, Fusion Burst, Glacio Chafe, and Electro Flare from the target hit and inflicts 1 stack of Aero Erosion for each stack removed.
 
----
-
 ## Resonance Liberation: Omega Storm
 
 Unleash the power of the Eye of Tempest, dealing Aero DMG and healing all nearby Resonators in the team.
 
 Can be cast in mid-air close to the ground.
-
----
 
 ## Forte Circuit: Cycle of Wind
 
@@ -74,7 +70,15 @@ Switching to another Resonator after Stage 1 automatically triggers Stage 2 of t
 
 - Hitting a target with Basic Attack Stage 3 or 4 or Dodge Counter restores 10 Windstrings.
 
----
+## Intro Skill: Relentless Squall
+
+Deal Aero DMG.
+
+## Outro Skill: Storm's Echo
+
+Grant Aeolian Realm to all nearby Resonators in the team for 30s. Aeolian Realm effect:
+
+- Upon hitting a target, increase the maximum stack of Aero Erosion the target can receive by 3 for 10s. This effect is not stackable.
 
 ## Inherent Skills
 
@@ -85,17 +89,3 @@ Casting Intro Skill Relentless Squall increases ATK by 20% for 10s.
 ### Boundless Winds
 
 Increase Healing from Resonance Liberation Omega Storm by 20%.
-
----
-
-## Intro Skill: Relentless Squall
-
-Deal Aero DMG.
-
----
-
-## Outro Skill: Storm's Echo
-
-Grant Aeolian Realm to all nearby Resonators in the team for 30s. Aeolian Realm effect:
-
-- Upon hitting a target, increase the maximum stack of Aero Erosion the target can receive by 3 for 10s. This effect is not stackable.

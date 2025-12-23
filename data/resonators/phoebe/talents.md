@@ -24,8 +24,6 @@ After a successful Dodge, quickly use Basic Attack to attack the target, dealing
 
 - When Phoebe is inside the Ring of Mirrors, Dodge Counter becomes Chamuel's Star: Dodge Counter.
 
----
-
 ## Resonance Skill: To Where Light Shines
 
 Summon a Ring of Mirrors at the target location, making the target hit stagnate for 2s and dealing Spectro DMG. The stagnation effect can be applied to 12 targets max for each Ring of Mirrors. Using Resonance Skill again shortly after the summoning teleports Phoebe to the Ring of Mirrors' location, dealing Spectro DMG.
@@ -40,8 +38,6 @@ Unable to teleport if Phoebe is too far from the Ring of Mirrors.
 
 - When Phoebe is inside the Ring of Mirrors, Basic Attack becomes Basic Attack Chamuel's Star, which performs up to 3 consecutive attacks, dealing Spectro DMG, considered Basic Attack DMG.
 
----
-
 ## Resonance Liberation: Dawn of Enlightenment
 
 Phoebe concentrates the light in her hands into the Mirror of Enlightenment and smashes it, dealing Spectro DMG.
@@ -49,8 +45,6 @@ Phoebe concentrates the light in her hands into the Mirror of Enlightenment and 
 - Absolution Enhancement: Increase DMG Multiplier by 255%.
 
 - Confession Enhancement: Apply 8 stacks of Spectro Frazzle to targets hit.
-
----
 
 ## Forte Circuit: Radiant Invocation
 
@@ -86,7 +80,17 @@ When Phoebe has Divine Voice, casting Basic Attack Stage 3 or Dodge Counter repl
 
 - Casting Heavy Attack Absolution Litany or Resonance Skill Utter Confession restores 60 Divine Voice.
 
----
+## Intro Skill: Golden Grace?
+
+Knock back nearby targets and deal Spectro DMG.
+
+## Outro Skill: Attentive Heart
+
+Deal Spectro DMG equal to 528.41% of Phoebe's ATK to nearby targets.
+
+- Absolution Enhancement: Increase DMG Multiplier by 255%.
+
+- Confession Enhancement: Grant Silent Prayer to the Resonator on the field, reducing the Spectro RES of nearby targets by 10% and granting 100% Spectro Frazzle DMG Amplification. When Spectro Frazzle inflicts DMG, extend Spectro Frazzle's damage interval by 50%. This effect lasts 30s or until Phoebe switches to Absolution status.
 
 ## Inherent Skills
 
@@ -97,19 +101,3 @@ Mid-air Heavy Attack can be cast 1 more time.
 ### Revelation
 
 When in the Absolution status and Confession status, Spectro DMG Bonus is increased by 12%.
-
----
-
-## Intro Skill: Golden Grace?
-
-Knock back nearby targets and deal Spectro DMG.
-
----
-
-## Outro Skill: Attentive Heart
-
-Deal Spectro DMG equal to 528.41% of Phoebe's ATK to nearby targets.
-
-- Absolution Enhancement: Increase DMG Multiplier by 255%.
-
-- Confession Enhancement: Grant Silent Prayer to the Resonator on the field, reducing the Spectro RES of nearby targets by 10% and granting 100% Spectro Frazzle DMG Amplification. When Spectro Frazzle inflicts DMG, extend Spectro Frazzle's damage interval by 50%. This effect lasts 30s or until Phoebe switches to Absolution status.

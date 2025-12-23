@@ -20,8 +20,6 @@ Shortly after holding Basic Attack in mid-air or using Basic Attack True Sight: 
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG.
 
----
-
 ## Resonance Skill: Tripartite Flames
 
 **True Sight: Capture**
@@ -36,8 +34,6 @@ When in True Sight, if Changli uses Ground Basic Attack, she releases True Sight
 
 When in True Sight, if Changli jumps or uses Basic Attack in mid-air, she releases True Sight: Charge, dashing towards the enemy and dealing Fusion DMG, considered as Resonance Skill DMG. After releasing True Sight: Charge, True Sight ends.
 
----
-
 ## Resonance Liberation: Radiance of Fealty
 
 Deal Fusion DMG to nearby targets, obtaining 4 stacks of Enflamement, and entering Fiery Feather. Can be cast in mid-air.
@@ -45,8 +41,6 @@ Deal Fusion DMG to nearby targets, obtaining 4 stacks of Enflamement, and enteri
 **Fiery Feather**
 
 When Changli releases Heavy Attack Flaming Sacrifice within 10s, her ATK is increased by 25%, after which Fiery Feather ends.
-
----
 
 ## Forte Circuit: Flaming Sacrifice
 
@@ -64,7 +58,13 @@ When releasing Heavy Attack, if Changli carries 4 stacks of Enflamement, she con
 
 - Changli obtains 4 stacks of Enflamement for every Resonance Liberation Radiance of Fealty.
 
----
+## Intro Skill: Obedience of Rules
+
+Changli appears in mid-air, attacks the target, and enters True Sight, lasting for 12s.
+
+## Outro Skill: Strategy of Duality
+
+The incoming Resonator has their Fusion DMG Amplified by 20% and Resonance Liberation DMG Amplified by 25% for 10s or until the Resonator is switched out.
 
 ## Inherent Skills
 
@@ -75,15 +75,3 @@ When Changli releases Basic Attack: True Sight - Conquest or Basic Attack: True 
 ### Sweeping Force
 
 When Changli releases Heavy Attack Flaming Sacrifice or Resonance Liberation Radiance of Fealty, Changli's Fusion DMG Bonus is increased by 20%, and Changli ignores 15% of the target's DEF when dealing damage.
-
----
-
-## Intro Skill: Obedience of Rules
-
-Changli appears in mid-air, attacks the target, and enters True Sight, lasting for 12s.
-
----
-
-## Outro Skill: Strategy of Duality
-
-The incoming Resonator has their Fusion DMG Amplified by 20% and Resonance Liberation DMG Amplified by 25% for 10s or until the Resonator is switched out.

@@ -24,8 +24,6 @@ Consume STA to perform a Plunging Attack, dealing Havoc DMG.
 
 Press Normal Attack right after a successful Dodge to attack the target, dealing Havoc DMG.
 
----
-
 ## Resonance Skill: Dance with Shadows
 
 **Graceful Step** 
@@ -46,8 +44,6 @@ Attacks by other Resonators in the team will not Jolt a target influenced by Haz
 
 Coordinated Attacks and damage from Utilities will not Jolt a target.
 
----
-
 ## Resonance Liberation: Beneath the Sea
 
 **Flowing Suffocation**
@@ -65,8 +61,6 @@ When the Resonator on the field deals damage to a target, summon Dreamweavers to
 - Up to 1 Dreamweavers can be summoned each second, max 21 Dreamweavers in total.
 
 - This effect lasts for 30s or until reaching the maximum number of Dreamweavers.
-
----
 
 ## Forte Circuit: Between Illusion and Reality
 
@@ -125,20 +119,6 @@ When in water, Cantarella's swimming speed increases and STA cost decreases.
 
 - When Mid-air Attack Abysmal Vortex or Dodge Counter Shadowy Sweep hits a target, restore 1 points of Shiver.
 
----
-
-## Inherent Skills
-
-### "Cure"
-
-Increase Healing Bonus by 20%.
-
-### "Poison"
-
-Casting Echo Skill gives 6% Havoc DMG Bonus for 10s, stacking up to 2 times.
-
----
-
 ## Intro Skill: Cruise
 
 **Ripple**
@@ -150,8 +130,16 @@ Press Normal Attack shortly after casting this skill to start the Basic Attack c
 
 When in Mirage, Intro Skill becomes Tidal Surge, which triggers 3 coordinated attacks on hit, dealing Havoc DMG. Casting Tidal Surge resets the combo of Basic Attack Phantom Sting.
 
----
-
 ## Outro Skill: Gentle Tentacles
 
 Amplify the incoming Resonator's Havoc DMG by 20% and Resonance Skill DMG by 25% for 14s. Switching Resonators ends this effect.
+
+## Inherent Skills
+
+### "Cure"
+
+Increase Healing Bonus by 20%.
+
+### "Poison"
+
+Casting Echo Skill gives 6% Havoc DMG Bonus for 10s, stacking up to 2 times.

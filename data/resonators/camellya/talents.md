@@ -22,8 +22,6 @@ Consume STA to perform Plunging Attack, dealing Havoc DMG.
 
 Use Basic Attack right after a successful Dodge to attack the target, dealing Havoc DMG.
 
----
-
 ## Resonance Skill: Valse of Bloom and Blight
 
 **Crimson Blossom** 
@@ -58,15 +56,11 @@ This attack can be performed in mid-air.
 
 - Consume STA continuously to stay suspended on the vines.
 
----
-
 ## Resonance Liberation: Fervor Efflorescent
 
 Attack the target, dealing Havoc DMG.
 
 This attack can be performed in mid-air.
-
----
 
 ## Forte Circuit: Vegetative Universe
 
@@ -106,7 +100,15 @@ Consuming 10 Crimson Pistils recovers 4 Concerto Energy and obtains 1 Crimson Bu
 
 - Activating Forte Circuit's Ephemeral recovers 100 Crimson Pistils.
 
----
+## Intro Skill: Everblooming
+
+Attack the target, dealing Havoc DMG.
+
+## Outro Skill: Twining
+
+Attack the target, dealing Havoc DMG equal to 329.24% of Camellya's ATK.
+
+After activating Forte Circuit's Ephemeral, the next Outro Skill Twining deals additional Havoc DMG equal to 459.02% of Camellya's ATK.
 
 ## Inherent Skills
 
@@ -117,17 +119,3 @@ Gain 15% Havoc DMG Bonus. DMG dealt by Heavy Attack Pruning is now considered Ba
 ### Epiphyte
 
 Gain 15% Basic DMG Bonus. Gain increased resistance to interruption when casting Basic Attack, Basic Attack Vining Waltz, and Basic Attack Blazing Waltz.
-
----
-
-## Intro Skill: Everblooming
-
-Attack the target, dealing Havoc DMG.
-
----
-
-## Outro Skill: Twining
-
-Attack the target, dealing Havoc DMG equal to 329.24% of Camellya's ATK.
-
-After activating Forte Circuit's Ephemeral, the next Outro Skill Twining deals additional Havoc DMG equal to 459.02% of Camellya's ATK.

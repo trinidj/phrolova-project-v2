@@ -45,21 +45,15 @@ Buling can hold up to 4 Trigrams. When Trigrams reach the max number, gaining ne
 
 - Trigram - Thunder is obtained when casting Resonance Skill - In Shadow Thunder Stirs.
 
----
-
 ## Resonance Skill: In Shadow Thunder Stirs
 
 Attack the target, dealing Electro DMG and continuously pulling in nearby targets.
 
 - Right after casting Resonance Skill, press Normal Attack to perform Basic Attack Stage 4.
 
----
-
 ## Resonance Liberation: Flashing Thunder Spell
 
 Attack the target, dealing Electro DMG. 
-
----
 
 ## Forte Circuit: Thunder Begets Life
 
@@ -83,7 +77,13 @@ Minor Yang is obtained after casting Heavy Attack - Mountain Over Thunder or Hea
 
 Minor Yin is obtained after casting Heavy Attack - Twin Mountains or Heavy Attack - Twin Thunders.
 
----
+## Intro Skill: Summon and Smite
+
+Attack the target, dealing Electro DMG and healing all nearby Resonators in the team.
+
+## Outro Skill: Exorcism Spell
+
+Heal the active Resonator in the team by 18% of Buling's ATK per second for 16s. All nearby Resonators in the team have their DMG Amplified by 15% for 30s.
 
 ## Inherent Skills
 
@@ -94,15 +94,3 @@ Buling gains 25% Healing Bonus when restoring HP for Resonators with less than 5
 ### Earthly Immortal is Here!
 
 Targets damaged by Intro Skill - Summon and Smite obtain 4 stacks of Electro Flare. This effect is triggered once every 10s.
-
----
-
-## Intro Skill: Summon and Smite
-
-Attack the target, dealing Electro DMG and healing all nearby Resonators in the team.
-
----
-
-## Outro Skill: Exorcism Spell
-
-Heal the active Resonator in the team by 18% of Buling's ATK per second for 16s. All nearby Resonators in the team have their DMG Amplified by 15% for 30s.

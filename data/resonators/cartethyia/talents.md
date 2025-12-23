@@ -28,8 +28,6 @@ Casting Mid-air Attack - Cartethyia recalls all Sword Shadows. Based on the type
 
 Press Normal Attack shortly after a successful Dodge to attack the target, dealing Aero DMG.
 
----
-
 ## Resonance Skill: Sword to Bear Their Names
 
 **Resonance Skill - Cartethiya**
@@ -39,8 +37,6 @@ Attack the target, launch nearby enemies, and then plunge them to the ground, de
 Following Cartethyia - Resonance Skill, summon Sword of Virtue's Shadow.
 
 Up to 1 Sword of Virtue's Shadow may exist at the same time, lasting for 20s.
-
----
 
 ## Resonance Liberation: A Knight's Heartfelt Prayers
 
@@ -103,8 +99,6 @@ When Fleurdelys has 120 points of Conviction, Resonance Liberation - A Knight's 
 Casting Resonance Liberation - Blade of Howling Squall removes all Conviction, ends Manifest, restores 50% of Max HP, and then deals Aero DMG to all targets in an area along a straight line in front. Upon hitting the target, remove all stacks of Aero Erosion on the target. Each stack removed Amplifies the DMG taken by the targets by 20%, up to 5 stacks.
 
 Can be cast in mid-air.
-
----
 
 ## Forte Circuit: Tempest
 
@@ -170,20 +164,6 @@ The Resonance Skill enters cooldown if Resonance Skill - May Tempest Break the T
 
 Can be cast in mid-air.
 
----
-
-## Inherent Skills
-
-### A Heart's Truest Wishes
-
-The healing received by all Resonators other than Cartethyia/Fleurdelys in the team is increased by 20% and their resistance to interruption is enhanced. If Rover: Aero is in the team, Rover: Aero additionally restores 25 Windstrings upon casting Omega Storm.
-
-### Wind's Indelible Imprint
-
-Targets with 1 to 3 stacks of Aero Erosion take 30% more DMG from Cartethyia and Fleurdelys. Targets with more than 3 stacks of Aero Erosion additionally take 10% more DMG from Cartethyia and Fleurdelys for each stack of Aero Erosion they have, up to 3 stacks.
-
----
-
 ## Intro Skill: Sword to Mark Tide's Trace
 
 **Cartethyia - Sword to Mark Tide's Trace**
@@ -200,8 +180,16 @@ Thrust forward to impale the target, dealing Aero DMG and restoring Conviction.
 
 Press Normal Attack shortly after Fleurdelys - Sword to Call for Freedom to cast Basic Attack - Fleurdelys Stage 2.
 
----
-
 ## Outro Skill: Wind's Divine Blessing
 
 Aero DMG dealt by the active Resonator in the team other than Cartethyia/Fleurdelys to targets with Negative Statuses is Amplified by 17.5% for 20s.
+
+## Inherent Skills
+
+### A Heart's Truest Wishes
+
+The healing received by all Resonators other than Cartethyia/Fleurdelys in the team is increased by 20% and their resistance to interruption is enhanced. If Rover: Aero is in the team, Rover: Aero additionally restores 25 Windstrings upon casting Omega Storm.
+
+### Wind's Indelible Imprint
+
+Targets with 1 to 3 stacks of Aero Erosion take 30% more DMG from Cartethyia and Fleurdelys. Targets with more than 3 stacks of Aero Erosion additionally take 10% more DMG from Cartethyia and Fleurdelys for each stack of Aero Erosion they have, up to 3 stacks.

@@ -16,8 +16,6 @@ Jianxin consumes Stamina to plunge and unleash a powerful kick, dealing Aero DMG
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Aero DMG.
 
----
-
 ## Resonance Skill: Calming Air
 
 Hold Resonance Skill to enter Parry Stance.
@@ -30,13 +28,9 @@ When Jianxin is attacked in the Parry Stance, she does not take damage and immed
 
 Release the Resonance Skill during Parry Stance to interrupt Parry Stance and cast Chi Parry, dealing Aero DMG.
 
----
-
 ## Resonance Liberation: Purification Force Field
 
 Creates a strong wind field, continuously pulling targets within the wind field to the center and causing Aero DMG. When the wind field disappears, it will cause Aero DMG to all targets within the range again.
-
----
 
 ## Forte Circuit: Primordial Chi Spiral
 
@@ -66,7 +60,13 @@ When Zhoutian Progress ends, regain a shield according to the Zhoutian Progress 
 
 Jianxin can hold up to 120 Chi. Chi is obtained when a Normal Attack Fengyiquan hits the target. Chi is obtained when the Resonance Skill Calming Air is cast. Chi is obtained when the Resonance Skill Chi Counter or Resonance Skill Chi Parry hits the target. Chi is obtained when the Intro Skill Essence of Tao hits the target.
 
----
+## Intro Skill: Essence of Tao
+
+Pull targets within the range, dealing Aero DMG.
+
+## Outro Skill: Transcendence
+
+The next character (or other characters on a nearby team that activates an Outro Skill) gains 38% Resonance Liberation DMG Deepen for 14s or until the Character is switched.
 
 ## Inherent Skills
 
@@ -77,15 +77,3 @@ Damage of Resonance Liberation Purification Force Field is increased by 20%.
 ### Reflection
 
 The shield obtained with Heavy Attack Primordial Chi Spiral is increased by 20%.
-
----
-
-## Intro Skill: Essence of Tao
-
-Pull targets within the range, dealing Aero DMG.
-
----
-
-## Outro Skill: Transcendence
-
-The next character (or other characters on a nearby team that activates an Outro Skill) gains 38% Resonance Liberation DMG Deepen for 14s or until the Character is switched.

@@ -17,6 +17,7 @@ import {
   Card,
   CardContent,
   CardDescription,
+  CardHeader,
   CardTitle,
 } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator";
@@ -39,7 +40,7 @@ export function Forte({ resonator }: ForteSectionProps) {
     "outroSkill"
   ] as const;
 
-  const inherentSkills = [
+  const inherentForteSkills = [
     "inheritSkill1", 
     "inheritSkill2"
   ] as const;
@@ -63,7 +64,7 @@ export function Forte({ resonator }: ForteSectionProps) {
                     key={key}
                     value={key}
                     className="
-                      data-[state=active]:shadow-[0_0_15px_var(--glow-color)] data-[state=active]:border-(--glow-color) border-transparent border-2 rounded-full p-0.5 relative transition-all duration-300"
+                      data-[state=active]:shadow-[0_0_15px_var(--glow-color)] data-[state=active]:border-(--glow-color) border-transparent border-2 rounded-xl p-0 relative transition-all duration-300"
                     style={{
                       "--glow-color": `var(--${attributeColor})`,
                       borderColor: `var(--${attributeColor})`
@@ -89,7 +90,21 @@ export function Forte({ resonator }: ForteSectionProps) {
               return (
                 <TabsContent key={key} value={key}>
                   <div className="flex flex-col gap-4">
-                    <header>
+                    <header className="flex items-center gap-4">
+                      <div 
+                        className="border-2 flex items-center justify-center rounded-xl"
+                        style={{
+                          borderColor: `var(--${attributeColor})`,
+                        }}
+                      >
+                        <Image
+                          src={assets[key]}
+                          alt={skillData.name}
+                          className="object-contain p-1"
+                          width={48}
+                          height={48}
+                        />
+                      </div>
 
                       <div>
                         <h2 className="font-semibold text-2xl">{skillData.name}</h2>
@@ -107,6 +122,30 @@ export function Forte({ resonator }: ForteSectionProps) {
                 </TabsContent>
               )
             })}
+
+            <div className="grid grid-cols-2 gap-4">
+              {inherentForteSkills.map((key) => {
+                const skillData = forte?.[key]
+                if (!skillData) return null;
+
+                return (
+                  <Card key={key} className="flex flex-col gap-4 bg-accent">
+                    <CardHeader>
+                      <CardTitle className="font-semibold text-2xl">{skillData.name}</CardTitle>
+                      <CardDescription className="text-muted-foreground font-medium text-sm">{skillData.type}</CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div 
+                        className="forte-description"
+                        style={{ "--attribute-glow": "var(--rarity-5)" } as React.CSSProperties}
+                      >
+                        {parse(parseForteMarkdown(skillData.description))}
+                      </div>
+                    </CardContent>
+                  </Card>
+                )
+              })}
+            </div>
           </Tabs>
         </CardContent>
       </Card>

@@ -18,15 +18,11 @@ Consume Stamina to perform a Mid-Air Plunging Attack, dealing Electro DMG.
 
 Using Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.
 
----
-
 ## Resonance Skill: Extermination Order
 
 Cast up to 3 attacks. Deal Electro DMG.
 
 If this Character is switched or Resonance Skill Extermination Order is not repeated in a while, it will be put on a Cooldown. Resonance Skill Extermination Order does not reset your Basic Attack stage.
-
----
 
 ## Resonance Liberation: Phantom Etching
 
@@ -39,8 +35,6 @@ Basic Attack is replaced with Basic Attack Hounds Roar. Dodge Counter deals incr
 **Hounds Roar**
 
 Perform up to 5 consecutive attacks, dealing Electro DMG, considered as Basic Attack Damage.
-
----
 
 ## Forte Circuit: Hunting Mission
 
@@ -60,7 +54,13 @@ When Calcharo has 5 "Killing Intent", his Basic Attack is replaced with Heavy At
 
 Under Resonance Liberation Deathblade Gear state, Calcharo's Forte Gauge is replaced with "Killing Intent", stacking up to 5. When Basic Attack Hounds Roar hits the target, Calcharo gains 1 "Killing Intent".
 
----
+## Intro Skill: Wanted Outlaw
+
+Attack the target, dealing Electro DMG.
+
+## Outro Skill: Shadowy Raid
+
+Calcharo summons Phantom to support the Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to 195.98%+391.96% of Calcharo's ATK.
 
 ## Inherent Skills
 
@@ -71,15 +71,3 @@ When casting Heavy Attack "Mercy", Calcharo's Resonance Liberation DMG Bonus is 
 ### Revenant Rush
 
 When Heavy Attack "Death Messenger" hits the target, the damage taken by Calcharo is reduced by 15% for 5s.
-
----
-
-## Intro Skill: Wanted Outlaw
-
-Attack the target, dealing Electro DMG.
-
----
-
-## Outro Skill: Shadowy Raid
-
-Calcharo summons Phantom to support the Resonator, clearing the targets in front with a slash. The Phantom's attack deals Electro DMG equal to 195.98%+391.96% of Calcharo's ATK.

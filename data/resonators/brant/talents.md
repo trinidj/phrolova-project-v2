@@ -32,8 +32,6 @@ Press Normal Attack following Mid-air Attack Stage 1 or Stage 2 to swing to the 
 
 Press Normal Attack right after a successful Dodge to attack the target, dealing Fusion DMG.
 
----
-
 ## Resonance Skill: Anchors Aweigh!
 
 Brant launches himself into the air and blasts all targets in an area, dealing Fusion DMG. While in mid-air, if Bravo is not full, Resonance Skill Anchors Aweigh! is replaced with Plunging Attack.
@@ -45,8 +43,6 @@ Plunge at the target at the cost of STA, dealing Fusion DMG, which is considered
 - If Brant fails to reach the target with the Grapple swing of Mid-air Attack Stage 1, he instead performs a slash forward. Afterward, Press Normal Attack to perform Plunging Attack.
 
 - If Brant reaches the target with the Grapple swing of Mid-air Attack Stage 1 or Stage 2 but the attack fails to hit the target, Press Normal Attack to perform Plunging Attack during the suspension.
-
----
 
 ## Resonance Liberation: To the Horizon
 
@@ -61,8 +57,6 @@ The efficiency of gaining Bravo is increased by 100% when Normal Attack or Reson
 **"My" Moment**
 
 Brant gains additional ATK based on his Energy Regen: For every 1% of his Energy Regen over 150%, Brant gains additional 20 points of ATK, up to 2600.
-
----
 
 ## Forte Circuit: Ocean Odyssey
 
@@ -86,7 +80,15 @@ Brant can hold up to 100 Bravo.
 
 - Obtain Bravo when Resonance Skill hits the target.
 
----
+## Intro Skill: Applaud for Me!
+
+Attack the target, dealing Fusion DMG, and gain Interlude Applause effect. Interlude Applause
+
+The next Mid-air Attack begins at Stage 2. This effect ends when Brant lands early or is switched out.
+
+## Outro Skill: The Course is Set!
+
+Ampify the incoming Resonator's Fusion DMG by 20% and Resonance Skill DMG by 25% for 14s or until the Resonator is switched out.
 
 ## Inherent Skills
 
@@ -97,17 +99,3 @@ Healing provided by Waves of Acclaims is increased by 20%.
 ### Trial by FIre and Tide
 
 Brant's resistance to interruption is increased during Mid-air Attacks and gains 15% Fusion DMG Bonus.
-
----
-
-## Intro Skill: Applaud for Me!
-
-Attack the target, dealing Fusion DMG, and gain Interlude Applause effect. Interlude Applause
-
-The next Mid-air Attack begins at Stage 2. This effect ends when Brant lands early or is switched out.
-
----
-
-## Outro Skill: The Course is Set!
-
-Ampify the incoming Resonator's Fusion DMG by 20% and Resonance Skill DMG by 25% for 14s or until the Resonator is switched out.

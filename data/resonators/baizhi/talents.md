@@ -16,13 +16,9 @@ Baizhi consumes Stamina and summons You’tan in mid-air to perform a Plunging A
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Glacio damage.
 
----
-
 ## Resonance Skill: Emergency Plan
 
 Baizhi calls You'tan to attack the target, dealing Glacio damage while restoring HP for the entire team.
-
----
 
 ## Resonance Liberation: Momentary Union
 
@@ -31,8 +27,6 @@ Baizhi summons You'tan to restore HP for the entire team, generating 4 stacks of
 **Remnant Entities**
 
 Remnant Entities follow the active team members and automatically consume 1 stacks of Remnant Entities to attack the targets every 2.5s, dealing Glacio damage on hit while restoring HP to all team members nearby.
-
----
 
 ## Forte Circuit: Cycle of Life
 
@@ -50,7 +44,13 @@ When Baizhi consumes "Concentration" to cast Heavy Attack, Baizhi additionally r
 
 Baizhi can hold up to 4 "Concentrations". Baizhi obtains 1 "Concentration" for every Basic Attack on hit.
 
----
+## Intro Skill: Overflowing Frost
+
+Baizhi calls You'tan to perform 1 plunging attack, dealing Glacio damage while restoring HP to all team members nearby.
+
+## Outro Skill: Rejuvinating Flow
+
+Baizhi restores HP equal to 1.54% of her max HP to The next character (or other characters on a nearby team that activates an Outro Skill) every 3s for 30s. Resonators gaining this healing also gain 15% all-Type DMG Deepen for 6s.
 
 ## Inherent Skills
 
@@ -65,15 +65,3 @@ ATK of the Resonators who picks up Euphonia is increased by 15% for 20s.
 ### Stimulus Feedback
 
 For every Heavy Attack on hit, Baizhi restores HP to the nearby team member with the least HP equal to 0.25% of Baizhi's max HP.
-
----
-
-## Intro Skill: Overflowing Frost
-
-Baizhi calls You'tan to perform 1 plunging attack, dealing Glacio damage while restoring HP to all team members nearby.
-
----
-
-## Outro Skill: Rejuvinating Flow
-
-Baizhi restores HP equal to 1.54% of her max HP to The next character (or other characters on a nearby team that activates an Outro Skill) every 3s for 30s. Resonators gaining this healing also gain 15% all-Type DMG Deepen for 6s.

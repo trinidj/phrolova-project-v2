@@ -16,8 +16,6 @@ Perform a plunging attack while in mid-air at the cost of Stamina, dealing Spect
 
 Use Basic Attack after a successful Dodge to counterattack, dealing Spectro DMG.
 
----
-
 ## Resonance Skill: Trailing Lights of Eons
 
 Dash forward and perform consecutive strikes that inflict Spectro DMG. Overflowing Radiance
@@ -26,13 +24,9 @@ After Jinhsi uses Basic Attack 4 or, while not in Incarnation, Intro Skill Loong
 
 Resonance Skill Overflowing Radiance inflicts Spectro DMG and sends Jinhsi into Incarnation. Can be cast in mid-air.
 
----
-
 ## Resonance Liberation: Purge of Light
 
 Unleash the power of invocation to deal Spectro DMG. Can be cast in mid-air.
-
----
 
 ## Forte Circuit: Luminal Synthesis
 
@@ -74,7 +68,13 @@ When Jinhsi is in the party, all nearby Resonators in the party gain Eras in Uni
 
 Jinhsi gains 1 Incandescence anytime Resonators in the party inflict Attribute DMG. This effect may be triggered by damage of the same Attribute for up to 1 time(s) every 3s. Additionally, Jinhsi gains 2 Incandescence when Resonators in the party damage the enemy with Coordinated Attacks. This effect may be triggered by Coordinated Attacks of the same Attribute for up to 1 time(s) every 3s.
 
----
+## Intro Skill: Loong's Halo
+
+Attack the target, dealing Spectro DMG.
+
+## Outro Skill: Temporal Bender
+
+Summoning the power homologous with the Sentinel, Jinhsi may now gain Incandescence via Eras in Unity from damage of the same Attribute more effectively, at 1 time(s) every 1s for 20s.
 
 ## Inherent Skills
 
@@ -85,15 +85,3 @@ Jinhsi's Spectro DMG Bonus is increased by 20%.
 ### Converged Flash
 
 DMG Multiplier of Intro Skill Loong's Halo is increased by 50%.
-
----
-
-## Intro Skill: Loong's Halo
-
-Attack the target, dealing Spectro DMG.
-
----
-
-## Outro Skill: Temporal Bender
-
-Summoning the power homologous with the Sentinel, Jinhsi may now gain Incandescence via Eras in Unity from damage of the same Attribute more effectively, at 1 time(s) every 1s for 20s.

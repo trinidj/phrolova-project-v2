@@ -16,8 +16,6 @@ Consumes Stamina to control the puppet "Zapstring" to perform a Plunging Attack,
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Electro DMG.
 
----
-
 ## Resonance Skill: Magnetic Roar
 
 **Magnetic Roar**
@@ -36,13 +34,9 @@ Attack all targets marked with Resonance Circuit Sinner's Mark, dealing Electro 
 
 Use Resonance Skill after casting Resonance Skill Magnetic Roar to cast Lightning Execution to attack the target, dealing Electro DMG. If Resonance Skill Lightning Execution is not activated in a while or this Character is switched, this Skill will be put on Cooldown.
 
----
-
 ## Resonance Liberation: Thundering Wrath
 
 Command "Zapstring" to call for thunder to fall upon a large range, dealing Electro DMG.
-
----
 
 ## Forte Circuit: Chameleon Cipher
 
@@ -68,7 +62,13 @@ When a target marked with Punishment Mark is damaged, Judgement Strike will fall
 
 - When Resonance Skill Electromagnetic Blast hits a target, restores "Judgment Points".
 
----
+## Intro Skill: Raging Storm
+
+Command puppet "Zapstring" to attack, dealing Electro DMG in a large range.
+
+## Outro Skill: Strategist
+
+The next character (or other characters on a nearby team that activates an Outro Skill) gains 20% Electro DMG Deepen, and 25% Resonance Liberation DMG Deepen for 14 seconds or until the Character is switched.
 
 ## Inherent Skills
 
@@ -79,15 +79,3 @@ After using Resonance Skill Magnetic Roar, Yinlin's Crit. Rate is increased by 1
 ### Deadly Focus
 
 The damage of Resonance Skill Lightning Execution is increased by 10% when hitting targets marked with "Sinner's Mark", and Yinlin's ATK is increased by 10% for 4s when this is triggered.
-
----
-
-## Intro Skill: Raging Storm
-
-Command puppet "Zapstring" to attack, dealing Electro DMG in a large range.
-
----
-
-## Outro Skill: Strategist
-
-The next character (or other characters on a nearby team that activates an Outro Skill) gains 20% Electro DMG Deepen, and 25% Resonance Liberation DMG Deepen for 14 seconds or until the Character is switched.

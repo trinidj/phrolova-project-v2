@@ -22,8 +22,6 @@ Encore consumes Stamina to perform a Plunging Attack, dealing Fusion DMG.
 
 Use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG.
 
----
-
 ## Resonance Skill: Flaming Woolies
 
 **Flaming Woolies**
@@ -31,8 +29,6 @@ Use Basic Attack after a successful Dodge to attack the target, dealing Fusion D
 Summon Cloudy and Cosmos to attack the target with high-temperature rays, dealing Fusion DMG. Energetic Welcome
 
 After casting Flaming Woolies, use Resonance Skill to launch Energetic Welcome to attack the target, dealing Fusion DMG.
-
----
 
 ## Resonance Liberation: Cosmos Rave
 
@@ -53,8 +49,6 @@ During Cosmos Rampage, Flaming Woolies is replaced with Cosmos:Rampage, attackin
 **Cosmos: Dodge Counter**
 
 During Cosmos Rampage, use Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG, considered as Basic Attack damage.
-
----
 
 ## Forte Circuit: Black & White Woolies
 
@@ -78,7 +72,13 @@ When Normal Attack Wooly Attack hits the target, Encore restores "Dissonance". W
 
 During the duration of Resonance Liberation Cosmos Rampage, hitting targets will restore "Dissonance" to Encore.
 
----
+## Intro Skill: Woolies Can Help!
+
+Encore pounces at the enemies with Cosmos, dealing Fusion DMG.
+
+## Outro Skill: Thermal Field
+
+Encore generates a Flame Zone centered around skill target, with a radius of 3m. Targets inside the Flame Zone are continuously burned, suffering Fusion DMG equal to 176.76% of Encore's ATK every 1.5s for 6s.
 
 ## Inherent Skills
 
@@ -89,15 +89,3 @@ During the Resonance Liberation Cosmos Rave, when Encore's HP is above 70%, DMG 
 ### Woolies Cheer Dance
 
 When Resonance Skill Flaming Woolies or Resonance Skill Cosmos: Rave is cast, Encore's Fusion DMG Bonus is increased by 10% for 10 seconds.
-
----
-
-## Intro Skill: Woolies Can Help!
-
-Encore pounces at the enemies with Cosmos, dealing Fusion DMG.
-
----
-
-## Outro Skill: Thermal Field
-
-Encore generates a Flame Zone centered around skill target, with a radius of 3m. Targets inside the Flame Zone are continuously burned, suffering Fusion DMG equal to 176.76% of Encore's ATK every 1.5s for 6s.

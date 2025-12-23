@@ -16,19 +16,13 @@ Chixia consumes Stamina to continuously shoot the target in the air, dealing Fus
 
 Use a Basic Attack after a successful Dodge to attack the target, dealing Fusion DMG.
 
----
-
 ## Resonance Skill: Whizzing Fight Spirit
 
 Chixia unleashes a flurry of shots, dealing Fusion DMG. Whizzing Fight Spirit has 2 initial charges.
 
----
-
 ## Resonance Liberation: Blazing Flames
 
 Chixia fires up fast shots at nearby enemies, dealing Fusion DMG.
-
----
 
 ## Forte Circuit: Heroic Bullets
 
@@ -50,7 +44,13 @@ Chixia deals Fusion DMG, considered as Resonance Skill damage.
 
 Chixia can hold up to 60 "Thermobaric Bullets". Innate Skill Scorching Magazine increases Max "Thermobaric Bullets" by 10. Chixia obtains "Thermobaric Bullets" for every Normal Attack POW POW on hit. Chixia obtains "Thermobaric Bullets" upon casting Intro Skill Grand Entrance and Resonance Skill Whizzing Fight Spirit.
 
----
+## Intro Skill: Grand Entrance
+
+Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing Fusion DMG.
+
+## Outro Skill: Leaping Flames
+
+Chixia releases a shock wave surrounding the target, dealing Fusion DMG equal to 530.00% of Chixia's ATK to enemies within the range.
 
 ## Inherent Skills
 
@@ -61,15 +61,3 @@ Max "Thermobaric Bullets" is increased by 10 rounds. The damage for Resonance Sk
 ### Numbingly Spicy!
 
 Each "Thermobaric Bullets" that hits a target during Resonance Skill DAKA DAKA! increases ATK by 1% for 10s, stacking up to 30 times.
-
----
-
-## Intro Skill: Grand Entrance
-
-Chixia makes a heroic entrance and fires rapidly with her dual pistols at the target, dealing Fusion DMG.
-
----
-
-## Outro Skill: Leaping Flames
-
-Chixia releases a shock wave surrounding the target, dealing Fusion DMG equal to 530.00% of Chixia's ATK to enemies within the range.

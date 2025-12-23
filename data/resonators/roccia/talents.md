@@ -16,19 +16,13 @@ Consume STA to perform a Plunging Attack, dealing Havoc DMG.
 
 Use Basic Attack right after a successful Dodge to attack the target, dealing Havoc DMG.
 
----
-
 ## Resonance Skill: Acrobatic Trick
 
 Roccia projects her creativity into reality, pulling in nearby targets and dealing Havoc DMG. She then launches into mid-air and activates the Beyond Imagination state.
 
----
-
 ## Resonance Liberation: Commedia Improvviso!
 
 Roccia's improvised comedy begins! Deal Havoc DMG to the target, considered Heavy Attack DMG. For every 0.1% of Roccia's Crit. Rate over 50%, this skill increases the ATK of all Resnonators in the team by 1 point for 30s, up to 200 points.
-
----
 
 ## Forte Circuit: A Prop Master Prepares
 
@@ -54,7 +48,13 @@ Roccia can hold up to 300 Imagination.
 
 - Casting Intro Skill Pero, Help restores 100 Imagination.
 
----
+## Intro Skill: Pero, Help
+
+Attack the target, dealing Havoc DMG. Use Basic Attack right after casting this skill to cast Basic Attack Stage 4.
+
+## Outro Skill: Applause, Please!
+
+The incoming Resonator has their Havoc DMG Amplified by 20% and Basic Attack DMG Amplified by 25% for 14s or until the Resonator is switched out.
 
 ## Inherent Skills
 
@@ -71,15 +71,3 @@ After casting Outro Skill, the Utility of the incoming Resonator is replaced wit
 Upon use, pull nearby targets toward the Magic Box, dealing 100 points of Havoc DMG. This skill is considered Echo Skill that deals Utility DMG.
 
 The Magic Box lasts for 14s or until the Resonator is switched out.
-
----
-
-## Intro Skill: Pero, Help
-
-Attack the target, dealing Havoc DMG. Use Basic Attack right after casting this skill to cast Basic Attack Stage 4.
-
----
-
-## Outro Skill: Applause, Please!
-
-The incoming Resonator has their Havoc DMG Amplified by 20% and Basic Attack DMG Amplified by 25% for 14s or until the Resonator is switched out.
