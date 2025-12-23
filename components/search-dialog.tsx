@@ -1,6 +1,6 @@
 "use client"
 
-import * as React from "react"
+import { useState, useMemo, useEffect } from "react"
 import Link from "next/link"
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
@@ -34,15 +34,21 @@ import { getResonatorAssets } from "@/utils/resonator-assets"
 import type { Resonator } from "@/types/resonator"
 
 export default function SearchDialog() {
-  const [open, setOpen] = React.useState(false)
-  const [query, setQuery] = React.useState("")
+  const [open, setOpen] = useState(false)
+  const [query, setQuery] = useState("")
 
-  const resonators = React.useMemo(() => {
+  useEffect(() => {
+    if (!open) {
+      setQuery("")
+    }
+  }, [open])
+
+  const resonators = useMemo(() => {
     return resonatorsIndex.resonators as Resonator[]
   }, [])
 
-  const filteredResonators = React.useMemo(() => {
-    if (!query) return resonators
+  const filteredResonators = useMemo(() => {
+    if (!query.trim()) return []
     
     const lowerQuery = query.toLowerCase()
     return resonators.filter((resonator) => 
@@ -84,7 +90,7 @@ export default function SearchDialog() {
 
           <ScrollArea className="h-[400px] pr-4">
             <div className="flex flex-col gap-2">
-              {filteredResonators.length === 0 && (
+              {query.trim() && filteredResonators.length === 0 && (
                 <div className="text-center text-muted-foreground py-8">
                   No results found.
                 </div>
@@ -105,8 +111,8 @@ export default function SearchDialog() {
                           <Image 
                             src={assets.icon}
                             alt={resonator.name}
-                            width={48}
-                            height={48}
+                            width={64}
+                            height={64}
                             sizes="(max-width: 640px) 50vw, (max-width: 1024) 25vw, 150px"
                           />
                         </div>
