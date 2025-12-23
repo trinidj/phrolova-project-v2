@@ -39,7 +39,7 @@ type FilterDialogProps = {
   onApply: (filters: ResonatorFilters) => void
 }
 
-export default function FilterDialog({ value, onApply }: FilterDialogProps) {
+export default function ResonatorFilterDialog({ value, onApply }: FilterDialogProps) {
   const [isOpen, setIsOpen] = useState(false)
   const [filters, setFilters] = useState<ResonatorFilters>(value)
 
@@ -91,7 +91,7 @@ export default function FilterDialog({ value, onApply }: FilterDialogProps) {
               <Field>
                 <FieldLabel className="text-base">Rarity</FieldLabel>
                 <div className="flex gap-1.5">
-                  {RARITIES.map((rarity) => {
+                  {RARITIES.filter(r => r.value === "4" || r.value === "5").map((rarity) => {
                     const isCurrentActive = filters.rarities.includes(rarity.value)
 
                     return (

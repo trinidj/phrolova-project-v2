@@ -3,7 +3,7 @@ import { SequenceNode } from "./resonance-chain";
 import { Forte } from "./forte";
 
 export type Attribute = "Fusion" | "Aero" | "Glacio" | "Havoc" | "Electro" | "Spectro";
-export type WeaponType = "Pistol" | "Sword" | "Broadblade" | "Rectifier" | "Gauntlet";
+export type WeaponType = "Pistols" | "Sword" | "Broadblade" | "Rectifier" | "Gauntlets";
 export type ResonatorRarity = 4 | 5;
 
 export interface CombatRole {

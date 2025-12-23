@@ -1,6 +1,6 @@
 import { useState, useMemo, useDeferredValue } from "react" // Added useDeferredValue
 import { Resonator } from "@/types/resonator"
-import { ResonatorFilters } from "@/app/resonators/filter-dialog"
+import { ResonatorFilters } from "@/app/resonators/resonator-filter-dialog"
 
 export function useResonatorFilters(resonators: Resonator[]) {
   const [searchQuery, setSearchQuery] = useState("")

@@ -22,7 +22,7 @@ export default function ResonatorsPage() {
     return r
   })
   const { searchQuery, setSearchQuery, filters, setFilters, filteredResonators } = useResonatorFilters(resonators)
-  const FilterDialog = dynamic(() => import("./filter-dialog"), {
+  const ResonatorFilterDialog = dynamic(() => import("./resonator-filter-dialog"), {
     ssr: false
   })
 
@@ -46,7 +46,7 @@ export default function ResonatorsPage() {
             />
           </InputGroup>
 
-          <FilterDialog value={filters} onApply={setFilters} />
+          <ResonatorFilterDialog value={filters} onApply={setFilters} />
         </div>
       </section>
 
