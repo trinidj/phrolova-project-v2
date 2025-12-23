@@ -230,7 +230,7 @@ export default function Profile({ resonator, hasSplashArt, resonatorAscensionMat
                     </div>
 
                     <div 
-                      className="bg-accent to-card h-6 flex items-center justify-center border-t-2"
+                      className="bg-black/20 to-card h-6 flex items-center justify-center border-t-2"
                       style={{
                         borderColor: `var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`,
                         boxShadow: `0 -4px 12px -2px var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`

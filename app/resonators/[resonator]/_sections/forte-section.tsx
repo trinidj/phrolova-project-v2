@@ -132,6 +132,48 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
               )
             })}
 
+            <Card className="p-6 border-0 bg-muted shadow-none">
+              <CardHeader className="px-0">
+                <CardTitle className="font-semibold text-xl">Ascension</CardTitle>
+              </CardHeader>
+              <CardContent className="px-0">
+                <div className="grid grid-cols-11 gap-4">
+                  {totalMaterials.map((material) => (
+                    <Card key={material.item.name} className="p-0 overflow-hidden">
+                      <CardContent className="px-0">
+                        <div className="flex items-center justify-center">
+                          <Image
+                            src={`${getMaterialAssets(material.item.name, material.item.type)}`}
+                            alt={material.item.name}
+                            width={74}
+                            height={74}
+                            quality={100}
+                            className="scale-80"
+                          />
+                        </div>
+
+                        <div 
+                          className="bg-black/20 to-card h-6 flex items-center justify-center border-t-2"
+                          style={{
+                            borderColor: `var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`,
+                            boxShadow: `0 -4px 12px -2px var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`
+                          }}
+                        >
+                          <CardTitle>{material.amount}</CardTitle>
+                        </div>
+                      </CardContent>
+                    </Card>
+                  ))}
+                </div>
+
+                {totalMaterials.length === 0 && (
+                  <p className="text-center text-muted-foreground py-4">
+                    Ascension Materials Unavailable
+                  </p>
+                )}
+              </CardContent>
+            </Card>
+
             <Separator />
 
             <div className="grid grid-cols-2 gap-4">
@@ -175,48 +217,6 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
               })}
             </div>
           </Tabs>
-        </CardContent>
-      </Card>
-
-      <Card className="p-6">
-        <CardHeader className="px-0">
-          <CardTitle className="font-semibold text-xl">Ascension</CardTitle>
-        </CardHeader>
-        <CardContent className="px-0">
-          <div className="grid grid-cols-11 gap-4">
-            {totalMaterials.map((material) => (
-              <Card key={material.item.name} className="p-0 overflow-hidden">
-                <CardContent className="px-0">
-                  <div className="flex items-center justify-center">
-                    <Image
-                      src={`${getMaterialAssets(material.item.name, material.item.type)}`}
-                      alt={material.item.name}
-                      width={74}
-                      height={74}
-                      quality={100}
-                      className="scale-80"
-                    />
-                  </div>
-
-                  <div 
-                    className="bg-accent to-card h-6 flex items-center justify-center border-t-2"
-                    style={{
-                      borderColor: `var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`,
-                      boxShadow: `0 -4px 12px -2px var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`
-                    }}
-                  >
-                    <CardTitle>{material.amount}</CardTitle>
-                  </div>
-                </CardContent>
-              </Card>
-            ))}
-          </div>
-
-          {totalMaterials.length === 0 && (
-            <p className="text-center text-muted-foreground py-4">
-              Ascension Materials Unavailable
-            </p>
-          )}
         </CardContent>
       </Card>
     </section>
