@@ -62,7 +62,7 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
         <CardContent className="px-0 flex flex-col gap-6">
           {/* Forte Skills */}
           <Tabs defaultValue="normalAttack" className="w-full gap-6">
-            <TabsList className="bg-transparent h-auto flex-wrap justify-center gap-6">
+            <TabsList className="p-0 bg-transparent h-auto flex-wrap justify-center gap-6">
               {activeForteSkills.map((key) => {
                 const skillData = forte?.[key];
                 if (!skillData) return null;
