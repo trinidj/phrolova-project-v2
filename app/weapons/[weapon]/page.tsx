@@ -52,22 +52,25 @@ export default async function Weapon({ params }: { params: Promise<{ weapon: str
     <section className="flex h-[675px] flex-col lg:flex-row gap-14">
       {/* Icon */}
       <div className="flex flex-col gap-4">
-        <Card 
-          className="relative lg:w-[256px] lg:h-[256px] border-2 p-0 overflow-hidden shadow-none bg-linear-to-t from-background to-card"
-          style={{
-            boxShadow: `inset 0 -40px 40px -40px var(--${weaponRarityColor})`
-          }}
-        >
-          <CardContent className="h-full p-0">
-            <div className="flex flex-col h-full">
-              <div className="flex-1 flex overflow-hidden relative">
+        <Card className="relative p-0 overflow-hidden shadow-none bg-linear-to-t from-background to-card">
+          <CardContent className="p-0">
+            <div className="flex flex-col">
+              <div className="flex overflow-hidden relative w-64 h-64">
                 <WeaponImage src={assets.icon} alt={weaponData.name} />
+              </div>
+
+              <div
+                className="bg-card flex justify-center h-14 items-center border-t-2"
+                style={{
+                  borderColor: `var(--${weaponRarityColor})`,
+                  boxShadow: `0 -4px 100px -2px var(--${weaponRarityColor})`
+                }}
+              >
+                <RefinementSkillDialog weapon={weaponData} />
               </div>
             </div>
           </CardContent>
         </Card>
-
-        <RefinementSkillDialog weapon={weaponData} />
       </div>
 
       {/* Details */}
