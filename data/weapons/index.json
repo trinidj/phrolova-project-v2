@@ -1,6 +1,20 @@
 {
   "weapons": [
     {
+      "id": "sword_of_voyager",
+      "name": "Sword of Voyager",
+      "rarity": 3,
+      "weaponType": "Sword",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 24, "max": 300 },
+        "secondaryStat": {
+          "name": "energy_regen",
+          "value": { "min": 7.2, "max": 32.4 }
+        }
+      }
+    },
+    {
       "id": "tyro_broadblade",
       "name": "Tyro Broadblade",
       "rarity": 2,
