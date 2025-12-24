@@ -1,7 +1,7 @@
 import type { 
   Weapon,
   WeaponAssets,
-  WeaponType 
+  WeaponType,
 } from "@/types/weapon";
 
 export function getWeaponAssets(weapon: Weapon): WeaponAssets {
@@ -31,4 +31,21 @@ const WEAPON_TYPE_ICON_MAP: Record<WeaponType, string> = {
 
 export function getWeaponTypeIcon(weaponType: WeaponType) {
   return WEAPON_TYPE_ICON_MAP[weaponType]
+}
+
+const STAT_ICON_MAP: Record<string, string> = {
+  atk: "/assets/stats/stat_atk.png",
+  hp: "/assets/stats/stat_hp.png",
+  def: "/assets/stats/stat_def.png",
+  crit_rate: "/assets/stats/stat_cr.png",
+  crit_dmg: "/assets/stats/stat_cd.png",
+  energy: "/assets/stats/stat_energy.png"
+}
+
+/**
+ * Returns the stat icon path for a given secondary stat name.
+ * Accepts several common variants (e.g. "crit rate", "crit_rate", "CR", "atk").
+ */
+export function getStatIcon(statName: string) {
+  return STAT_ICON_MAP[statName]
 }

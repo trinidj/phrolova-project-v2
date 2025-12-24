@@ -49,9 +49,8 @@ export default function StatCard({ resonator }: StatCardProps) {
           <CardTitle className="text-xl">Stats</CardTitle>
 
           <div className="flex items-center gap-2">
-            <Label className="font-medium">Level 1</Label>
             <Switch checked={isMaxLevel} onCheckedChange={setIsMaxLevel} />
-            <Label className="font-medium">Level 90</Label>
+            <Label className="font-medium">Max</Label>
           </div>
         </div>
       </CardHeader>

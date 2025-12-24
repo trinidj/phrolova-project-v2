@@ -1,4 +1,4 @@
-import { getAllWeaponSlugs, getWeaponBySlug, getWeaponRefinementSkill, parseWeaponRefinementSkill } from "./_lib/data"
+import { getAllWeaponSlugs, getWeaponAscension, getWeaponBySlug, getWeaponRefinementSkill, parseWeaponRefinementSkill } from "./_lib/data"
 import parse from "html-react-parser"
 import Image from "next/image"
 import { Badge } from "@/components/ui/badge"
@@ -11,10 +11,12 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 
-import { getWeaponAssets } from "@/utils/weapon-assets"
+import StatCard from "./_components/stat-card"
+
+import { getWeaponAssets, getWeaponTypeIcon } from "@/utils/weapon-assets"
 import { WeaponImage } from "./_components/weapon-image"
-import { getWeaponTypeIcon } from "@/utils/weapon-assets"
-import { getRarityColor } from "@/lib/color-utils"
+import { getRarityColor, getDevelopmentMaterialRarityColor } from "@/lib/color-utils"
+import { getMaterialAssets } from "@/utils/development-material-assets"
 
 export const dynamicParam = false
 
@@ -38,6 +40,13 @@ export default async function Weapon({ params }: { params: Promise<{ weapon: str
   const assets = getWeaponAssets(weaponData)
   const weaponTypeIcon = getWeaponTypeIcon(weaponData.weaponType)
   const refinementSkill = getWeaponRefinementSkill(weaponData)
+
+  const ascensionMaterials = getWeaponAscension(weaponData)
+  const totalMaterials = ascensionMaterials.flatMap((phase) => 
+    phase.materials.map((material) => ({
+      ...material
+    }))
+  )
 
   return (
     <section className="flex h-[675px] flex-col lg:flex-row gap-14">
@@ -92,6 +101,8 @@ export default async function Weapon({ params }: { params: Promise<{ weapon: str
 
         <Separator />
 
+        <StatCard weapon={weaponData} />
+
         <Card className="p-6 gap-4">
           <CardHeader className="px-0">
             <CardTitle className="text-xl font-bold text-rarity-5">{refinementSkill?.name}</CardTitle>
@@ -107,6 +118,36 @@ export default async function Weapon({ params }: { params: Promise<{ weapon: str
           <CardHeader className="px-0">
             <CardTitle className="text-xl">Ascension</CardTitle>
           </CardHeader>
+          <CardContent className="px-0">
+            <div className="grid grid-cols-9 gap-4">
+              {totalMaterials.map((material) => (
+                <Card key={material.item.name} className="p-0 overflow-hidden">
+                  <CardContent className="px-0">
+                    <div className="flex items-center justify-center">
+                      <Image
+                        src={`${getMaterialAssets(material.item.name, material.item.type)}`}
+                        alt={material.item.name}
+                        width={74}
+                        height={74}
+                        quality={100}
+                        className="scale-80"
+                      />
+                    </div>
+
+                    <div 
+                      className="bg-black/20 to-card h-6 flex items-center justify-center border-t-2"
+                      style={{
+                        borderColor: `var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`,
+                        boxShadow: `0 -4px 12px -2px var(--${getDevelopmentMaterialRarityColor(material.item.rarity)})`
+                      }}
+                    >
+                      <CardTitle>{material.amount}</CardTitle>
+                    </div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </CardContent>
         </Card>
       </div>
     </section>

@@ -1,0 +1,42 @@
+[
+  {
+    "level": "90",
+    "materials": [
+      {
+        "name": "Inert Metallic Drip",
+        "amount": 2,
+        "type": "common"
+      },
+      {
+        "name": "Reactive Metallic Drip",
+        "amount": 2,
+        "type": "common"
+      },
+      {
+        "name": "Polarized Metallic Drip",
+        "amount": 2,
+        "type": "common"
+      },
+      {
+        "name": "LF Howler Core",
+        "amount": 2,
+        "type": "common"
+      },
+      {
+        "name": "MF Howler Core",
+        "amount": 2,
+        "type": "common"
+      },
+      {
+        "name": "HF Howler Core",
+        "amount": 3,
+        "type": "common"
+      },
+      {
+        "name": "Shell Credits",
+        "amount": 26000,
+        "type": "currency"
+      }
+    ]
+  }
+]

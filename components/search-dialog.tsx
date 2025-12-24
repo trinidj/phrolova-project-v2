@@ -39,7 +39,8 @@ export default function SearchDialog() {
 
   useEffect(() => {
     if (!open) {
-      setQuery("")
+      const id = setTimeout(() => setQuery(""), 0)
+      return () => clearTimeout(id)
     }
   }, [open])
 
