@@ -39,13 +39,30 @@ const STAT_ICON_MAP: Record<string, string> = {
   def: "/assets/stats/stat_def.png",
   crit_rate: "/assets/stats/stat_cr.png",
   crit_dmg: "/assets/stats/stat_cd.png",
-  energy: "/assets/stats/stat_energy.png"
+  energy_regen: "/assets/stats/stat_energy.png"
 }
 
 /**
  * Returns the stat icon path for a given secondary stat name.
  * Accepts several common variants (e.g. "crit rate", "crit_rate", "CR", "atk").
  */
-export function getStatIcon(statName: string) {
-  return STAT_ICON_MAP[statName]
+export function getStatIcon(statName?: string) {
+  if (!statName) return STAT_ICON_MAP.atk
+
+  const key = statName.toLowerCase().replace(/[^a-z0-9]/g, "")
+
+  // Core stats
+  if (key.includes("atk") || key === "attack") return STAT_ICON_MAP.atk
+  if (key === "hp" || key.includes("hp")) return STAT_ICON_MAP.hp
+  if (key.includes("def")) return STAT_ICON_MAP.def
+
+  // Crit Rate / Crit DMG
+  if (key.includes("critrate") || key === "cr" || (key.includes("crit") && key.includes("rate"))) return STAT_ICON_MAP.crit_rate
+  if (key.includes("critdmg") || key === "cd" || (key.includes("crit") && (key.includes("dmg") || key.includes("damage")))) return STAT_ICON_MAP.crit_dmg
+
+  // Energy (recharge/regeneration)
+  if (key.includes("energy") || key.includes("er") || key.includes("energyr")) return STAT_ICON_MAP.energy_regen
+
+  // Fallback
+  return STAT_ICON_MAP.atk
 }

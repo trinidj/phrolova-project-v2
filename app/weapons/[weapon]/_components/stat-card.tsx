@@ -34,6 +34,25 @@ export default function StatCard({ weapon }: StatCardProps) {
     return isPercent ? `${rounded}%` : rounded
   }
 
+  const formatStatLabel = (name: string) => {
+    if (!name) return 'N/A'
+
+    // Normalize separators to spaces so we can title-case multi-word names
+    const key = name.toLowerCase().replace(/[_-]+/g, ' ').trim()
+
+    // Keep core stats fully uppercased
+    if (["atk", "hp", "def", "dmg"].includes(key)) {
+      return key.toUpperCase()
+    }
+
+    // Title-case each word (e.g., "energy regen" -> "Energy Regen")
+    return key
+      .split(' ')
+      .filter(Boolean)
+      .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+      .join(' ')
+  }
+
   const stats = [
     {
       label: "ATK",
@@ -43,7 +62,7 @@ export default function StatCard({ weapon }: StatCardProps) {
       isPercent: false
     },
     {
-      label: `${weapon.stats.secondaryStat.name.toUpperCase()}%`,
+      label: formatStatLabel(weapon.stats.secondaryStat.name),
       icon: getStatIcon(weapon.stats.secondaryStat.name),
       min: weapon.stats.secondaryStat.value.min,
       max: weapon.stats.secondaryStat.value.max,

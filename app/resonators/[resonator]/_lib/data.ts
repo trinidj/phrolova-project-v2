@@ -153,7 +153,7 @@ export function parseForteMarkdown(markdown: string): string {
       const cleaned = section.replace(/\n{3,}/g, '\n\n').trim();
       const html = marked.parse(cleaned, { breaks: true, gfm: true }) as string;
       const colorizedHtml = colorizeText(html);
-      return `<div class="forte-category-block">${colorizedHtml}</div>`;
+      return `<div class="description">${colorizedHtml}</div>`;
     }).join('\n');
     
   } catch (error) {
