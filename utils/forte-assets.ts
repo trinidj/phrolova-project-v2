@@ -4,7 +4,7 @@ import { ForteAssets } from "@/types/forte"
 export function getForteAssets(resonator: Resonator): ForteAssets {
   const assetFolderName = resonator.id.startsWith("rover") ? "Rover" : resonator.name
   const roverVariantPath = resonator.id.startsWith("rover") ? `/${resonator.attribute}` : ""
-  const basePath = `/assets/resonators/${resonator.rarity}_stars/${assetFolderName}${roverVariantPath}`
+  const basePath = `/assets/resonators/${resonator.rarity}_star/${assetFolderName}${roverVariantPath}`
 
   return {
     normalAttack: `${basePath}/normal_attack.png`,

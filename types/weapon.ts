@@ -20,13 +20,19 @@ export interface WeaponAssets {
 export interface StatRange {
   min: number;
   max: number;
-}                                 
+}                 
+
+export interface RefinementSkill {
+  name: string;
+  description?: string;
+}
 
 export interface Weapon {
   id: string;
   name: string;
   rarity: WeaponRarity;
   weaponType: WeaponType;
+  refinementSkill: RefinementSkill;
   isNew?: boolean;
   stats: {
     atk: StatRange;

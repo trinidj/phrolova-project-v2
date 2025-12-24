@@ -167,7 +167,7 @@
 }
 
 @layer utilities {
-  .forte-description {
+  .description {
     @apply prose dark:prose-invert max-w-none;
 
     & p {

@@ -1,6 +1,62 @@
 {
   "weapons": [
     {
+      "id": "training_broadblade",
+      "name": "Training Broadblade",
+      "rarity": 1,
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 20, "max": 250 },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 2.5, "max": 11.4 }
+        }
+      }
+    },
+    {
+      "id": "training_gauntlets",
+      "name": "Training Gauntlets",
+      "rarity": 1,
+      "weaponType": "Gauntlets",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 20, "max": 250 },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 2.5, "max": 11.4 }
+        }
+      }
+    },
+    {
+      "id": "training_pistols",
+      "name": "Training Pistols",
+      "rarity": 1,
+      "weaponType": "Pistols",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 20, "max": 250 },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 2.5, "max": 11.4 }
+        }
+      }
+    },
+    {
+      "id": "training_rectifier",
+      "name": "Training Rectifier",
+      "rarity": 1,
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 20, "max": 250 },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 2.5, "max": 11.4 }
+        }
+      }
+    },
+    {
       "id": "training_sword",
       "name": "Training Sword",
       "rarity": 1,

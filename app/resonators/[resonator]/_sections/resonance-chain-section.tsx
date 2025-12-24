@@ -1,6 +1,4 @@
 import { Resonator } from "@/types/resonator";
-import { SequenceNode } from "@/types/resonance-chain";
-import { SequenceNodeAssets } from "@/types/resonance-chain";
 import { getResonanceChain, parseForteMarkdown } from "../_lib/data";
 import { getAttributeColor } from "@/lib/color-utils";
 import Image from "next/image";

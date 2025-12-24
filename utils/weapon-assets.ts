@@ -20,3 +20,15 @@ export function getWeaponAssets(weapon: Weapon): WeaponAssets {
     weaponType: `/assets/weapons/${weaponIconMap[weapon.weaponType]}`,
   };
 }
+
+const WEAPON_TYPE_ICON_MAP: Record<WeaponType, string> = {
+  Broadblade: "/assets/weapons/Broadblade_Icon.png",
+  Gauntlets: "/assets/weapons/Gauntlets_Icon.png",
+  Pistols: "/assets/weapons/Pistols_Icon.png",
+  Rectifier: "/assets/weapons/Rectifier_Icon.png",
+  Sword: "/assets/weapons/Sword_Icon.png"
+}
+
+export function getWeaponTypeIcon(weaponType: WeaponType) {
+  return WEAPON_TYPE_ICON_MAP[weaponType]
+}

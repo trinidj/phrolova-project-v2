@@ -122,7 +122,7 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
                     </header>
 
                     <div 
-                      className="forte-description"
+                      className="description"
                       style={{ "--attribute-glow": "var(--rarity-5)" } as React.CSSProperties}
                     >
                       {parse(parseForteMarkdown(skillData.description))}

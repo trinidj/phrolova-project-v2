@@ -3,7 +3,7 @@ import path from "path"
 import Profile from "./_sections/profile-section";
 import { Forte } from "./_sections/forte-section";
 import { ResonanceChain } from "./_sections/resonance-chain-section";
-import { getResonatorAscension, getResonatorBySlug, getAllResonatorSlugs, getForteAscension, getResonanceChain } from "@/app/resonators/[resonator]/_lib/data";
+import { getResonatorAscension, getResonatorBySlug, getAllResonatorSlugs, getForteAscension } from "@/app/resonators/[resonator]/_lib/data";
 import { getResonatorAssets } from "@/utils/resonator-assets";
  
 export const dynamicParams = false

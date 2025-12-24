@@ -1,5 +1,3 @@
-import { AscensionMaterial } from "./resonator";
-
 export interface Forte {
   name: string;
   type: string;

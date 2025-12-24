@@ -31,7 +31,7 @@ export function getResonatorBySlug(slug: string): Resonator | undefined {
     );
 
     if (variantMatch) {
-      const { variants, ...base } = entry;
+      const { ...base } = entry;
       return {
         ...base,
         ...variantMatch,
