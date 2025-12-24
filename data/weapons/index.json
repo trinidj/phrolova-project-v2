@@ -1,6 +1,76 @@
 {
   "weapons": [
     {
+      "id": "tyro_broadblade",
+      "name": "Tyro Broadblade",
+      "rarity": 2,
+      "weaponType": "Broadblade",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 22, "max": 275  },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 3.3, "max": 14.8 }
+        }
+      }
+    },
+    {
+      "id": "tyro_gauntlets",
+      "name": "Tyro Gauntlets",
+      "rarity": 2,
+      "weaponType": "Gauntlets",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 22, "max": 275  },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 3.3, "max": 14.8 }
+        }
+      }
+    },
+    {
+      "id": "tyro_pistols",
+      "name": "Tyro Pistols",
+      "rarity": 2,
+      "weaponType": "Pistols",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 22, "max": 275  },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 3.3, "max": 14.8 }
+        }
+      }
+    },
+    {
+      "id": "tyro_rectifier",
+      "name": "Tyro Rectifier",
+      "rarity": 2,
+      "weaponType": "Rectifier",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 22, "max": 275  },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 3.3, "max": 14.8 }
+        }
+      }
+    },
+    {
+      "id": "tyro_sword",
+      "name": "Tyro Sword",
+      "rarity": 2,
+      "weaponType": "Sword",
+      "isNew": false,
+      "stats": {
+        "atk": { "min": 22, "max": 275  },
+        "secondaryStat": {
+          "name": "atk",
+          "value": { "min": 3.3, "max": 14.8 }
+        }
+      }
+    },
+    {
       "id": "training_broadblade",
       "name": "Training Broadblade",
       "rarity": 1,

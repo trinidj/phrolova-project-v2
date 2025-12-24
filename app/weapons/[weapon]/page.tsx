@@ -55,7 +55,6 @@ export default async function Weapon({ params }: { params: Promise<{ weapon: str
         <Card 
           className="relative lg:w-[256px] lg:h-[256px] border-2 p-0 overflow-hidden shadow-none bg-linear-to-t from-background to-card"
           style={{
-            borderColor: `var(--${weaponRarityColor})`,
             boxShadow: `inset 0 -40px 40px -40px var(--${weaponRarityColor})`
           }}
         >
