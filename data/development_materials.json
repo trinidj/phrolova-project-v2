@@ -45,7 +45,15 @@
       "rarity": "Premium"
     },
     {
+      "name": "FF Exoswarm Core",
+      "rarity": "Premium"
+    },
+    {
       "name": "FF Polygon Core",
+      "rarity": "Premium"
+    },
+    {
+      "name": "Reverb Combustor",
       "rarity": "Premium"
     },
     {
@@ -189,6 +197,18 @@
       "rarity": "Advanced"
     },
     {
+      "name": "Suncoveter's Reach",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "HF Exoswarm Core",
+      "rarity": "Advanced"
+    },
+    {
+      "name": "Remnat Combustor",
+      "rarity": "Advanced"
+    },
+    {
       "name": "Reactive Metallic Drip",
       "rarity": "Medium"
     },
@@ -230,6 +250,14 @@
     },
     {
       "name": "MF Polygon Core",
+      "rarity": "Medium"
+    },
+    {
+      "name": "MF Exoswarm Core",
+      "rarity": "Medium"
+    },
+    {
+      "name": "Aftertune Combustor",
       "rarity": "Medium"
     },
     {
@@ -322,6 +350,10 @@
     },
     {
       "name": "Wintry Bell",
+      "rarity": "Local"
+    },
+    {
+      "name": "Rimewisp",
       "rarity": "Local"
     }
   ]

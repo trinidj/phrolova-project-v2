@@ -14,4 +14,5 @@ export interface ForteAssets {
   inheritSkill2: string;
   introSkill: string;
   outroSkill: string;
+  tuneBreak: string;
 }

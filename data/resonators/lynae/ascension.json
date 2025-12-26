@@ -1,0 +1,42 @@
+[
+  {
+    "level": "90",
+    "materials": [
+      {
+        "name": "Suncoveter's Reach",
+        "amount": 46,
+        "type": "boss"
+      },
+      {
+        "name": "Rimewisp",
+        "amount": 60,
+        "type": "local"
+      },
+      {
+        "name": "LF Exoswarm Core",
+        "amount": 4,
+        "type": "common"
+      },
+      {
+        "name": "MF Exoswarm Core",
+        "amount": 12,
+        "type": "common"
+      },
+      {
+        "name": "HF Exoswarm Core",
+        "amount": 12,
+        "type": "common"
+      },
+      {
+        "name": "FF Exoswarm Core",
+        "amount": 4,
+        "type": "common"
+      },
+      {
+        "name": "Shell Credits",
+        "amount": 170000,
+        "type": "currency"
+      }
+    ]
+  }
+]

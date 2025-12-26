@@ -189,6 +189,7 @@ export function getResonatorForte(resonator: Resonator): Resonator["forte"] {
       "Forte Circuit": "forteCircuit",
       "Intro Skill": "introSkill",
       "Outro Skill": "outroSkill",
+      "Tune Break": "tuneBreak",
     };
 
     sections.forEach(section => {
@@ -228,6 +229,32 @@ export function getResonatorForte(resonator: Resonator): Resonator["forte"] {
         }
       }
     });
+
+    // If talents.md doesn't have Tune Break, use the general tune_break.md
+    if (!forteData.tuneBreak) {
+      const generalTuneBreakPath = path.join(process.cwd(), 'data', 'resonators', 'tune_break.md');
+      
+      if (fs.existsSync(generalTuneBreakPath)) {
+        const tuneBreakContent = fs.readFileSync(generalTuneBreakPath, 'utf-8');
+        const tuneBreakSections = tuneBreakContent.split(/^## /m).slice(1);
+        
+        if (tuneBreakSections.length > 0) {
+          const section = tuneBreakSections[0];
+          const splitIndex = section.indexOf('\n');
+          const headerLine = section.slice(0, splitIndex).trim();
+          const contentRaw = section.slice(splitIndex + 1).trim();
+          
+          const [typePart, ...nameParts] = headerLine.split(':');
+          const name = nameParts.join(':').trim() || typePart.trim();
+
+          forteData.tuneBreak = {
+            name: name,
+            type: "Tune Break",
+            description: contentRaw
+          };
+        }
+      }
+    }
 
     return forteData;
 

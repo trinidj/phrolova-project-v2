@@ -1,0 +1,57 @@
+[
+  {
+    "level": 10,
+    "materials": [
+      {
+        "name": "LF Exoswarm Core",
+        "amount": 25,
+        "type": "common"
+      },
+      {
+        "name": "MF Exoswarm Core",
+        "amount": 28,
+        "type": "common"
+      },
+      {
+        "name": "HF Exoswarm Core",
+        "amount": 40,
+        "type": "common"
+      },
+      {
+        "name": "FF Exoswarm Core",
+        "amount": 57,
+        "type": "common"
+      },
+      {
+        "name": "Incomplete Combustor",
+        "amount": 25,
+        "type": "common"
+      },
+      {
+        "name": "Aftertune Combustor",
+        "amount": 28,
+        "type": "common"
+      },
+      {
+        "name": "Remnant Combustor",
+        "amount": 55,
+        "type": "common"
+      },
+      {
+        "name": "Reverb Combustor",
+        "amount": 67,
+        "type": "common"
+      },
+      {
+        "name": "Dreamless Feather",
+        "amount": 26,
+        "type": "boss"
+      },
+      {
+        "name": "Shell Credits",
+        "amount": 2030000,
+        "type": "currency"
+      }
+    ]
+  }
+]

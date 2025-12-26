@@ -67,6 +67,7 @@ export interface Resonator {
     forteCircuit?: Forte;
     introSkill?: Forte;
     outroSkill?: Forte;
+    tuneBreak?: Forte
     inheritSkill1?: Forte;
     inheritSkill2?: Forte;
   };

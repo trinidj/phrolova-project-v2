@@ -44,7 +44,8 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
     "forteCircuit",
     "resonanceLiberation",
     "introSkill",
-    "outroSkill"
+    "outroSkill",
+    "tuneBreak"
   ] as const;
 
   const inherentForteSkills = [
