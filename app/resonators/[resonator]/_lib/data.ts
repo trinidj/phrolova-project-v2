@@ -169,9 +169,9 @@ export function getResonatorForte(resonator: Resonator): Resonator["forte"] {
     
     let filePath: string;
     if (isRover && resonator.attribute) {
-      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, resonator.attribute.toLowerCase(), 'talents.md');
+      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, resonator.attribute.toLowerCase(), 'forte.md');
     } else {
-      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, 'talents.md');
+      filePath = path.join(process.cwd(), 'data', 'resonators', folderName, 'forte.md');
     }
 
     if (!fs.existsSync(filePath)) {
