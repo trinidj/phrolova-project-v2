@@ -1,10 +1,13 @@
+"use client"
+
 import { Resonator, ForteAscensionMaterials } from "@/types/resonator";
 import { getForteAssets } from "@/utils/forte-assets";
 import { getMaterialAssets } from "@/utils/development-material-assets";
 import { getAttributeColor, getDevelopmentMaterialRarityColor } from "@/lib/color-utils";
-import { parseForteMarkdown, getResonatorForte } from "../_lib/data";
 import Image from "next/image";
 import parse from "html-react-parser";
+import { motion, AnimatePresence } from "framer-motion";
+import { Forte as ForteData } from "@/types/forte";
 
 import {
   Tabs,
@@ -25,11 +28,11 @@ import { Separator } from "@/components/ui/separator";
 interface ForteSectionProps {
   resonator: Resonator
   forteAscensionMaterials: ForteAscensionMaterials[]
+  forte: Record<string, ForteData> | null
 }
 
-export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps) {
+export function Forte({ resonator, forteAscensionMaterials, forte }: ForteSectionProps) {
   const assets = getForteAssets(resonator)
-  const forte = getResonatorForte(resonator)
   const attributeColor = getAttributeColor(resonator.attribute)
 
   const totalMaterials = forteAscensionMaterials.flatMap((phase) => 
@@ -99,7 +102,13 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
 
               return (
                 <TabsContent key={key} value={key}>
-                  <div className="flex flex-col gap-4">
+                  <motion.div 
+                    className="flex flex-col gap-4"
+                    initial={{ opacity: 0, y: 10 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0, y: -10 }}
+                    transition={{ duration: 0.3, ease: "easeInOut" }}
+                  >
                     <header className="flex items-center gap-4">
                       <div 
                         className="border-2 flex items-center justify-center rounded-xl"
@@ -126,9 +135,9 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
                       className="description"
                       style={{ "--attribute-glow": "var(--rarity-5)" } as React.CSSProperties}
                     >
-                      {parse(parseForteMarkdown(skillData.description))}
+                      {parse(skillData.description)}
                     </div>
-                  </div>
+                  </motion.div>
                 </TabsContent>
               )
             })}
@@ -210,7 +219,7 @@ export function Forte({ resonator, forteAscensionMaterials }: ForteSectionProps)
                         className="forte-description"
                         style={{ "--attribute-glow": "var(--rarity-5)" } as React.CSSProperties}
                       >
-                        {parse(parseForteMarkdown(skillData.description))}
+                        {parse(skillData.description)}
                       </div>
                     </CardContent>
                   </Card>

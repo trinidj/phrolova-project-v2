@@ -3,7 +3,7 @@ import path from "path"
 import Profile from "./_sections/profile-section";
 import { Forte } from "./_sections/forte-section";
 import { ResonanceChain } from "./_sections/resonance-chain-section";
-import { getResonatorAscension, getResonatorBySlug, getAllResonatorSlugs, getForteAscension } from "@/app/resonators/[resonator]/_lib/data";
+import { getResonatorAscension, getResonatorBySlug, getAllResonatorSlugs, getForteAscension, getResonatorForte, parseForteMarkdown } from "@/app/resonators/[resonator]/_lib/data";
 import { getResonatorAssets } from "@/utils/resonator-assets";
  
 export const dynamicParams = false
@@ -29,6 +29,18 @@ export default async function Resonator({ params }: { params: Promise<{ resonato
   const hasSplashArt = fs.existsSync(splashArtPath)
   const resonatorAscensionMaterials = getResonatorAscension(resonatorData)
   const forteAscensionMaterials = getForteAscension(resonatorData)
+  
+  // Parse forte data server-side
+  const forteData = getResonatorForte(resonatorData)
+  const parsedForte = forteData ? Object.fromEntries(
+    Object.entries(forteData).map(([key, value]) => [
+      key,
+      {
+        ...value,
+        description: parseForteMarkdown(value.description)
+      }
+    ])
+  ) : null
 
   return (
     <div className="min-h-screen flex flex-col gap-35">
@@ -37,7 +49,7 @@ export default async function Resonator({ params }: { params: Promise<{ resonato
         hasSplashArt={hasSplashArt}
         resonatorAscensionMaterials={resonatorAscensionMaterials}
       />
-      <Forte resonator={resonatorData} forteAscensionMaterials={forteAscensionMaterials} />
+      <Forte resonator={resonatorData} forteAscensionMaterials={forteAscensionMaterials} forte={parsedForte} />
       <ResonanceChain resonator={resonatorData} />
     </div>
   );
