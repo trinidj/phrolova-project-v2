@@ -188,7 +188,7 @@
       "name": "Carlotta",
       "rarity": 5,
       "attribute": "Glacio",
-      "weaponType": "Pistol",
+      "weaponType": "Pistols",
       "isNew": false,
       "description": "Crystal Remorph",
       "combatRoles": [
@@ -333,7 +333,7 @@
       "name": "Ciaccona",
       "rarity": 5,
       "attribute": "Aero",
-      "weaponType": "Pistol",
+      "weaponType": "Pistols",
       "isNew": false,
       "description": "Woven Melodies",
       "combatRoles": [
@@ -404,7 +404,7 @@
       "name": "Galbrena",
       "rarity": 5,
       "attribute": "Fusion",
-      "weaponType": "Pistol",
+      "weaponType": "Pistols",
       "isNew": false,
       "description": "Infernal Descent",
       "combatRoles": [
@@ -439,7 +439,7 @@
       "name": "Iuno",
       "rarity": 5,
       "attribute": "Aero",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Stasis, Cycle, Renewal",
       "combatRoles": [
@@ -476,7 +476,7 @@
       "name": "Jianxin",
       "rarity": 5,
       "attribute": "Aero",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Cleansing Reflections",
       "combatRoles": [
@@ -584,7 +584,7 @@
       "name": "Lingyang",
       "rarity": 5,
       "attribute": "Glacio",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Frosty Gusto",
       "combatRoles": [
@@ -808,7 +808,7 @@
       "name": "Roccia",
       "rarity": 5,
       "attribute": "Havoc",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Stage in the Box",
       "combatRoles": [
@@ -918,7 +918,7 @@
       "name": "Xiangli Yao",
       "rarity": 5,
       "attribute": "Electro",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Matter Weaver",
       "combatRoles": [
@@ -991,7 +991,7 @@
       "name": "Zani",
       "rarity": 5,
       "attribute": "Spectro",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Scorched Radiance",
       "combatRoles": [
@@ -1116,7 +1116,7 @@
       "name": "Aalto",
       "rarity": 4,
       "attribute": "Aero",
-      "weaponType": "Pistol",
+      "weaponType": "Pistols",
       "isNew": false,
       "description": "Mistcloak Strike",
       "combatRoles": [
@@ -1208,7 +1208,7 @@
       "name": "Chixia",
       "rarity": 4,
       "attribute": "Fusion",
-      "weaponType": "Pistol",
+      "weaponType": "Pistols",
       "isNew": false,
       "description": "Gallant Blaze",
       "combatRoles": [
@@ -1289,7 +1289,7 @@
       "name": "Mortefi",
       "rarity": 4,
       "attribute": "Fusion",
-      "weaponType": "Pistol",
+      "weaponType": "Pistols",
       "isNew": false,
       "description": "Dragon's Breath",
       "combatRoles": [
@@ -1401,7 +1401,7 @@
       "name": "Youhu",
       "rarity": 4,
       "attribute": "Glacio",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Cryogenic Wonders",
       "combatRoles": [
@@ -1430,7 +1430,7 @@
       "name": "Yuanwu",
       "rarity": 4,
       "attribute": "Electro",
-      "weaponType": "Gauntlet",
+      "weaponType": "Gauntlets",
       "isNew": false,
       "description": "Fist of Thunder",
       "combatRoles": [
