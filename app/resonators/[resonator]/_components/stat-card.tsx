@@ -50,7 +50,7 @@ export default function StatCard({ resonator }: StatCardProps) {
 
           <div className="flex items-center gap-2">
             <Switch checked={isMaxLevel} onCheckedChange={setIsMaxLevel} />
-            <Label className="font-medium">Max</Label>
+            <Label className="font-medium">Max Level</Label>
           </div>
         </div>
       </CardHeader>
